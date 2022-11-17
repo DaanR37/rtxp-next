@@ -1,0 +1,76 @@
+.aboutcontainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.backgroundimage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+.googlemapcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 65vw;
+    height: auto;
+    // height: 77vh;
+    margin: 125px auto;
+    background: #c5e3f3;
+}
+.contactdetails {
+    width: 45vw;
+    max-width: 330px;
+    padding: 20px;
+    font-family: "Atrament";
+    h1 {
+        font-size: 32px;
+        margin: 0px 0px 5px 0px;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 21px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    p {
+        margin: 0;
+        font-size: 17px;
+    }
+}
+.locationmap {
+    position: absolute;
+    // width: 40vw;
+    width: 600px;
+    right: 0;
+    padding: 15px;
+    margin: 15px;
+    img {
+        width: 100%;
+    }
+}
+.pinkarrowsicon {
+    position: absolute;
+    width: 8.5vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 160px 135px;
+}
+.greencrossicon {
+    position: absolute;
+    width: 9vw;
+    right: 0;
+    bottom: 0;
+    margin: 0px 140px 400px 0px;
+}
+.fragilestickerabout {
+    position: absolute;
+    width: 20vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 15px 40px;
+}

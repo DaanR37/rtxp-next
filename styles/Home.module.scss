@@ -1,0 +1,47 @@
+.homepagecontainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.backgroundimage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rtxplogo {
+  position: absolute;
+  width: 40vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ticketssticker {
+  position: absolute;
+  width: 18vw;
+  left: 50%;
+  top: 67.5%;
+  transform: translate(-50%, -67.5%);
+}
+.bluecross {
+  position: absolute;
+  width: 9vw;
+  bottom: 0;
+  margin: 0px 0px 60px 95px;
+  z-index: 1;
+}
+.redarrows {
+  position: absolute;
+  width: 9vw;
+  bottom: 0;
+  margin: 0px 0px 145px 40px;
+}
+.fragilesticker {
+  position: absolute;
+  width: 22.5vw;
+  bottom: 0;
+  right: 0;
+  margin: 0px 40px 25px 0px;
+}

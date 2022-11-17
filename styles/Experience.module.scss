@@ -1,0 +1,58 @@
+.experiencecontainer {
+    // position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.backgroundimage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.monetcontainer {
+    position: relative;
+    display: flex;
+    // align-items: center;
+    width: 65vw;
+    // height: auto;
+    height: 77vh;
+    margin: 125px auto;
+    background: #c5e3f3;
+}
+// .text-container {
+//     // position: absolute;
+//     width: 45vw;
+//     // max-width: 330px;  //// OPTIONEEL
+//     // left: 0;
+//     // top: 0;
+//     // margin: 5px;
+// }
+// .image-container {
+//     // position: absolute;
+//     // right: 0;
+//     // top: 0;
+//     margin: 30px;
+// }
+.redcircle {
+    position: absolute;
+    width: 10vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 200px 125px;
+}
+.umbrellasticker {
+    position: absolute;
+    width: 8.5vw;
+    right: 0;
+    bottom: 0;
+    margin: 0px 140px 300px 0px;
+}
+.fragilesticker {
+    position: absolute;
+    width: 22.5vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 25px 40px;
+}

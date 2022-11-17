@@ -1,0 +1,219 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden; //// OPTIONEEL
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Atrament";
+  src: url("../asset/Atrament/Atrament.ttf") format("truetype");
+}
+
+/* CSS for navbar */
+#nav-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  z-index: 1000;
+}
+.menu-sticker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 100px;
+  a {
+    opacity: 0.85;
+    &:hover {
+      opacity: 1;
+      transition: 350ms ease-in-out;
+    }
+    img {
+      width: 100px;
+    }
+  }
+}
+.button-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65vw;
+  height: 6.5vh;
+  background-color: #ff70db;
+  button {
+    cursor: pointer;
+    &:hover {
+      filter: invert(1);
+      transition: 400ms ease-in-out;
+    }
+  }
+}
+button {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.font-face-at {
+  h3 {
+    font-family: "Atrament";
+    font-size: 31px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+}
+.socials-container {
+  position: absolute;
+  display: flex;
+  width: 35px;
+  right: 0;
+  margin-right: 150px;
+  a {
+    opacity: 0.95;
+    &:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      transition: 300ms ease-in-out;
+    }
+    img {
+      width: 45px;
+      margin-right: 5px;
+    }
+  }
+}
+#nav-container > div.socials-container > a:nth-child(1) {
+  margin-right: 5px;
+}
+
+/* CSS for Info Page */
+#info-container {
+  position: absolute; //// WAS RELATIVE
+  width: 100vw;
+  height: 100vh;
+}
+.background-image-info {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: 30% 100%;
+  background-repeat: no-repeat;
+  background-size: 115% auto;
+}
+.faq-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 65vw;
+  height: auto; //// CHANGE TO VH IF IT JUMPS TOO MUCH
+  // height: 75vh;
+  margin: 125px auto;
+  background: #c5e3f3;
+}
+.blue-cross-info {
+  position: absolute;
+  width: 10vw;
+  bottom: 0;
+  margin: 0px 0px 80px 75px;
+  transform: rotate(120deg);
+  img {
+    width: 100%;
+  }
+}
+.purple-arrows {
+  position: absolute;
+  width: 14vw;
+  right: 0;
+  bottom: 0;
+  margin: 0px 50px 250px 0px;
+}
+.chat-icon {
+  position: absolute;
+  width: 7vw;
+  right: 0;
+  bottom: 0;
+  margin: 0px 75px 100px 0px;
+}
+
+/* Style for Accordion section Info Page */
+.accordion-left,
+.accordion-right {
+  width: 50%;
+}
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+  // width: 50%;
+  max-width: 768px;
+  margin: 5px;
+  padding: 5px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: #98d4f4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+.active {
+  background-color: #65c4f7;
+  transition: all 0.4s ease;
+  color: #ff70db;
+}
+/* Style the accordion content title */
+.accordion__title {
+  font-family: "Atrament";
+  font-size: 26px;
+  font-weight: 600;
+  padding-left: 10px;
+  text-align: left;
+}
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  margin-right: 1.5rem;
+  transition: transform 0.6s ease;
+}
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: greenyellow;
+  overflow: auto;
+  transition: max-height 0.6s ease;
+}
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Atrament";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px;
+}
