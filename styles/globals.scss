@@ -35,18 +35,18 @@ a {
 }
 .menu-sticker {
   position: absolute;
+  width: 7.5vw;
   top: 0;
   left: 0;
   margin-left: 100px;
-  a {
-    opacity: 0.85;
-    &:hover {
-      opacity: 1;
-      transition: 350ms ease-in-out;
-    }
-    img {
-      width: 100px;
-    }
+  cursor: pointer;
+  opacity: 0.85;
+  &:hover {
+    opacity: 1;
+    transition: 350ms ease-in-out;
+  }
+  img {
+    width: 100%;
   }
 }
 .button-container {
@@ -104,6 +104,31 @@ button {
 #nav-container > div.socials-container > a:nth-child(1) {
   margin-right: 5px;
 }
+.btn-experience.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+.btn-tickets.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+.btn-events.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+.btn-about.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+.btn-info.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+.btn-shop.active h3 {
+  color: #75d5fd;
+  transition: 350ms ease-in-out;
+}
+
 
 /* CSS for Info Page */
 #info-container {

@@ -14,27 +14,40 @@
 .monetcontainer {
     position: relative;
     display: flex;
-    // align-items: center;
+    justify-content: space-between;
     width: 65vw;
-    // height: auto;
-    height: 77vh;
+    height: auto;
+    // height: 77vh;
     margin: 125px auto;
     background: #c5e3f3;
 }
-// .text-container {
-//     // position: absolute;
-//     width: 45vw;
-//     // max-width: 330px;  //// OPTIONEEL
-//     // left: 0;
-//     // top: 0;
-//     // margin: 5px;
-// }
-// .image-container {
-//     // position: absolute;
-//     // right: 0;
-//     // top: 0;
-//     margin: 30px;
-// }
+.textcontainer {
+    // position: absolute;
+    width: 45vw;
+    max-width: 330px;
+    margin: 5px;
+    padding: 20px;
+    font-family: "Atrament";
+    text-align: justify;
+    h1 {
+        font-size: 32px;
+        margin: 0px 0px 5px 0px;
+        text-transform: uppercase;
+    }
+    p {
+        margin: 0;
+        font-size: 17px;
+    }
+}
+.imagecontainer {
+    // position: absolute;
+    width: 600px;
+    padding: 15px;
+    margin: 15px;
+    img {
+        width: 100%;
+    }
+}
 .redcircle {
     position: absolute;
     width: 10vw;

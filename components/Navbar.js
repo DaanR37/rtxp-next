@@ -1,50 +1,50 @@
-import Link from "next/link";
-// import { NavLink } from "./Navlink";
+// import Link from "next/link";
+import { NavLink } from "./Navlink";
 
 const Navbar = () => {
     return (
         <nav id="nav-container">
             <div className="menu-sticker">
-                <Link href="/">
+                <NavLink href="/" exact className="btn-home" legacyBehavior>
                     <picture>
                         <img
                             src="/images/rtxp-menu-sticker.svg"
                             alt="menu sticker"
                         />
                     </picture>
-                </Link>
+                </NavLink>
             </div>
 
             <div className="button-container font-face-at">
                 <button>
-                    <Link href="/experience" className="nav-item nav-link">
+                    <NavLink href="/experience" className="btn-experience">
                         <h3>the experience</h3>
-                    </Link>
+                    </NavLink>
                 </button>
                 <button>
-                    <Link href="/tickets" className="btn-tickets">
+                    <NavLink href="/tickets" className="btn-tickets">
                         <h3>tickets</h3>
-                    </Link>
+                    </NavLink>
                 </button>
                 <button>
-                    <Link href="/events" className="btn-events">
+                    <NavLink href="/events" className="btn-events">
                         <h3>events</h3>
-                    </Link>
+                    </NavLink>
                 </button>
                 <button>
-                    <Link href="/about" className="btn-about">
+                    <NavLink href="/about" className="btn-about">
                         <h3>about</h3>
-                    </Link>
+                    </NavLink>
                 </button>
                 <button>
-                    <Link href="/info" className="btn-info">
+                    <NavLink href="/info" className="btn-info">
                         <h3>info</h3>
-                    </Link>
+                    </NavLink>
                 </button>
                 <button>
-                    <Link href="/shop" className="btn-shop">
+                    <NavLink href="/shop" className="btn-shop">
                         <h3>shop</h3>
-                    </Link>
+                    </NavLink>
                 </button>
             </div>
 
