@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
-    "next": "13.0.3",
+    "framer-motion": "^7.6.9",
+    "next": "^13.0.4",
+    "node": "^16.18.1",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-responsive": "^9.0.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "sass": "^1.56.1"

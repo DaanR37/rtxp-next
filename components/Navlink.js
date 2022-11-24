@@ -1,12 +1,12 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 export { NavLink };
 
-NavLink.PropTypes = {
-    href: PropTypes.string.isRequired,
-    exact: PropTypes.bool
+NavLink.propTypes = {
+    href: propTypes.string.isRequired,
+    exact: propTypes.bool
 };
 
 NavLink.defaultProps = {

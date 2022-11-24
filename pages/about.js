@@ -1,6 +1,5 @@
 import styles from '../styles/About.module.scss';
 
-
 const About = () => {
     return (
         <section className={styles.aboutcontainer}>

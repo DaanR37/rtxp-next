@@ -22,117 +22,138 @@ a {
   src: url("../asset/Atrament/Atrament.ttf") format("truetype");
 }
 
-/* CSS for navbar */
-#nav-container {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  margin-top: 50px;
-  z-index: 1000;
-}
-.menu-sticker {
-  position: absolute;
-  width: 7.5vw;
+header {
+  position: sticky;
   top: 0;
-  left: 0;
-  margin-left: 100px;
-  cursor: pointer;
-  opacity: 0.85;
-  &:hover {
-    opacity: 1;
-    transition: 350ms ease-in-out;
-  }
-  img {
-    width: 100%;
-  }
+  z-index: 10;
 }
-.button-container {
-  position: absolute;
+.nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 65vw;
-  height: 6.5vh;
-  background-color: #ff70db;
-  button {
-    cursor: pointer;
-    &:hover {
-      filter: invert(1);
-      transition: 400ms ease-in-out;
-    }
-  }
+  padding: 16px;
 }
-button {
-  background: none;
-  border: none;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-}
-.font-face-at {
-  h3 {
-    font-family: "Atrament";
-    font-size: 31px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-    color: black;
-  }
-}
-.socials-container {
-  position: absolute;
+.nav__menu-list {
   display: flex;
-  width: 35px;
-  right: 0;
-  margin-right: 150px;
-  a {
-    opacity: 0.95;
-    &:hover {
-      transform: scale(1.1);
-      opacity: 1;
-      transition: 300ms ease-in-out;
-    }
-    img {
-      width: 45px;
-      margin-right: 5px;
-    }
-  }
+  flex-direction: row;
+  align-items: center;
+  column-gap: 16px;
 }
-#nav-container > div.socials-container > a:nth-child(1) {
-  margin-right: 5px;
-}
-.btn-experience.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
-}
-.btn-tickets.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
-}
-.btn-events.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
-}
-.btn-about.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
-}
-.btn-info.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
-}
-.btn-shop.active h3 {
-  color: #75d5fd;
-  transition: 350ms ease-in-out;
+.nav__link {
+  font-size: 31px;
 }
 
+// /* CSS for navbar */
+// #nav-container {
+//   position: absolute;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   height: 50px;
+//   margin-top: 50px;
+//   z-index: 1000;
+// }
+// .menu-sticker {
+//   position: absolute;
+//   width: 7.5vw;
+//   top: 0;
+//   left: 0;
+//   margin-left: 100px;
+//   cursor: pointer;
+//   opacity: 0.85;
+//   &:hover {
+//     opacity: 1;
+//     transition: 350ms ease-in-out;
+//   }
+//   img {
+//     width: 100%;
+//   }
+// }
+// .button-container {
+//   position: absolute;
+//   display: flex;
+//   justify-content: space-evenly;
+//   align-items: center;
+//   width: 65vw;
+//   height: 6.5vh;
+//   background-color: #ff70db;
+//   button {
+//     cursor: pointer;
+//     &:hover {
+//       filter: invert(1);
+//       transition: 400ms ease-in-out;
+//     }
+//   }
+// }
+// button {
+//   background: none;
+//   border: none;
+//   text-transform: uppercase;
+//   margin: 0;
+//   padding: 0;
+// }
+// .font-face-at {
+//   h3 {
+//     font-family: "Atrament";
+//     font-size: 31px;
+//     font-weight: 600;
+//     margin: 0;
+//     padding: 0;
+//     color: black;
+//   }
+// }
+// .socials-container {
+//   position: absolute;
+//   display: flex;
+//   width: 35px;
+//   right: 0;
+//   margin-right: 150px;
+//   a {
+//     opacity: 0.95;
+//     &:hover {
+//       transform: scale(1.1);
+//       opacity: 1;
+//       transition: 300ms ease-in-out;
+//     }
+//     img {
+//       width: 45px;
+//       margin-right: 5px;
+//     }
+//   }
+// }
+// #nav-container > div.socials-container > a:nth-child(1) {
+//   margin-right: 5px;
+// }
+// /* NavLink section highlight for NavBar */
+// .btn-experience.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
+// .btn-tickets.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
+// .btn-events.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
+// .btn-about.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
+// .btn-info.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
+// .btn-shop.active h3 {
+//   color: #75d5fd;
+//   transition: 350ms ease-in-out;
+// }
 
 /* CSS for Info Page */
 #info-container {
-  position: absolute; //// WAS RELATIVE
+  position: absolute;
   width: 100vw;
   height: 100vh;
 }
@@ -149,7 +170,7 @@ button {
   display: flex;
   align-items: center;
   width: 65vw;
-  height: auto; //// CHANGE TO VH IF IT JUMPS TOO MUCH
+  height: auto;
   // height: 75vh;
   margin: 125px auto;
   background: #c5e3f3;

@@ -1,0 +1,77 @@
+.eventscontainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.backgroundimage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateX(180deg);
+}
+.slidercontainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    // height: auto;
+    height: 75vh;
+    margin: 135px auto;
+}
+.banner1,
+.banner2,
+.banner3 {
+    position: relative;
+    width: 20vw;
+    font-family: "Atrament";
+    img {
+        position: absolute;
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        font-size: 28px;
+        padding: 12.5px;
+        bottom: 0;
+        margin-bottom: 250px;
+        text-transform: uppercase;
+    }
+    p {
+        position: absolute;
+        text-align: justify;
+        font-size: 16px;
+        padding: 12.5px;
+        bottom: 0;
+        margin-bottom: 150px;
+    }
+}
+.paintingone,
+.paintingtwo,
+.paintingthree {
+    img {
+        padding: 12.5px;
+    }
+}
+.winesticker {
+    position: absolute;
+    width: 10vw;
+    bottom: 0;
+    margin: 0px 0px 80px 95px;
+    z-index: 1;
+}
+.handsticker {
+    position: absolute;
+    width: 12.5vw;
+    bottom: 0;
+    margin: 0px 0px 325px 40px;
+}
+.fragilesticker {
+    position: absolute;
+    width: 20vw;
+    bottom: 0;
+    right: 0;
+    margin: 0px 40px 25px 0px;
+}
