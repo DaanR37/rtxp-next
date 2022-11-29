@@ -7,41 +7,166 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .rtxplogo {
   position: absolute;
-  width: 40vw;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 .ticketssticker {
   position: absolute;
-  width: 18vw;
   left: 50%;
-  top: 67.5%;
-  transform: translate(-50%, -67.5%);
 }
 .bluecross {
   position: absolute;
-  width: 9vw;
   bottom: 0;
-  margin: 0px 0px 60px 95px;
   z-index: 1;
 }
 .redarrows {
   position: absolute;
-  width: 9vw;
   bottom: 0;
-  margin: 0px 0px 145px 40px;
 }
-.fragilesticker {
-  position: absolute;
-  width: 22.5vw;
-  bottom: 0;
-  right: 0;
-  margin: 0px 40px 25px 0px;
+///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
+// .fragilesticker {
+//   position: absolute;
+//   width: 22.5vw;
+//   bottom: 0;
+//   right: 0;
+//   margin: 0px 40px 25px 0px;
+// }
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .backgroundimage {
+    background-position: 30%;
+  }
+  .rtxplogo {
+    width: 55vw;
+  }
+  .ticketssticker {
+    width: 27.5vw;
+    top: 57.5%;
+    transform: translate(-50%, -57.5%);
+  }
+  .bluecross {
+    width: 15vw;
+    margin: 0px 0px 100px 55px;
+  }
+  .redarrows {
+    width: 15vw;
+    margin: 0px 0px 150px 30px;
+  }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  .backgroundimage {
+    background-position: center;
+  }
+  .rtxplogo {
+    width: 35vw;
+  }
+  .ticketssticker {
+    width: 16.5vw;
+    top: 67.5%;
+    transform: translate(-50%, -67.5%);
+  }
+  .bluecross {
+    width: 7vw;
+    margin: 0px 0px 50px 70px;
+  }
+  .redarrows {
+    width: 7vw;
+    margin: 0px 0px 80px 40px;
+  }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .backgroundimage {
+    background-position: 30%;
+  }
+  .rtxplogo {
+    width: 55vw;
+  }
+  .ticketssticker {
+    width: 27.5vw;
+    top: 57.5%;
+    transform: translate(-50%, -57.5%);
+  }
+  .bluecross {
+    width: 12.5vw;
+    margin: 0px 0px 100px 90px;
+  }
+  .redarrows {
+    width: 12.5vw;
+    margin: 0px 0px 150px 50px;
+  }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  .backgroundimage {
+    background-position: center;
+  }
+  .rtxplogo {
+    width: 40vw;
+  }
+  .ticketssticker {
+    width: 18vw;
+    top: 62.5%;
+    transform: translate(-50%, -62.5%);
+  }
+  .bluecross {
+    width: 8vw;
+    margin: 0px 0px 95px 95px;
+  }
+  .redarrows {
+    width: 8vw;
+    margin: 0px 0px 145px 40px;
+  }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+  .backgroundimage {
+    background-position: center;
+  }
+  .rtxplogo {
+    width: 40vw;
+  }
+  .ticketssticker {
+    width: 18vw;
+    top: 67.5%;
+    transform: translate(-50%, -67.5%);
+  }
+  .bluecross {
+    width: 9vw;
+    margin: 0px 0px 60px 95px;
+  }
+  .redarrows {
+    width: 9vw;
+    margin: 0px 0px 145px 40px;
+  }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+  .backgroundimage {
+    background-position: center;
+  }
+  .rtxplogo {
+    width: 35vw;
+  }
+  .ticketssticker {
+    width: 16vw;
+    top: 67.5%;
+    transform: translate(-50%, -67.5%);
+  }
+  .bluecross {
+    width: 6.5vw;
+    margin: 0px 0px 60px 110px;
+  }
+  .redarrows {
+    width: 6.5vw;
+    margin: 0px 0px 145px 60px;
+  }
 }

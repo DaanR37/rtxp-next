@@ -1,0 +1,149 @@
+.infocontainer {
+    position: absolute;
+    width: 100vw;
+}
+.backgroundimage {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.faqcontainer {
+    background: #c5e3f3;
+}
+.bluecrossinfo {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(120deg);
+    img {
+        width: 100%;
+    }
+}
+.purplearrows {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.chaticon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .infocontainer {
+        height: 150vh;
+    }
+    .backgroundimage {
+        height: 100%;
+        // background-position: 5%;
+        background-size: cover;
+    }
+    .faqcontainer {
+        position: absolute; /// was relative
+        align-items: center;
+        width: 85vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
+        // margin: 125px auto;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 100%;
+    }
+    .bluecrossinfo {
+        display: none;
+        width: 10vw;
+        margin: 0px 0px 80px 75px;
+    }
+    .purplearrows {
+        display: none;
+        width: 14vw;
+        margin: 0px 50px 250px 0px;
+    }
+    .chaticon {
+        display: none;
+        width: 7vw;
+        margin: 0px 75px 100px 0px;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .infocontainer {
+        height: 100vh;
+    }
+    .backgroundimage {
+        height: 100%;
+        background-position: 10% 100%;
+        background-size: cover;
+    }
+    .faqcontainer {
+        position: absolute; /// was relative
+        display: flex;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
+        // margin: 125px auto;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 50%;
+    }
+    .bluecrossinfo {
+        width: 10vw;
+        margin: 0px 0px 80px 75px;
+    }
+    .purplearrows {
+        width: 14vw;
+        margin: 0px 50px 250px 0px;
+    }
+    .chaticon {
+        width: 7vw;
+        margin: 0px 75px 100px 0px;
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .infocontainer {
+        height: 100vh;
+    }
+    .backgroundimage {
+        height: 100%;
+        background-position: 30% 100%;
+        background-size: 115% auto;
+    }
+    .faqcontainer {
+        position: absolute; /// was relative
+        display: flex;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
+        // margin: 125px auto;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 50%;
+    }
+    .bluecrossinfo {
+        width: 7.5vw;
+        margin: 0px 0px 80px 75px;
+    }
+    .purplearrows {
+        width: 10.5vw;
+        margin: 0px 50px 350px 0px;
+    }
+    .chaticon {
+        width: 4.5vw;
+        margin: 0px 75px 100px 0px;
+    }
+}

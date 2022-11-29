@@ -29,6 +29,8 @@ const Experience = () => {
                         has a more-or-less normal distribution
                         of letters, as opposed to using Content here,
                         content here, making it look like readable English.
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
                     </p>
                 </div>
                 <div className={styles.imagecontainer}>
@@ -58,14 +60,14 @@ const Experience = () => {
                     />
                 </picture>
             </div>
-            <div className={styles.fragilesticker}>
+            {/* <div className={styles.fragilesticker}>
                 <picture>
                     <img
                         src="/images/our-art-is-not-fragile.svg"
                         alt="fragile sticker"
                     />
                 </picture>
-            </div>
+            </div> */}
 
         </section>
     );

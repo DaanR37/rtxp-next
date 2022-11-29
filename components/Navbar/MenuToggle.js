@@ -1,11 +1,5 @@
 // import React from "react";
 // import { motion } from "framer-motion";
-// import styled from "styled-components";
-
-// const Button = styled.div`
-//   z-index: 99;
-//   cursor: pointer;
-// `;
 
 // const Path = (props) => (
 //     <motion.path
@@ -20,7 +14,7 @@
 
 // export function MenuToggle({ toggle, isOpen }) {
 //     return (
-//         <Button onClick={toggle}>
+//         <button onClick={toggle} className="btn-toggle">
 //             <svg width="23" height="23" viewBox="0 0 23 23">
 //                 <Path
 //                     animate={isOpen ? "open" : "closed"}
@@ -52,6 +46,6 @@
 //                     transition={transition}
 //                 />
 //             </svg>
-//         </Button>
+//         </button>
 //     );
 // }

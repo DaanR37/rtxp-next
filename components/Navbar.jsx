@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import NavItem from "./NavItem";
 import { NavLink } from "./Navlink";
+import { Socials } from "./Socials";
 
 const MENU_LIST = [
   {
     text: "the experience",
-    href: "/the experience",
+    href: "/experience",
   },
   {
     text: "tickets",
@@ -31,110 +32,57 @@ const MENU_LIST = [
 ];
 
 const Navbar = () => {
+  const [navActive, setNavActive] = useState(null);
+  const [activeIdx, setActiveIdx] = useState(-1);
+
   return (
     <header>
-      <nav className="nav">
-        <Link href={"/"}>
-          <a>
-            <picture>
-              <img src="/images/rtxp-menu-sticker.svg" alt="menu sticker" />
-            </picture>
-          </a>
+      <div className="menu-sticker">
+        <Link onClick={() => setActiveIdx(-1)} href={"/"}>
+          <picture>
+            <img src="/images/rtxp-menu-sticker.svg" alt="menu sticker" />
+          </picture>
         </Link>
+      </div>
 
-        <div className="nav__menu-bar">
-          <div></div>
-          <div></div>
-          <div></div>
+      <nav className="nav-container">
+        <div onClick={() => setNavActive(!navActive)} className="nav__menu-bar">
           <div></div>
           <div></div>
           <div></div>
         </div>
 
-        <div className="nav__menu-list">
+        <div
+          className={`${navActive ? "active" : ""} 
+        nav__menu-list`}
+        >
+          <div className="mobile-menu-logo">
+            <Link onClick={() => setActiveIdx(-1)} href={"/"}>
+              <picture>
+                <img src="/images/rtxp-main-logo.svg" alt="rtxp logo" />
+              </picture>
+            </Link>
+          </div>
           {MENU_LIST.map((menu, idx) => {
             return (
-              <div key={menu.text}>
-                <NavItem {...menu} />
+              <div
+                onClick={() => {
+                  setActiveIdx(idx);
+                  setNavActive(false);
+                }}
+                key={menu.text}
+              >
+                <NavItem active={activeIdx === idx} {...menu} />
               </div>
             );
           })}
         </div>
       </nav>
+      <div className="socials-icons">
+        <Socials />
+      </div>
     </header>
   );
 };
 
 export default Navbar;
-
-// import { NavLink } from "./Navlink";
-
-// const Navbar = () => {
-//   return (
-//     <nav id="nav-container">
-//       <div className="menu-sticker">
-//         <NavLink href="/" exact className="btn-home" legacyBehavior>
-//           <picture>
-//             <img src="/images/rtxp-menu-sticker.svg" alt="menu sticker" />
-//           </picture>
-//         </NavLink>
-//       </div>
-
-//       <div className="button-container font-face-at">
-//         <button>
-//           <NavLink href="/experience" className="btn-experience">
-//             <h3>the experience</h3>
-//           </NavLink>
-//         </button>
-//         <button>
-//           <NavLink href="/tickets" className="btn-tickets">
-//             <h3>tickets</h3>
-//           </NavLink>
-//         </button>
-//         <button>
-//           <NavLink href="/events" className="btn-events">
-//             <h3>events</h3>
-//           </NavLink>
-//         </button>
-//         <button>
-//           <NavLink href="/about" className="btn-about">
-//             <h3>about</h3>
-//           </NavLink>
-//         </button>
-//         <button>
-//           <NavLink href="/info" className="btn-info">
-//             <h3>info</h3>
-//           </NavLink>
-//         </button>
-//         <button>
-//           <NavLink href="/shop" className="btn-shop">
-//             <h3>shop</h3>
-//           </NavLink>
-//         </button>
-//       </div>
-
-//       <div className="socials-container">
-//         <a
-//           href="https://www.facebook.com/profile.php?id=100084377228814"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           <picture>
-//             <img src="/images/facebook-logo.svg" alt="facebook logo" />
-//           </picture>
-//         </a>
-//         <a
-//           href="https://www.instagram.com/rtxp_amsterdam/"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           <picture>
-//             <img src="/images/instagram-logo.svg" alt="instagram logo" />
-//           </picture>
-//         </a>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;

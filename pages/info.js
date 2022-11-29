@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
+import styles from '../styles/Info.module.scss';
 
 const Info = () => {
 
     return (
-        <section id="info-container">
-            <div className="background-image-info" style={{
+        <section className={styles.infocontainer}>
+            <div className={styles.backgroundimage} style={{
                 backgroundImage: "url(images/background-image-hp.jpg)"
             }}></div>
-            <div className="faq-container">
-                <div className="accordion-left">
+            <div className={styles.faqcontainer}>
+                <div className={styles.accordionleft}>
                     <Accordion
                         title="When?"
                         content="Our grand openening will be at the 22nd of December."
@@ -48,7 +49,7 @@ const Info = () => {
                         content="Lorem Ipsum Ballzium"
                     />
                 </div>
-                <div className="accordion-right">
+                <div className={styles.accordionright}>
                     <Accordionright
                         title="When?"
                         content="Our grand openening will be at the 22nd of December."
@@ -87,7 +88,7 @@ const Info = () => {
                     />
                 </div>
             </div>
-            <div className="blue-cross-info">
+            <div className={styles.bluecrossinfo}>
                 <picture>
                     <img
                         src="images/blue-cross-icon.svg"
@@ -95,7 +96,7 @@ const Info = () => {
                     />
                 </picture>
             </div>
-            <div className="purple-arrows">
+            <div className={styles.purplearrows}>
                 <picture>
                     <img
                         src="images/purple-arrows-icon.svg"
@@ -103,7 +104,7 @@ const Info = () => {
                     />
                 </picture>
             </div>
-            <div className="chat-icon">
+            <div className={styles.chaticon}>
                 <picture>
                     <img
                         src="images/chat-icon.svg"

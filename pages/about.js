@@ -79,14 +79,14 @@ const About = () => {
                     />
                 </picture>
             </div>
-            <div className={styles.fragilestickerabout}>
+            {/* <div className={styles.fragilestickerabout}>
                 <picture>
                     <img
                         src="images/our-art-is-not-fragile.svg"
                         alt="fragile sticker"
                     />
                 </picture>
-            </div>
+            </div> */}
         </section>
     );
 }

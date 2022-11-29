@@ -5,27 +5,17 @@
 }
 .backgroundimage {
     position: absolute;
-    height: 100%;
     width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transform: rotateX(180deg);
 }
 .slidercontainer {
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    width: 65vw;
-    // height: auto;
-    height: 75vh;
-    margin: 135px auto;
 }
 .banner1,
 .banner2,
 .banner3 {
     position: relative;
-    width: 20vw;
     font-family: "Atrament";
     img {
         position: absolute;
@@ -33,45 +23,334 @@
     }
     h1 {
         position: absolute;
-        font-size: 28px;
-        padding: 12.5px;
         bottom: 0;
-        margin-bottom: 250px;
         text-transform: uppercase;
     }
     p {
         position: absolute;
         text-align: justify;
-        font-size: 16px;
-        padding: 12.5px;
         bottom: 0;
-        margin-bottom: 150px;
-    }
-}
-.paintingone,
-.paintingtwo,
-.paintingthree {
-    img {
-        padding: 12.5px;
     }
 }
 .winesticker {
     position: absolute;
-    width: 10vw;
     bottom: 0;
-    margin: 0px 0px 80px 95px;
-    z-index: 1;
 }
 .handsticker {
     position: absolute;
-    width: 12.5vw;
     bottom: 0;
-    margin: 0px 0px 325px 40px;
 }
-.fragilesticker {
-    position: absolute;
-    width: 20vw;
-    bottom: 0;
-    right: 0;
-    margin: 0px 40px 25px 0px;
+///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
+// .fragilesticker {
+//     position: absolute;
+//     width: 20vw;
+//     bottom: 0;
+//     right: 0;
+//     margin: 0px 40px 25px 0px;
+// }
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .backgroundimage {
+        height: 250vh;
+        background-position: 10%;
+        // transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        width: 88vw;
+        height: auto;
+        margin: 105px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 88vw;
+        height: 70vh;
+        margin-bottom: 50px;
+        z-index: 1;
+        h1 {
+            font-size: 23px;
+            padding: 12.5px;
+            margin-bottom: 12.5rem;
+        }
+        p {
+            font-size: 16px;
+            padding: 12.5px;
+            margin-bottom: 6rem;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 12.5px;
+        }
+    }
+    .winesticker {
+        width: 15vw;
+        margin: 0px 0px 80px 95px;
+    }
+    .handsticker {
+        width: 15vw;
+        margin: 0px 0px 150px 10px;
+        z-index: 2;
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+        transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: absolute; /// was relative
+        justify-content: space-between;
+        width: 65vw;
+        // height: 75vh;
+        height: auto;
+        left: 50%;
+        top: 85%;
+        transform: translate(-50%, -85%);
+        // height: auto;
+        // margin: 135px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 20vw;
+        height: 70vh;
+        h1 {
+            font-size: 17px;
+            padding: 10px;
+            margin-bottom: 100px;
+        }
+        p {
+            font-size: 13px;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 10px;
+        }
+    }
+    .winesticker {
+        width: 8vw;
+        margin: 0px 0px 40px 75px;
+        z-index: 1;
+    }
+    .handsticker {
+        width: 9vw;
+        margin: 0px 0px 145px 30px;
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .backgroundimage {
+        height: 300vh;
+        background-position: 10%;
+        // transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        margin: 125px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 65vw;
+        height: 70vh;
+        margin-bottom: 50px;
+        z-index: 1;
+        h1 {
+            font-size: 32px;
+            padding: 22.5px;
+            margin-bottom: 15rem;
+        }
+        p {
+            font-size: 24px;
+            padding: 22.5px;
+            margin-bottom: 6rem;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 22.5px;
+        }
+    }
+    .winesticker {
+        width: 15vw;
+        margin: 0px 0px 80px 95px;
+    }
+    .handsticker {
+        width: 15vw;
+        margin: 0px 0px 150px 10px;
+        z-index: 2;
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+        transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: absolute; /// was relative
+        justify-content: space-between;
+        width: 65vw;
+        height: 75vh;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -65%);
+        // height: auto;
+        // margin: 135px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 21vw;
+        height: 50vh;
+        h1 {
+            font-size: 28px;
+            padding: 12.5px;
+            margin-bottom: 10rem;
+        }
+        p {
+            font-size: 14px;
+            padding: 12.5px;
+            margin-bottom: 3rem;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 12.5px;
+        }
+    }
+    .winesticker {
+        width: 9.25vw;
+        margin: 0px 0px 80px 95px;
+        z-index: 1;
+    }
+    .handsticker {
+        width: 12.5vw;
+        margin: 0px 0px 325px 40px;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+        transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: absolute; /// was relative
+        justify-content: space-between;
+        width: 65vw;
+        height: 75vh;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -65%);
+        // height: auto;
+        // margin: 135px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 20vw;
+        // height: 70vh;
+        h1 {
+            font-size: 28px;
+            padding: 12.5px;
+            margin-bottom: 250px;
+        }
+        p {
+            font-size: 16px;
+            padding: 12.5px;
+            margin-bottom: 150px;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 12.5px;
+        }
+    }
+    .winesticker {
+        width: 10vw;
+        margin: 0px 0px 80px 95px;
+        z-index: 1;
+    }
+    .handsticker {
+        width: 12.5vw;
+        margin: 0px 0px 325px 40px;
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+        transform: rotateX(180deg);
+    }
+    .slidercontainer {
+        position: absolute; /// was relative
+        justify-content: space-between;
+        width: 65vw;
+        height: 75vh;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -65%);
+        // height: auto;
+        // margin: 135px auto;
+    }
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 20vw;
+        // height: 70vh;
+        h1 {
+            font-size: 32px;
+            padding: 12.5px;
+            margin-bottom: 300px;
+        }
+        p {
+            font-size: 20px;
+            padding: 12.5px;
+            margin-bottom: 150px;
+        }
+    }
+    .paintingone,
+    .paintingtwo,
+    .paintingthree {
+        img {
+            padding: 12.5px;
+        }
+    }
+    .winesticker {
+        width: 8.5vw;
+        margin: 0px 0px 80px 95px;
+        z-index: 1;
+    }
+    .handsticker {
+        width: 10.5vw;
+        margin: 0px 0px 325px 40px;
+    }
 }

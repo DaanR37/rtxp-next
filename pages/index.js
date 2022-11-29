@@ -40,14 +40,14 @@ export default function Home() {
           />
         </picture>
       </div>
-      <div className={styles.fragilesticker}>
+      {/* <div className={styles.fragilesticker}>
         <picture>
           <img
             src="/images/our-art-is-not-fragile.svg"
             alt="fragile sticker"
           />
         </picture>
-      </div>
+      </div> */}
     </section>
   )
 }

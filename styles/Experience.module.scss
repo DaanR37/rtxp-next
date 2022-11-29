@@ -5,67 +5,293 @@
 }
 .backgroundimage {
     position: absolute;
-    height: 100%;
     width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .monetcontainer {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    width: 65vw;
-    height: auto;
-    // height: 77vh;
-    margin: 125px auto;
     background: #c5e3f3;
 }
 .textcontainer {
     // position: absolute;
-    width: 45vw;
-    max-width: 330px;
-    margin: 5px;
-    padding: 20px;
     font-family: "Atrament";
     text-align: justify;
     h1 {
-        font-size: 32px;
-        margin: 0px 0px 5px 0px;
         text-transform: uppercase;
     }
     p {
         margin: 0;
-        font-size: 17px;
     }
 }
 .imagecontainer {
     // position: absolute;
-    width: 600px;
-    padding: 15px;
-    margin: 15px;
     img {
         width: 100%;
     }
 }
 .redcircle {
     position: absolute;
-    width: 10vw;
     bottom: 0;
     left: 0;
-    margin: 0px 0px 200px 125px;
 }
 .umbrellasticker {
     position: absolute;
-    width: 8.5vw;
     right: 0;
     bottom: 0;
-    margin: 0px 140px 300px 0px;
 }
-.fragilesticker {
-    position: absolute;
-    width: 22.5vw;
-    bottom: 0;
-    left: 0;
-    margin: 0px 0px 25px 40px;
+///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
+// .fragilesticker {
+//     position: absolute;
+//     width: 22.5vw;
+//     bottom: 0;
+//     left: 0;
+//     margin: 0px 0px 25px 40px;
+// }
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .backgroundimage {
+        height: 100%;
+        background-position: 15%;
+    }
+    .monetcontainer {
+        flex-direction: column;
+        align-items: center;
+        width: 88vw;
+        height: auto;
+        // height: 77vh;
+        margin: 105px auto;
+        z-index: 10;
+    }
+    .textcontainer {
+        width: 85vw;
+        max-width: 340px;
+        padding: 15px;
+        h1 {
+            font-size: 19px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .imagecontainer {
+        width: 85vw;
+        max-width: 340px;
+        padding: 15px;
+    }
+    .redcircle {
+        width: 15vw;
+        margin: 0px 0px 300px 5px;
+    }
+    .umbrellasticker {
+        width: 17vw;
+        margin: 0px 0px 450px 0px;
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+    }
+    .monetcontainer {
+        justify-content: space-between;
+        width: 65vw;
+        // height: auto;
+        height: 70vh;
+        margin: 110px auto;
+        z-index: 1;
+    }
+    .textcontainer {
+        width: 50vw;
+        max-width: 350px;
+        padding: 15px;
+        h1 {
+            font-size: 19px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .imagecontainer {
+        width: 600px;
+        padding: 15px;
+    }
+    .redcircle {
+        width: 8.5vw;
+        margin: 0px 0px 50px 110px;
+    }
+    .umbrellasticker {
+        width: 7.5vw;
+        margin: 0px 100px 110px 0px;
+        z-index: 2;
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .backgroundimage {
+        height: 100%;
+        background-position: 15%;
+    }
+    .monetcontainer {
+        flex-direction: column;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 77vh;
+        margin: 125px auto;
+        z-index: 1;
+    }
+    .textcontainer {
+        width: 85vw;
+        max-width: 450px;
+        padding: 10px;
+        margin: 15px;
+        h1 {
+            font-size: 28px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 19px;
+        }
+    }
+    .imagecontainer {
+        width: 85vw;
+        max-width: 450px;
+        padding: 10px;
+        margin: 15px;
+    }
+    .redcircle {
+        width: 14vw;
+        margin: 0px 0px 300px 50px;
+        z-index: 2;
+    }
+    .umbrellasticker {
+        width: 14vw;
+        margin: 0px 55px 600px 0px;
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+    }
+    .monetcontainer {
+        justify-content: space-between;
+        width: 65vw;
+        height: auto;
+        // height: 77vh;
+        margin: 125px auto;
+        z-index: 1;
+    }
+    .textcontainer {
+        width: 35vw;
+        max-width: 600px;
+        padding: 15px;
+        h1 {
+            font-size: 28px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .imagecontainer {
+        width: 50vw;
+        max-width: 600px;
+        padding: 15px;
+    }
+    .redcircle {
+        width: 9.5vw;
+        margin: 0px 0px 300px 120px;
+    }
+    .umbrellasticker {
+        width: 8.5vw;
+        margin: 0px 140px 400px 0px;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+    }
+    .monetcontainer {
+        justify-content: space-between;
+        width: 65vw;
+        height: auto;
+        // height: 77vh;
+        margin: 125px auto;
+    }
+    .textcontainer {
+        width: 45vw;
+        max-width: 330px;
+        margin: 5px;
+        padding: 20px;
+        h1 {
+            font-size: 32px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .imagecontainer {
+        width: 600px;
+        padding: 15px;
+        margin: 15px;
+    }
+    .redcircle {
+        width: 10vw;
+        margin: 0px 0px 200px 125px;
+    }
+    .umbrellasticker {
+        width: 8.5vw;
+        margin: 0px 140px 300px 0px;
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .backgroundimage {
+        height: 100%;
+        background-position: center;
+    }
+    .monetcontainer {
+        justify-content: space-between;
+        width: 65vw;
+        height: auto;
+        // height: 77vh;
+        margin: 125px auto;
+    }
+    .textcontainer {
+        width: 45vw;
+        max-width: 450px;
+        margin: 5px;
+        padding: 20px;
+        h1 {
+            font-size: 34px;
+            margin: 0px 0px 5px 0px;
+        }
+        p {
+            font-size: 19px;
+        }
+    }
+    .imagecontainer {
+        width: 750px;
+        padding: 15px;
+        margin: 15px;
+    }
+    .redcircle {
+        width: 9vw;
+        margin: 0px 0px 200px 200px;
+    }
+    .umbrellasticker {
+        width: 8vw;
+        margin: 0px 220px 320px 0px;
+    }
 }

@@ -8,7 +8,6 @@ const Events = () => {
             }}></div>
 
             <div className={styles.slidercontainer}>
-
                 <div className={styles.banner1}>
                     <picture>
                         <img
@@ -82,7 +81,6 @@ const Events = () => {
                         suscipit lobortis nisl ut aliquip ex ea
                         commodo consequat.</p>
                 </div>
-
             </div>
 
             <div className={styles.winesticker}>
@@ -101,14 +99,14 @@ const Events = () => {
                     />
                 </picture>
             </div>
-            <div className={styles.fragilesticker}>
+            {/* <div className={styles.fragilesticker}>
                 <picture>
                     <img
                         src="/images/our-art-is-not-fragile.svg"
                         alt="fragile sticker"
                     />
                 </picture>
-            </div>
+            </div> */}
         </section>
     );
 }
