@@ -1,4 +1,4 @@
-.experiencecontainer {
+.shopcontainer {
     position: absolute;
     width: 100vw;
 }
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.monetcontainer {
+.shopitemscontainer {
     display: flex;
     background: #c5e3f3;
 }
@@ -24,46 +24,26 @@
         margin: 0;
     }
 }
-.imagecontainer {
-    // position: absolute;
-    img {
-        width: 100%;
-    }
-}
-.redcircle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.umbrellasticker {
+.chaticon {
     position: absolute;
     right: 0;
     bottom: 0;
 }
-///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
-// .fragilesticker {
-//     position: absolute;
-//     width: 22.5vw;
-//     bottom: 0;
-//     left: 0;
-//     margin: 0px 0px 25px 40px;
-// }
-
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
-        background-position: 15%;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         flex-direction: column;
         align-items: center;
         width: 88vw;
-        height: auto;
-        // height: 77vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
@@ -82,34 +62,27 @@
             font-size: 17px;
         }
     }
-    .imagecontainer {
-        width: 85vw;
-        max-width: 340px;
-        padding: 15px;
-    }
-    .redcircle {
-        width: 15vw;
-        margin: 0px 0px 300px 5px;
-    }
-    .umbrellasticker {
-        width: 17vw;
-        margin: 0px 0px 450px 0px;
+    .chaticon {
+        width: 14vw;
+        margin: 0px 300px 55px 0px;
+        transform: rotate(25deg);
     }
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
         background-position: center;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
         width: 65vw;
-        height: auto;
-        // height: 70vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 2.5rem;
         transform: translate(-50%, 2.5rem);
@@ -118,7 +91,7 @@
     }
     .textcontainer {
         width: 50vw;
-        max-width: 350px;
+        max-width: 300px;
         padding: 15px;
         h1 {
             font-size: 22px;
@@ -128,40 +101,33 @@
             font-size: 13px;
         }
     }
-    .imagecontainer {
-        width: 600px;
-        padding: 15px;
-    }
-    .redcircle {
-        width: 8.5vw;
-        margin: 0px 0px 150px 110px;
-    }
-    .umbrellasticker {
-        width: 7.5vw;
-        margin: 0px 100px 250px 0px;
-        // z-index: 2;
+    .chaticon {
+        width: 7vw;
+        margin: 0px 115px 25px 0px;
+        // z-index: 50;
+        transform: rotate(25deg);
     }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
-        background-position: 15%;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         flex-direction: column;
         align-items: center;
         width: 65vw;
-        height: auto;
-        // height: 77vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
         // margin: 125px auto;
-        z-index: 1;
+        z-index: 10;
     }
     .textcontainer {
         width: 85vw;
@@ -176,36 +142,27 @@
             font-size: 21px;
         }
     }
-    .imagecontainer {
-        width: 85vw;
-        max-width: 450px;
-        padding: 10px;
-        margin: 15px;
-    }
-    .redcircle {
+    .chaticon {
         width: 14vw;
-        margin: 0px 0px 300px 50px;
-        z-index: 2;
-    }
-    .umbrellasticker {
-        width: 14vw;
-        margin: 0px 55px 600px 0px;
+        margin: 0px 90px 500px 0px;
+        transform: rotate(25deg);
     }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
         background-position: center;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
         width: 65vw;
-        height: auto;
-        // height: 77vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
@@ -216,6 +173,7 @@
         width: 35vw;
         max-width: 600px;
         padding: 15px;
+        // margin: 5px;
         h1 {
             font-size: 32px;
             margin: 0px 0px 5px 0px;
@@ -224,34 +182,26 @@
             font-size: 17px;
         }
     }
-    .imagecontainer {
-        width: 50vw;
-        max-width: 600px;
-        padding: 15px;
-    }
-    .redcircle {
-        width: 9.5vw;
-        margin: 0px 0px 300px 120px;
-    }
-    .umbrellasticker {
-        width: 8.5vw;
-        margin: 0px 140px 400px 0px;
+    .chaticon {
+        width: 7vw;
+        margin: 0px 175px 40px 0px;
     }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
         background-position: center;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
         width: 65vw;
         height: auto;
-        // height: 77vh;
+        // height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
@@ -270,34 +220,33 @@
             font-size: 17px;
         }
     }
-    .imagecontainer {
-        width: 600px;
-        padding: 15px;
-        margin: 15px;
+    .formcontainer {
+        width: 45vw;
+        max-width: 500px;
+        margin: 5px;
+        padding: 20px;
+        border: 1px solid black;
     }
-    .redcircle {
-        width: 10vw;
-        margin: 0px 0px 200px 125px;
-    }
-    .umbrellasticker {
-        width: 8.5vw;
-        margin: 0px 140px 300px 0px;
+    .chaticon {
+        width: 7vw;
+        margin: 0px 175px 40px 0px;
     }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
-    .experiencecontainer {
+    .shopcontainer {
         height: 100vh;
     }
     .backgroundimage {
         background-position: center;
+        transform: rotateY(180deg);
     }
-    .monetcontainer {
+    .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
         width: 65vw;
-        height: auto;
-        // height: 77vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
@@ -316,17 +265,8 @@
             font-size: 19px;
         }
     }
-    .imagecontainer {
-        width: 750px;
-        padding: 15px;
-        margin: 15px;
-    }
-    .redcircle {
-        width: 9vw;
-        margin: 0px 0px 200px 200px;
-    }
-    .umbrellasticker {
+    .chaticon {
         width: 8vw;
-        margin: 0px 220px 320px 0px;
+        margin: 0px 175px 40px 0px;
     }
 }

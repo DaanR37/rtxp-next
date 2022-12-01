@@ -1,11 +1,11 @@
 .eventscontainer {
     position: absolute;
     width: 100vw;
-    height: 100vh;
 }
 .backgroundimage {
     position: absolute;
     width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,12 +22,10 @@
         width: 100%;
     }
     h1 {
-        position: absolute;
         bottom: 0;
         text-transform: uppercase;
     }
     p {
-        position: absolute;
         text-align: justify;
         bottom: 0;
     }
@@ -51,35 +49,42 @@
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .backgroundimage {
+    .eventscontainer {
         height: 250vh;
+    }
+    .backgroundimage {
         background-position: 10%;
         // transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: relative;
+        position: absolute; /// was relative
         flex-direction: column;
         align-items: center;
         width: 88vw;
         height: auto;
-        margin: 105px auto;
+        left: 50%;
+        top: 3.5rem;
+        transform: translate(-50%, 3.5rem);
+        // margin: 105px auto;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 88vw;
-        height: 70vh;
+        width: 350px;
+        height: 600px;
         margin-bottom: 50px;
         z-index: 1;
         h1 {
-            font-size: 23px;
+            position: absolute;
+            font-size: 27px;
             padding: 12.5px;
-            margin-bottom: 12.5rem;
+            margin-bottom: 235px;
         }
         p {
-            font-size: 16px;
+            position: relative;
+            font-size: 21px;
             padding: 12.5px;
-            margin-bottom: 6rem;
+            margin-top: 350px;
         }
     }
     .paintingone,
@@ -101,37 +106,41 @@
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .eventscontainer {
+        height: 150vh;
+    }
     .backgroundimage {
-        height: 100%;
         background-position: center;
         transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: absolute; /// was relative
+        position: absolute; 
         justify-content: space-between;
-        width: 65vw;
+        width: 87.5vw;
         // height: 75vh;
         height: auto;
         left: 50%;
-        top: 85%;
-        transform: translate(-50%, -85%);
-        // height: auto;
+        top: 2.5rem;
+        transform: translate(-50%, 2.5rem);
         // margin: 135px auto;
+        z-index: 2;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 20vw;
-        height: 70vh;
+        width: 250px;
+        height: 400px;
         h1 {
+            position: absolute;
             font-size: 17px;
             padding: 10px;
-            margin-bottom: 100px;
+            margin-bottom: 125px;
         }
         p {
+            position: relative;
             font-size: 13px;
             padding: 10px;
-            margin-bottom: 30px;
+            margin-top: 275px;
         }
     }
     .paintingone,
@@ -153,35 +162,38 @@
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .backgroundimage {
+    .eventscontainer {
         height: 300vh;
-        background-position: 10%;
-        // transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: relative;
+        position: absolute; 
         flex-direction: column;
         align-items: center;
-        width: 65vw;
+        // width: 65vw;
         height: auto;
-        margin: 125px auto;
+        left: 50%;
+        top: 3.5rem;
+        transform: translate(-50%, 3.5rem);
+        // margin: 125px auto;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 65vw;
-        height: 70vh;
-        margin-bottom: 50px;
+        width: 550px;
+        height: 1000px;
+        margin-bottom: 25px;
         z-index: 1;
         h1 {
-            font-size: 32px;
+            position: absolute;
+            font-size: 36px;
             padding: 22.5px;
-            margin-bottom: 15rem;
+            margin-bottom: 380px;
         }
         p {
-            font-size: 24px;
+            position: relative;
+            font-size: 28px;
             padding: 22.5px;
-            margin-bottom: 6rem;
+            margin-top: 600px;
         }
     }
     .paintingone,
@@ -203,36 +215,41 @@
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .eventscontainer {
+        height: 100vh;
+    }
     .backgroundimage {
-        height: 100%;
         background-position: center;
         transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: absolute; /// was relative
+        position: absolute;
         justify-content: space-between;
-        width: 65vw;
-        height: 75vh;
+        width: 85vw;
+        // height: 75vh;
+        height: auto;
         left: 50%;
-        top: 65%;
-        transform: translate(-50%, -65%);
-        // height: auto;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
         // margin: 135px auto;
+        z-index: 1;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 21vw;
-        height: 50vh;
+        width: 300px;
+        height: 350px;
         h1 {
+            position: absolute;
             font-size: 28px;
             padding: 12.5px;
-            margin-bottom: 10rem;
+            margin-bottom: 30px;
         }
         p {
-            font-size: 14px;
+            position: relative;
+            font-size: 17px;
             padding: 12.5px;
-            margin-bottom: 3rem;
+            margin-top: 300px;
         }
     }
     .paintingone,
@@ -254,36 +271,40 @@
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .eventscontainer {
+        height: 100vh;
+    }
     .backgroundimage {
-        height: 100%;
         background-position: center;
         transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: absolute; /// was relative
+        position: absolute;
         justify-content: space-between;
         width: 65vw;
-        height: 75vh;
+        // height: 75vh;
+        height: auto;
         left: 50%;
-        top: 65%;
-        transform: translate(-50%, -65%);
-        // height: auto;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
         // margin: 135px auto;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 20vw;
-        // height: 70vh;
+        width: 300px;
+        height: 350px;
         h1 {
+            position: absolute;
             font-size: 28px;
             padding: 12.5px;
-            margin-bottom: 250px;
+            margin-bottom: 25px;
         }
         p {
-            font-size: 16px;
+            position: relative;
+            font-size: 18px;
             padding: 12.5px;
-            margin-bottom: 150px;
+            margin-top: 300px;
         }
     }
     .paintingone,
@@ -305,36 +326,40 @@
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .eventscontainer {
+        height: 100vh;
+    }
     .backgroundimage {
-        height: 100%;
         background-position: center;
         transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: absolute; /// was relative
+        position: absolute;
         justify-content: space-between;
         width: 65vw;
         height: 75vh;
         left: 50%;
-        top: 65%;
-        transform: translate(-50%, -65%);
+        top: 4rem;
+        transform: translate(-50%, 4rem);
         // height: auto;
         // margin: 135px auto;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 20vw;
-        // height: 70vh;
+        width: 375px;
+        height: 400px;
         h1 {
+            position: absolute;
             font-size: 32px;
             padding: 12.5px;
-            margin-bottom: 300px;
+            margin-bottom: 2.5px;
         }
         p {
-            font-size: 20px;
+            position: relative;
+            font-size: 21px;
             padding: 12.5px;
-            margin-bottom: 150px;
+            margin-top: 400px;
         }
     }
     .paintingone,

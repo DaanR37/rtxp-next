@@ -21,166 +21,79 @@ a {
   font-family: "Atrament";
   src: url("../asset/Atrament/Atrament.ttf") format("truetype");
 }
-
-/// Index.js
-// .navbar-container {
-//   position: absolute;
-//   display: flex;
-//   width: 100%;
-//   margin-top: 50px;
-//   z-index: 1;
-// }
-// .left-section {
-//   display: flex;
-// }
-// .middle-section {
-//   display: flex;
-//   justify-content: center;
-//   flex: 2;
-// }
-// .right-section {
-//   display: flex;
-// }
-
-/// MenuToggle.js
-// .btn-toggle {
-//   z-index: 99;
-//   cursor: pointer;
-// }
-/// MobileNavLinks
-// .nav-links-container-mobile {
-//   position: absolute;
-//   display: flex;
-//   align-items: center;
-//   height: 100%;
-//   background-color: #ff70db;
-// }
-// .links-wrapper-mobile {
-//   margin: 0;
-//   padding: 0;
-//   display: flex;
-//   // justify-content: space-evenly;
-//   width: 100%;
-//   flex-direction: column;
-//   position: fixed;
-//   top: 65px;
-//   left: 0;
-//   button {
-//     margin: 0;
-//     padding: 0;
-//     background: none;
-//     border: none;
-//     display: flex;
-//     width: 100%;
-//     margin-bottom: 10px;
-//     h3 {
-//       font-family: "Atrament";
-//       font-size: 18px;
-//       font-weight: 600;
-//       margin: 0;
-//       padding: 0;
-//       color: black;
-//       text-transform: uppercase;
-//     }
-//     &:hover {
-//       // filter: invert(1);
-//       transition: 400ms ease-in-out;
-//     }
-//   }
-// }
-// .marginer {
-//   height: 2em;
-// }
-/// NavLinks
-// .nav-links-container {
-//   position: absolute;
-//   display: flex;
-//   align-items: center;
-//   width: 65vw;
-//   height: 6.5vh;
-//   background-color: #ff70db;
-// }
-// .links-wrapper {
-//   margin: 0;
-//   padding: 0;
-//   display: flex;
-//   justify-content: space-evenly;
-//   width: 100%;
-// }
-// .links-wrapper button {
-//   margin: 0;
-//   padding: 0;
-//   background: none;
-//   border: none;
-//   text-transform: uppercase;
-//   cursor: pointer;
-//   h3 {
-//     font-family: "Atrament";
-//     font-size: 31px;
-//     font-weight: 600;
-//     margin: 0;
-//     padding: 0;
-//     color: black;
-//   }
-//   &:hover {
-//     filter: invert(1);
-//     transition: 400ms ease-in-out;
-//   }
-// }
-/// NavLink section highlight for NavBar
-// .btn-experience.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-// .btn-tickets.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-// .btn-events.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-// .btn-about.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-// .btn-info.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-// .btn-shop.active h3 {
-//   color: #75d5fd;
-//   transition: 350ms ease-in-out;
-// }
-
-// @media screen and (max-width: 768px) {
-//   .when-its-desktop-right-section {
-//     display: none;
-//   }
-//   .middle-section {
-//     display: none;
-//   }
-// }
-// @media screen and (min-width: 768px) {
-//   .when-its-mobile-right-section {
-//     display: none;
-//   }
-// }
-
-///// EXP.
-@media screen and (max-width: 768px) {
+//// Algemene CSS voor NavBar
+.socials-container {
+  display: flex;
+  top: 0;
+  z-index: 10000;
+}
+.nav__link {
+  position: relative;
+  font-family: "Atrament";
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.menu-sticker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 100px;
+  margin-top: 50px;
+  z-index: 10000;
+  cursor: pointer;
+  opacity: 0.85;
+  &:hover {
+    opacity: 1;
+    transition: 350ms ease-in-out;
+  }
+  img {
+    width: 100%;
+  }
+}
+.nav-container {
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+.nav__menu-bar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.nav__menu-bar div {
+  width: 40px;
+  background-color: black;
+  border-radius: 5px;
+}
+.nav__menu-list {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-family: "Atrament";
+  background-color: #ff70db;
+}
+div.nav__menu-list div a {
+  text-transform: uppercase;
+  // font-weight: 600;
+  color: black;
+  &:hover {
+    color: whitesmoke;
+    transition: 400ms ease-in-out;
+  }
+}
+.nav__link.active {
+  color: whitesmoke;
+}
+///Mobile Portrait NavBar
+@media screen and (max-width: 600px) and (orientation: portrait) {
   .menu-sticker {
     display: none;
   }
   .socials-container {
-    position: absolute;
-    display: flex;
-    // width: 20vw;
-    top: 0;
+    position: fixed;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
-    z-index: 100000;
     img {
       width: 50px;
     }
@@ -189,28 +102,16 @@ a {
     }
   }
   .nav-container {
-    position: fixed; /// was absolute
+    position: fixed;
     right: 0;
-    top: 0;
     margin-top: 25px;
     margin-right: 25px;
-    z-index: 1000;
-  }
-  .nav__menu-bar {
-    display: flex;
-    flex-direction: column;
-    row-gap: 6px;
   }
   .nav__menu-bar div {
-    width: 40px;
     height: 4px;
-    background-color: black;
-    border-radius: 5px;
   }
   .nav__menu-list {
-    position: fixed; /// was absolute
-    display: flex;
-    align-items: center;
+    position: fixed;
     flex-direction: column;
     top: 75px;
     width: 300px;
@@ -218,7 +119,6 @@ a {
     row-gap: 10px;
     padding: 120px 0px;
     min-height: calc(100vh - 75px);
-    background-color: #ff70db;
     opacity: 0.95;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 0px;
@@ -235,35 +135,182 @@ a {
     }
   }
   .nav__link {
-    position: relative;
-    font-family: "Atrament";
     font-size: 40px;
-    text-transform: uppercase;
-    transition: all 0.2s;
   }
 }
-
-@media screen and (min-width: 768px) {
+///Mobile Landscape NavBar
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  .menu-sticker {
+    display: none;
+  }
+  .socials-container {
+    position: fixed;
+    left: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    img {
+      width: 50px;
+    }
+    a:nth-child(2) {
+      margin-left: 5px;
+    }
+  }
+  .nav-container {
+    position: fixed;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  .nav__menu-bar div {
+    height: 4px;
+  }
+  .nav__menu-list {
+    position: fixed;
+    flex-direction: column;
+    top: 75px;
+    width: 350px;
+    right: -350px;
+    row-gap: 3.5px;
+    padding: 40px 0px;
+    min-height: calc(100vh - 75px);
+    opacity: 0.95;
+    transition: all 0.3s;
+    border-radius: 25px 0px 0px 0px;
+    img {
+      width: 100px;
+      margin-bottom: 5px;
+    }
+  }
+  .nav__menu-list.active {
+    right: 0;
+    img {
+      width: 100px;
+      margin-bottom: 5px;
+    }
+  }
+  .nav__link {
+    font-size: 31px;
+  }
+}
+///Tablet Portrait NavBar
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .menu-sticker {
+    display: none;
+  }
+  .socials-container {
+    position: fixed;
+    left: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    img {
+      width: 65px;
+    }
+    a:nth-child(2) {
+      margin-left: 5px;
+    }
+  }
+  .nav-container {
+    position: fixed;
+    right: 0;
+    margin-top: 35px;
+    margin-right: 35px;
+  }
+  .nav__menu-bar div {
+    height: 5px;
+  }
+  .nav__menu-list {
+    position: fixed;
+    flex-direction: column;
+    top: 90px;
+    width: 450px;
+    right: -450px;
+    row-gap: 15px;
+    padding: 200px 0px;
+    min-height: calc(100vh - 90px);
+    opacity: 0.95;
+    transition: all 0.3s;
+    border-radius: 25px 0px 0px 0px;
+    img {
+      width: 175px;
+      margin-bottom: 35px;
+    }
+  }
+  .nav__menu-list.active {
+    right: 0;
+    img {
+      width: 200px;
+      margin-bottom: 35px;
+    }
+  }
+  .nav__link {
+    font-size: 65px;
+  }
+}
+///Tablet Landscape NavBar
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  .menu-sticker {
+    display: none;
+  }
+  .socials-container {
+    position: fixed;
+    display: flex;
+    left: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    img {
+      width: 60px;
+    }
+    a:nth-child(2) {
+      margin-left: 5px;
+    }
+  }
+  .nav-container {
+    position: fixed;
+    right: 0;
+    margin-top: 35px;
+    margin-right: 35px;
+  }
+  .nav__menu-bar div {
+    height: 5px;
+  }
+  .nav__menu-list {
+    position: fixed;
+    flex-direction: column;
+    top: 90px;
+    width: 550px;
+    right: -550px;
+    row-gap: 5px;
+    padding: 100px 0px;
+    min-height: calc(100vh - 90px);
+    opacity: 0.95;
+    transition: all 0.3s;
+    border-radius: 25px 0px 0px 0px;
+    img {
+      width: 175px;
+      margin-bottom: 30px;
+    }
+  }
+  .nav__menu-list.active {
+    right: 0;
+    img {
+      width: 200px;
+      margin-bottom: 30px;
+    }
+  }
+  .nav__link {
+    font-size: 55px;
+  }
+}
+///Desktop NavBar
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
   .nav__menu-bar {
     display: none;
   }
+  .mobile-menu-logo {
+    display: none;
+  }
   .menu-sticker {
-    position: absolute;
     width: 7.5vw;
-    top: 0;
-    left: 0;
-    margin-left: 100px;
-    margin-top: 50px;
-    cursor: pointer;
-    opacity: 0.85;
-    z-index: 1000000000000000000000000000;
-    &:hover {
-      opacity: 1;
-      transition: 350ms ease-in-out;
-    }
-    img {
-      width: 100%;
-    }
   }
   .nav-container {
     position: absolute;
@@ -273,32 +320,16 @@ a {
     width: 100%;
     height: 50px;
     margin-top: 50px;
-    z-index: 1000;
   }
   .nav__menu-list {
     position: unset;
-    display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    align-items: center;
     min-height: 50px; ///was fit-content
     width: 65vw; ///was fit-content
-    // column-gap: 24px;
-    font-family: "Atrament";
-    background-color: #ff70db;
   }
   div.nav__menu-list div a {
     font-size: 31px;
-    text-transform: uppercase;
-    color: black;
-    &:hover {
-      color: whitesmoke;
-      // transition: all 0.4s;
-      transition: 400ms ease-in-out;
-    }
-  }
-  .mobile-menu-logo {
-    display: none;
   }
   .nav__link::before {
     content: "";
@@ -308,20 +339,72 @@ a {
     left: 0;
     height: 6px;
     transition: all 0.2s;
-    // background-color: pink;
-  }
-  .nav__link.active {
-    color: whitesmoke;
   }
   .socials-container {
     position: absolute;
     display: flex;
-    // width: 35px;
-    top: 0;
     right: 0;
     margin-right: 100px;
     margin-top: 50px;
-    z-index: 100000000;
+    img {
+      width: 50px;
+      &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+        transition: 300ms ease-in-out;
+      }
+    }
+    a:nth-child(1) {
+      margin-right: 5px;
+    }
+  }
+}
+///Desktop Big NavBar
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+  .nav__menu-bar {
+    display: none;
+  }
+  .mobile-menu-logo {
+    display: none;
+  }
+  .menu-sticker {
+    width: 120px;
+  }
+  .nav-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+  }
+  .nav__menu-list {
+    position: unset;
+    justify-content: space-evenly;
+    flex-direction: row;
+    min-height: 55px; ///was fit-content
+    width: 65vw; ///was fit-content
+  }
+  div.nav__menu-list div a {
+    font-size: 34px;
+  }
+  .nav__link::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    bottom: -16px;
+    left: 0;
+    height: 6px;
+    transition: all 0.2s;
+  }
+  .socials-container {
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 50px;
+    z-index: 2;
     img {
       width: 50px;
       &:hover {
@@ -340,46 +423,33 @@ a {
 .accordion__section {
   display: flex;
   flex-direction: column;
-  // width: 50%;
   max-width: 768px;
-  margin: 5px;
-  padding: 5px;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   display: flex;
   align-items: center;
-  height: 45px;
-  padding: 5px;
   background: #98d4f4;
   border-radius: 5px;
   border: none;
   outline: none;
-  cursor: pointer;
-}
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
-  background-color: #65c4f7;
-  transition: all 0.4s ease;
 }
 .accordion.active {
   background-color: #65c4f7;
   transition: all 0.4s ease;
-  color: #ff70db;
+  color: #ff70db !important;
 }
 /* Style the accordion content title */
 .accordion__title {
-  color: black;
-  font-size: 26px;
+  // color: black;
   font-weight: 600;
-  padding-left: 10px;
   text-align: left;
   font-family: "Atrament";
+  text-transform: uppercase;
 }
 /* Style the accordion chevron icon */
 .accordion__icon {
   margin-left: auto;
-  margin-right: 1.5rem;
   transition: transform 0.6s ease;
 }
 /* Style to rotate icon when state is active */
@@ -396,10 +466,8 @@ a {
 .accordion__text {
   font-family: "Atrament";
   font-weight: 400;
-  font-size: 18px;
-  padding: 10px;
 }
-
+///Mobile Portrait Accordion
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .accordion__section {
     margin: 3.5px;
@@ -412,13 +480,140 @@ a {
   .accordion__title {
     font-size: 26px;
     padding-left: 7.5px;
-    text-transform: uppercase;
   }
   .accordion__icon {
     margin-right: 1rem;
   }
   .accordion__text {
     font-size: 19px;
+    padding: 10px;
+  }
+}
+///Mobile Landscape Accordion
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  .accordion__section {
+    margin: 3.5px;
+    padding: 3px;
+  }
+  .accordion {
+    height: 40px;
+    padding: 1px;
+  }
+  .accordion__title {
+    font-size: 26px;
+    padding-left: 7.5px;
+  }
+  .accordion__icon {
+    margin-right: 1rem;
+  }
+  .accordion__text {
+    font-size: 19px;
+    padding: 10px;
+  }
+}
+///Tablet Portrait Accordion
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .accordion__section {
+    margin: 3.5px;
+    padding: 3px;
+  }
+  .accordion {
+    height: 40px;
+    padding: 1px;
+  }
+  .accordion__title {
+    font-size: 26px;
+    padding-left: 7.5px;
+  }
+  .accordion__icon {
+    margin-right: 1rem;
+  }
+  .accordion__text {
+    font-size: 19px;
+    padding: 10px;
+  }
+}
+///Tablet Landscape Accordion
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  .accordion__section {
+    margin: 3.5px;
+    padding: 3px;
+  }
+  .accordion {
+    height: 40px;
+    padding: 1px;
+  }
+  .accordion__title {
+    font-size: 26px;
+    padding-left: 7.5px;
+  }
+  .accordion__icon {
+    margin-right: 1rem;
+  }
+  .accordion__text {
+    font-size: 19px;
+    padding: 10px;
+  }
+}
+///Desktop Accordion
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+  .accordion__section {
+    margin: 5px;
+    padding: 2.5px;
+  }
+  .accordion {
+    height: 45px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion:hover {
+    background-color: #65c4f7;
+    transition: all 0.4s ease;
+  }
+  /* Style the accordion content title */
+  .accordion__title {
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  /* Style the accordion chevron icon */
+  .accordion__icon {
+    margin-right: 1.5rem;
+  }
+  /* Style the accordion content text */
+  .accordion__text {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+///Desktop Big Accordion
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+  .accordion__section {
+    margin: 5px;
+    padding: 2.5px;
+  }
+  .accordion {
+    height: 45px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion:hover {
+    background-color: #65c4f7;
+    transition: all 0.4s ease;
+  }
+  /* Style the accordion content title */
+  .accordion__title {
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  /* Style the accordion chevron icon */
+  .accordion__icon {
+    margin-right: 1.5rem;
+  }
+  /* Style the accordion content text */
+  .accordion__text {
+    font-size: 18px;
     padding: 10px;
   }
 }

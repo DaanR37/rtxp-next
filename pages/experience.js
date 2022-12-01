@@ -5,7 +5,7 @@ const Experience = () => {
         <section className={styles.experiencecontainer}>
             <div className={styles.backgroundimage} style={{
                 backgroundImage: "url(/images/background-image-exp.jpg)"
-            }}> </div>
+            }}></div>
             <div className={styles.monetcontainer}>
 
                 <div className={styles.textcontainer}>

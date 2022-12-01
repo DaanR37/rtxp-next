@@ -16,18 +16,3 @@ const NavItem = ({ href, text, active }) => {
 };
 
 export default NavItem;
-
-// const NavItem = ({ href, text, active }) => {
-//   return (
-//     <NavLink
-//       href={href}
-//       className={`
-//               nav__link ${active ? "active" : ""}
-//           `}
-//     >
-//       {text}
-//     </NavLink>
-//   );
-// };
-
-// export default NavItem;

@@ -5,7 +5,9 @@
 .backgroundimage {
     position: absolute;
     width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .faqcontainer {
     background: #c5e3f3;
@@ -33,44 +35,105 @@
     .infocontainer {
         height: 150vh;
     }
-    .backgroundimage {
-        height: 100%;
-        // background-position: 5%;
-        background-size: cover;
-    }
     .faqcontainer {
-        position: absolute; /// was relative
+        position: absolute;
         align-items: center;
         width: 85vw;
         height: auto;
         // height: 75vh;
         left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        top: 3.5rem;
+        transform: translate(-50%, 3.5rem);
         // margin: 125px auto;
+        z-index: 1;
     }
     .accordionleft,
     .accordionright {
         width: 100%;
     }
     .bluecrossinfo {
-        display: none;
-        width: 10vw;
-        margin: 0px 0px 80px 75px;
+        width: 15vw;
+        margin: 0px 0px 180px 280px;
     }
     .purplearrows {
-        display: none;
-        width: 14vw;
-        margin: 0px 50px 250px 0px;
+        width: 16vw;
+        margin: 0px 347.5px 950px 0px;
     }
     .chaticon {
-        display: none;
-        width: 7vw;
-        margin: 0px 75px 100px 0px;
+        width: 11vw;
+        margin: 0px 375px 150px 0px;
     }
 }
-///Desktop
-@media screen and (min-width: 1281px) and (max-width: 1960px) {
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .infocontainer {
+        height: 300vh;
+    }
+    .faqcontainer {
+        position: absolute;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 2.5rem;
+        transform: translate(-50%, 2.5rem);
+        // margin: 125px auto;
+        z-index: 1;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 100%;
+    }
+    .bluecrossinfo {
+        width: 8.5vw;
+        margin: 0px 0px 400px 100px;
+    }
+    .purplearrows {
+        width: 11.5vw;
+        margin: 0px 75px 800px 0px;
+    }
+    .chaticon {
+        width: 8vw;
+        margin: 0px 100px 100px 0px;
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .infocontainer {
+        height: 125vh;
+    }
+    .faqcontainer {
+        position: absolute;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 3.5rem;
+        transform: translate(-50%, 3.5rem);
+        // margin: 125px auto;
+        z-index: 1;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 100%;
+    }
+    .bluecrossinfo {
+        width: 8.5vw;
+        margin: 0px 0px 400px 100px;
+    }
+    .purplearrows {
+        width: 11.5vw;
+        margin: 0px 75px 800px 0px;
+    }
+    .chaticon {
+        width: 8vw;
+        margin: 0px 100px 100px 0px;
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .infocontainer {
         height: 100vh;
     }
@@ -80,7 +143,45 @@
         background-size: cover;
     }
     .faqcontainer {
-        position: absolute; /// was relative
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 65vw;
+        height: auto;
+        // height: 75vh;
+        left: 50%;
+        top: 4rem;
+        transform: translate(-50%, 4rem);
+        // margin: 125px auto;
+        z-index: 1;
+    }
+    .accordionleft,
+    .accordionright {
+        width: 50%;
+    }
+    .bluecrossinfo {
+        width: 10vw;
+        margin: 0px 0px 150px 75px;
+    }
+    .purplearrows {
+        width: 13.25vw;
+        margin: 0px 75px 400px 0px;
+    }
+    .chaticon {
+        width: 7vw;
+        margin: 0px 150px 100px 0px;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .infocontainer {
+        height: 100vh;
+    }
+    .backgroundimage {
+        background-position: 10% 100%;
+    }
+    .faqcontainer {
+        position: absolute;
         display: flex;
         align-items: center;
         width: 65vw;
@@ -114,12 +215,11 @@
         height: 100vh;
     }
     .backgroundimage {
-        height: 100%;
         background-position: 30% 100%;
         background-size: 115% auto;
     }
     .faqcontainer {
-        position: absolute; /// was relative
+        position: absolute;
         display: flex;
         align-items: center;
         width: 65vw;
