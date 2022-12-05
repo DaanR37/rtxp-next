@@ -58,7 +58,12 @@ export default function Form() {
 
     return (
         <Container maxW="450px" mt={12}>
-            <Heading>Contact</Heading>
+            <Heading
+                fontFamily="Atrament"
+                fontSize="26px"
+                marginBottom="5px"
+            >
+                Contact</Heading>
             {error && (
                 <Text color="red.300" my={4} fontSize="xl">
                     {error}
@@ -66,7 +71,11 @@ export default function Form() {
             )}
 
             <FormControl isRequired isInvalid={touched.name && !values.name} mb={10}>
-                <FormLabel>Name</FormLabel>
+                <FormLabel
+                    fontFamily="Atrament"
+                    fontSize="23px"
+                >
+                    Name</FormLabel>
                 <Input
                     type="text"
                     name="name"
@@ -74,6 +83,8 @@ export default function Form() {
                     value={values.name}
                     onChange={handleChange}
                     onBlur={onBlur}
+                    borderRadius="5px"
+                    backgroundColor="transparent"
                 />
                 <FormErrorMessage><i>Required</i></FormErrorMessage>
             </FormControl>
