@@ -32,7 +32,7 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .shopcontainer {
-        height: 100vh;
+        height: 1100px;
     }
     .backgroundimage {
         transform: rotateY(180deg);
@@ -42,8 +42,8 @@
         flex-direction: column;
         align-items: center;
         width: 88vw;
-        // height: auto;
-        height: 75vh;
+        height: auto;
+        // height: 75vh;
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
@@ -62,6 +62,11 @@
             font-size: 17px;
         }
     }
+    .formcontainer {
+        width: 85vw;
+        max-width: 340px;
+        padding: 15px;
+    }
     .chaticon {
         width: 14vw;
         margin: 0px 300px 55px 0px;
@@ -71,7 +76,7 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .shopcontainer {
-        height: 100vh;
+        height: 115vh;
     }
     .backgroundimage {
         background-position: center;
@@ -80,9 +85,10 @@
     .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
-        width: 65vw;
-        // height: auto;
-        height: 75vh;
+        // width: 65vw;
+        width: 70vw;
+        height: auto;
+        // height: 75vh;
         left: 50%;
         top: 2.5rem;
         transform: translate(-50%, 2.5rem);
@@ -100,6 +106,11 @@
         p {
             font-size: 13px;
         }
+    }
+    .formcontainer {
+        width: 50vw;
+        max-width: 300px;
+        padding: 15px;
     }
     .chaticon {
         width: 7vw;
@@ -121,8 +132,8 @@
         flex-direction: column;
         align-items: center;
         width: 65vw;
-        // height: auto;
-        height: 75vh;
+        height: auto;
+        // height: 75vh;
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
@@ -141,6 +152,12 @@
         p {
             font-size: 21px;
         }
+    }
+    .formcontainer {
+        width: 85vw;
+        max-width: 450px;
+        padding: 10px;
+        margin: 15px;
     }
     .chaticon {
         width: 14vw;
@@ -161,11 +178,11 @@
         position: absolute;
         justify-content: space-between;
         width: 65vw;
-        // height: auto;
-        height: 75vh;
+        height: auto;
+        // height: 75vh;
         left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        top: 5rem;
+        transform: translate(-50%, 5rem);
         // margin: 125px auto;
         z-index: 1;
     }
@@ -173,7 +190,7 @@
         width: 35vw;
         max-width: 600px;
         padding: 15px;
-        // margin: 5px;
+        margin: 5px;
         h1 {
             font-size: 32px;
             margin: 0px 0px 5px 0px;
@@ -181,6 +198,12 @@
         p {
             font-size: 17px;
         }
+    }
+    .formcontainer {
+        width: 35vw;
+        max-width: 600px;
+        padding: 15px;
+        margin: 5px;
     }
     .chaticon {
         width: 7vw;
@@ -222,7 +245,7 @@
     }
     .formcontainer {
         width: 45vw;
-        max-width: 500px;
+        max-width: 450px;
         margin: 5px;
         padding: 20px;
     }
@@ -244,8 +267,8 @@
         position: absolute;
         justify-content: space-between;
         width: 65vw;
-        // height: auto;
-        height: 75vh;
+        height: auto;
+        // height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
@@ -263,6 +286,12 @@
         p {
             font-size: 19px;
         }
+    }
+    .formcontainer {
+        width: 45vw;
+        max-width: 450px;
+        margin: 5px;
+        padding: 20px;
     }
     .chaticon {
         width: 8vw;

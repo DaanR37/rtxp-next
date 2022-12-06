@@ -50,7 +50,8 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .eventscontainer {
-        height: 250vh;
+        // height: 250vh;
+        height: 2500px;
     }
     .backgroundimage {
         background-position: 10%;

@@ -57,15 +57,16 @@ export default function Form() {
     };
 
     return (
-        <Container maxW="450px" mt={12}>
+        <Container maxW="450px" mt={10}>
             <Heading
                 fontFamily="Atrament"
-                fontSize="26px"
-                marginBottom="5px"
+                fontSize="27px"
+                marginBottom="7.5px"
+                marginTop="0px"
             >
                 Contact</Heading>
             {error && (
-                <Text color="red.300" my={4} fontSize="xl">
+                <Text color="red.300" my={4} fontSize="l">
                     {error}
                 </Text>
             )}
@@ -73,7 +74,7 @@ export default function Form() {
             <FormControl isRequired isInvalid={touched.name && !values.name} mb={10}>
                 <FormLabel
                     fontFamily="Atrament"
-                    fontSize="23px"
+                    fontSize="20px"
                 >
                     Name</FormLabel>
                 <Input
@@ -84,13 +85,21 @@ export default function Form() {
                     onChange={handleChange}
                     onBlur={onBlur}
                     borderRadius="5px"
-                    backgroundColor="transparent"
+                    backgroundColor="#AFD3ED"
+                    width="300px"
+                    height="27.5px"
+                    fontSize="16px"
                 />
-                <FormErrorMessage><i>Required</i></FormErrorMessage>
+                <FormErrorMessage
+                    fontSize="12px"
+                ><i>Required</i></FormErrorMessage>
             </FormControl>
 
             <FormControl isRequired isInvalid={touched.email && !values.email} mb={10}>
-                <FormLabel>Email</FormLabel>
+                <FormLabel
+                    fontFamily="Atrament"
+                    fontSize="20px"
+                >Email</FormLabel>
                 <Input
                     type="email"
                     name="email"
@@ -98,12 +107,22 @@ export default function Form() {
                     value={values.email}
                     onChange={handleChange}
                     onBlur={onBlur}
+                    borderRadius="5px"
+                    backgroundColor="#AFD3ED"
+                    width="300px"
+                    height="27.5px"
+                    fontSize="16px"
                 />
-                <FormErrorMessage><i>Required</i></FormErrorMessage>
+                <FormErrorMessage
+                    fontSize="12px"
+                ><i>Required</i></FormErrorMessage>
             </FormControl>
 
             <FormControl isRequired isInvalid={touched.subject && !values.subject} mb={10}>
-                <FormLabel>Subject</FormLabel>
+                <FormLabel
+                    fontFamily="Atrament"
+                    fontSize="20px"
+                >Subject</FormLabel>
                 <Input
                     type="text"
                     name="subject"
@@ -111,12 +130,22 @@ export default function Form() {
                     value={values.subject}
                     onChange={handleChange}
                     onBlur={onBlur}
+                    borderRadius="5px"
+                    backgroundColor="#AFD3ED"
+                    width="300px"
+                    height="27.5px"
+                    fontSize="16px"
                 />
-                <FormErrorMessage><i>Required</i></FormErrorMessage>
+                <FormErrorMessage
+                    fontSize="12px"
+                ><i>Required</i></FormErrorMessage>
             </FormControl>
 
             <FormControl isRequired isInvalid={touched.message && !values.message} mb={10}>
-                <FormLabel>Message</FormLabel>
+                <FormLabel
+                    fontFamily="Atrament"
+                    fontSize="20px"
+                >Message</FormLabel>
                 <Textarea
                     type="text"
                     name="message"
@@ -125,8 +154,15 @@ export default function Form() {
                     value={values.message}
                     onChange={handleChange}
                     onBlur={onBlur}
+                    borderRadius="5px"
+                    backgroundColor="#AFD3ED"
+                    width="300px"
+                    height="35px"
+                    fontSize="16px"
                 />
-                <FormErrorMessage><i>Required</i></FormErrorMessage>
+                <FormErrorMessage
+                    fontSize="12px"
+                ><i>Required</i></FormErrorMessage>
             </FormControl>
             <Button
                 variant="outline"
@@ -134,6 +170,15 @@ export default function Form() {
                 isLoading={isLoading}
                 disabled={!values.name || !values.email || !values.subject || !values.message}
                 onClick={onSubmit}
+                fontFamily="Atrament"
+                fontSize="23px"
+                borderRadius="5px"
+                // backgroundColor="#F970D5"
+                backgroundColor="#40E00B"
+                border="none"
+                cursor="pointer"
+                width="100px"
+                display="flex"
             >Submit</Button>
         </Container>
     )

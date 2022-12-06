@@ -52,7 +52,8 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .experiencecontainer {
-        height: 100vh;
+        // height: 100vh;
+        height: 1050px;
     }
     .backgroundimage {
         background-position: 15%;
@@ -99,7 +100,8 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .experiencecontainer {
-        height: 100vh;
+        height: 135vh;
+        // height: 550px;
     }
     .backgroundimage {
         background-position: center;
@@ -207,8 +209,8 @@
         height: auto;
         // height: 77vh;
         left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        top: 5rem;
+        transform: translate(-50%, 5rem);
         // margin: 125px auto;
         z-index: 1;
     }

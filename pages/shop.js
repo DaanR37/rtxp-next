@@ -8,6 +8,7 @@ const Shop = () => {
             <div className={styles.backgroundimage} style={{
                 backgroundImage: "url(/images/background-image-exp.jpg)"
             }}></div>
+
             <div className={styles.shopitemscontainer}>
                 <div className={styles.textcontainer}>
                     <h1>shop</h1>
@@ -38,6 +39,7 @@ const Shop = () => {
                     <Form />
                 </div>
             </div>
+
             <div className={styles.chaticon}>
                 <picture>
                     <img

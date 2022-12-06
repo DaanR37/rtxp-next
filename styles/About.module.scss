@@ -1,7 +1,6 @@
 .aboutcontainer {
     position: absolute;
     width: 100vw;
-    height: 100vh;
 }
 .backgroundimage {
     position: absolute;
@@ -55,7 +54,8 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .aboutcontainer {
-        height: 150vh;
+        // height: 150vh;
+        height: 1400px;
     }
     .backgroundimage {
         background-position: 30%;
@@ -101,8 +101,8 @@
         margin-bottom: 0px;
     }
     .pinkarrowsicon {
-        width: 14vw;
-        margin: 0px 0px 160px 330px;
+        width: 12vw;
+        margin: 0px 0px 160px 200px;
     }
     .greencrossicon {
         width: 14vw;
@@ -112,7 +112,8 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .aboutcontainer {
-        height: 375vh;
+        // height: 375vh;
+        height: 1700px;
     }
     .backgroundimage {
         background-position: 30%;
@@ -154,6 +155,7 @@
         margin-bottom: 0px;
     }
     .pinkarrowsicon {
+        display: none;
         width: 7.8vw;
         margin: 0px 0px 1200px 90px;
     }
