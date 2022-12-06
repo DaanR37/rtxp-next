@@ -76,7 +76,8 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .shopcontainer {
-        height: 115vh;
+        // height: 130vh;
+        height: 650px;
     }
     .backgroundimage {
         background-position: center;
