@@ -4,7 +4,7 @@ const Events = () => {
     return (
         <section className={styles.eventscontainer}>
             <div className={styles.backgroundimage} style={{
-                backgroundImage: "url(/images/background-image-exp-kopie.jpg)"
+                backgroundImage: "url(/images/background-image-exp.svg)"
             }}></div>
 
             <div className={styles.slidercontainer}>

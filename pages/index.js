@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className={styles.homepagecontainer}>
       <div className={styles.backgroundimage} style={{
-        backgroundImage: "url(/images/background-image-hp-kopie.jpg)"
+        backgroundImage: "url(/images/background-image-hp.svg)"
       }}></div>
       
       <div className={styles.rtxplogo}>
