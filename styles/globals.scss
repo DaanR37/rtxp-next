@@ -618,178 +618,9 @@ div.nav__menu-list div a {
   }
 }
 
-// ///Mobile Portrait FORM NODEMAILER
-// @media screen and (max-width: 600px) and (orientation: portrait) {
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div {
-//     max-width: 450px;
-//     margin: 0;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > h2 {
-//     font-size: 26px;
-//   }
-//   #field-\:R1qkm\:-label,
-//   #field-\:R2akm\:-label,
-//   #field-\:R2qkm\:-label,
-//   #field-\:R3akm\:-label {
-//     font-size: 15px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > div {
-//     margin-bottom: 7px;
-//   }
-//   #field-\:R2akm\:,
-//   #field-\:R1qkm\:,
-//   #field-\:R2qkm\: {
-//     height: 22.5px;
-//     width: 200px;
-//   }
-//   #field-\:R3akm\: {
-//     height: 30px;
-//     width: 200px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > button {
-//     height: 22.5px;
-//     width: 115px;
-//     font-size: 20px;
-//   }
-// }
-// ///Mobile Landscape FORM NODEMAILER
-// @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div {
-//     max-width: 450px;
-//     margin: 0;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > h2 {
-//     font-size: 22px;
-//   }
-//   #field-\:R1qkm\:-label,
-//   #field-\:R2akm\:-label,
-//   #field-\:R2qkm\:-label,
-//   #field-\:R3akm\:-label {
-//     font-size: 15px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > div {
-//     margin-bottom: 7px;
-//   }
-//   #field-\:R2akm\:,
-//   #field-\:R1qkm\:,
-//   #field-\:R2qkm\: {
-//     height: 22.5px;
-//     width: 175px !important;
-//   }
-//   #field-\:R3akm\: {
-//     height: 30px;
-//     width: 175px !important;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > button {
-//     height: 22.5px;
-//     width: 115px;
-//     font-size: 20px;
-//   }
-// }
-// ///Tablet Portrait FORM NODEMAILER
-// @media screen and (min-width: 600px) and (orientation: portrait) {
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div {
-//     max-width: 450px;
-//     margin: 0;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > h2 {
-//     font-size: 27px;
-//   }
-//   #field-\:R1qkm\:-label,
-//   #field-\:R2akm\:-label,
-//   #field-\:R2qkm\:-label,
-//   #field-\:R3akm\:-label {
-//     font-size: 19px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > div {
-//     margin-bottom: 10px;
-//   }
-//   #field-\:R2akm\:,
-//   #field-\:R1qkm\:,
-//   #field-\:R2qkm\: {
-//     height: 30px;
-//     width: 275px;
-//   }
-//   #field-\:R3akm\: {
-//     height: 50px;
-//     width: 275px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > button {
-//     height: 30px;
-//     width: 115px;
-//     font-size: 24px;
-//   }
-// }
-// ///Tablet Landscape FORM NODEMAILER
-// @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div {
-//     max-width: 450px;
-//     margin: 0;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > h2 {
-//     font-size: 27px;
-//   }
-//   #field-\:R1qkm\:-label,
-//   #field-\:R2akm\:-label,
-//   #field-\:R2qkm\:-label,
-//   #field-\:R3akm\:-label {
-//     font-size: 19px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > div {
-//     margin-bottom: 10px;
-//   }
-//   #field-\:R2akm\:,
-//   #field-\:R1qkm\:,
-//   #field-\:R2qkm\: {
-//     height: 30px;
-//     width: 275px;
-//   }
-//   #field-\:R3akm\: {
-//     height: 50px;
-//     width: 275px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > button {
-//     height: 30px;
-//     width: 115px;
-//     font-size: 24px;
-//   }
-// }
-// ///Desktop Big FORM NODEMAILER
-// @media screen and (min-width: 1961px) and (max-width: 2400px) {
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div {
-//     max-width: 450px;
-//     margin: 0;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > h2 {
-//     font-size: 27px;
-//   }
-//   #field-\:R1qkm\:-label,
-//   #field-\:R2akm\:-label,
-//   #field-\:R2qkm\:-label,
-//   #field-\:R3akm\:-label {
-//     font-size: 19px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > div {
-//     margin-bottom: 10px;
-//   }
-//   #field-\:R2akm\:,
-//   #field-\:R1qkm\:,
-//   #field-\:R2qkm\: {
-//     height: 30px;
-//     width: 325px;
-//   }
-//   #field-\:R3akm\: {
-//     height: 50px;
-//     width: 325px;
-//   }
-//   #__next > section > div.Shop_shopitemscontainer__bocEk > div.Shop_formcontainer__v4ZAc > div > button {
-//     height: 30px;
-//     width: 115px;
-//     font-size: 24px;
-//   }
-// }
+/////
 
-// ///Mobile Portrait FORM NODEMAILER
+///Mobile Portrait FORM Web3Forms
 @media screen and (max-width: 600px) and (orientation: portrait) {
   #__next
     > section
@@ -825,14 +656,242 @@ div.nav__menu-list div a {
   #message {
     border-radius: 5px;
     background-color: transparent;
+    width: 225px;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #form > div:nth-child(9) > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    font-size: 21px;
+    font-family: "Atrament";
+    background-color: #40e00b;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+///Mobile Landscape FORM Web3Forms
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  #__next
+    > section
+    > div.Shop_shopitemscontainer__bocEk
+    > div.Shop_formcontainer__v4ZAc
+    > div
+    > div
+    > div
+    > div.text-center
+    > h1 {
+    font-family: "Atrament";
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  #form > div > label {
+    display: flex;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Atrament";
+  }
+  #name,
+  #email,
+  #phone {
+    border-radius: 5px;
+    background-color: transparent;
     width: 200px;
-    height: 50px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #message {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 225px;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #form > div:nth-child(9) > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    font-size: 19px;
+    font-family: "Atrament";
+    background-color: #40e00b;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+///Tablet Portrait FORM Web3Forms
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  #__next
+    > section
+    > div.Shop_shopitemscontainer__bocEk
+    > div.Shop_formcontainer__v4ZAc
+    > div
+    > div
+    > div
+    > div.text-center
+    > h1 {
+    font-family: "Atrament";
+    font-size: 29px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 7.5px;
+  }
+  #form > div > label {
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Atrament";
+  }
+  #name,
+  #email,
+  #phone {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #message {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 225px;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #form > div:nth-child(9) > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    font-size: 21px;
+    font-family: "Atrament";
+    background-color: #40e00b;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+///Tablet Landscape Web3Forms
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  #__next
+    > section
+    > div.Shop_shopitemscontainer__bocEk
+    > div.Shop_formcontainer__v4ZAc
+    > div
+    > div
+    > div
+    > div.text-center
+    > h1 {
+    font-family: "Atrament";
+    font-size: 29px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  #form > div > label {
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Atrament";
+  }
+  #name,
+  #email,
+  #phone {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #message {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 225px;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #form > div:nth-child(9) > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    font-size: 21px;
+    font-family: "Atrament";
+    background-color: #40e00b;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+///Desktop FORM Web3Forms
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+  #__next
+    > section
+    > div.Shop_shopitemscontainer__bocEk
+    > div.Shop_formcontainer__v4ZAc
+    > div
+    > div
+    > div
+    > div.text-center
+    > h1 {
+    font-family: "Atrament";
+    font-size: 31px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 7.5px;
+  }
+  #form > div > label {
+    display: flex;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "Atrament";
+  }
+  #name,
+  #email,
+  #phone {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+    border: 1.5px solid #ff70db;
+  }
+  #message {
+    border-radius: 5px;
+    background-color: transparent;
+    width: 275px;
+    height: 60px;
     margin-bottom: 5px;
     border: 1.5px solid #ff70db;
   }
   #form > div:nth-child(9) > button {
     width: 100px;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     margin-top: 7.5px;
     font-size: 21px;
@@ -847,8 +906,8 @@ div.nav__menu-list div a {
     }
   }
 }
-///Desktop FORM Web3Forms
-@media screen and (min-width: 1281px) and (max-width: 1960px) {
+///Desktop Big Web3Forms
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
   #__next
     > section
     > div.Shop_shopitemscontainer__bocEk
@@ -875,7 +934,7 @@ div.nav__menu-list div a {
   #phone {
     border-radius: 5px;
     background-color: transparent;
-    width: 250px;
+    width: 275px;
     height: 25px;
     margin-bottom: 5px;
     border: 1.5px solid #ff70db;
@@ -883,8 +942,8 @@ div.nav__menu-list div a {
   #message {
     border-radius: 5px;
     background-color: transparent;
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
     margin-bottom: 5px;
     border: 1.5px solid #ff70db;
   }
