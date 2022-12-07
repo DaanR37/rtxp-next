@@ -8,7 +8,7 @@ const Info = () => {
     return (
         <section className={styles.infocontainer}>
             <div className={styles.backgroundimage} style={{
-                backgroundImage: "url(images/background-image-hp.svg)"
+                backgroundImage: "url(images/background-image-hp.jpg)"
             }}></div>
             <div className={styles.faqcontainer}>
                 <div className={styles.accordionleft}>

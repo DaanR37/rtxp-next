@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section className={styles.aboutcontainer}>
             <div className={styles.backgroundimage} style={{
-                backgroundImage: "url(/images/background-image-hp.svg)"
+                backgroundImage: "url(/images/background-image-hp.jpg)"
             }}></div>
             <div className={styles.googlemapcontainer}>
                 <div className={styles.contactdetails}>

@@ -6,7 +6,7 @@ const Shop = () => {
     return (
         <section className={styles.shopcontainer}>
             <div className={styles.backgroundimage} style={{
-                backgroundImage: "url(/images/background-image-exp.svg)"
+                backgroundImage: "url(/images/background-image-exp.jpg)"
             }}></div>
 
             <div className={styles.shopitemscontainer}>
