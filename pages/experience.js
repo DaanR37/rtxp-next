@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <section className={styles.experiencecontainer}>
             <div className={styles.backgroundimage} style={{
-                backgroundImage: "url(/images/background-image-exp.jpg)"
+                backgroundImage: "url(/images/background-image-exp-kopie.jpg)"
             }}></div>
             <div className={styles.monetcontainer}>
 
