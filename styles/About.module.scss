@@ -28,9 +28,6 @@
 }
 .locationmap {
     right: 0;
-    img {
-        width: 100%;
-    }
 }
 .pinkarrowsicon {
     position: absolute;
@@ -42,14 +39,6 @@
     right: 0;
     bottom: 0;
 }
-///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
-// .fragilestickerabout {
-//     position: absolute;
-//     width: 20vw;
-//     bottom: 0;
-//     left: 0;
-//     margin: 0px 0px 15px 40px;
-// }
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -99,14 +88,41 @@
         padding: 10px;
         margin: 55px auto;
         margin-bottom: 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         width: 12vw;
         margin: 0px 0px 160px 200px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 14vw;
         margin: 0px 370px 400px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Mobile Landscape
@@ -153,15 +169,42 @@
         padding: 15px;
         margin: 55px auto;
         margin-bottom: 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         display: none;
         width: 7.8vw;
         margin: 0px 0px 1200px 90px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 7.8vw;
         margin: 0px 110px 100px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Portrait
@@ -207,14 +250,41 @@
         padding: 15px;
         margin: 55px auto;
         margin-bottom: 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         width: 11vw;
         margin: 0px 0px 1000px 90px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 11vw;
         margin: 0px 100px 200px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Landscape
@@ -259,14 +329,41 @@
         max-width: 450px;
         padding: 15px;
         // margin: 5px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         width: 8.5vw;
         margin: 0px 0px 160px 135px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 9vw;
         margin: 0px 140px 400px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop
@@ -311,14 +408,41 @@
         max-width: 600px;
         padding: 10px;
         margin: 10px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         width: 8.5vw;
         margin: 0px 0px 160px 135px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 9vw;
         margin: 0px 140px 400px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop Big
@@ -363,13 +487,40 @@
         max-width: 700px;
         padding: 20px;
         margin: 10px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .pinkarrowsicon {
         width: 8.5vw;
         margin: 0px 0px 250px 200px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .greencrossicon {
         width: 7.5vw;
         margin: 0px 220px 600px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }

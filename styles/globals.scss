@@ -40,9 +40,6 @@ a {
     opacity: 1;
     transition: 350ms ease-in-out;
   }
-  img {
-    width: 100%;
-  }
 }
 .nav__menu-bar {
   position: relative;
@@ -102,14 +99,24 @@ div.nav__menu-list div a {
   .menu-sticker {
     display: none;
   }
+  .facebook-container,
+  .instagram-container {
+    width: 50px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
   .socials-container {
     position: fixed;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
-    img {
-      width: 50px;
-    }
     a:nth-child(2) {
       margin-left: 5px;
     }
@@ -121,6 +128,19 @@ div.nav__menu-list div a {
   }
   .nav__menu-bar div {
     height: 4px;
+  }
+  .mobile-menu-logo {
+    width: 100px;
+    margin-bottom: 25px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav__menu-list {
     position: fixed;
@@ -134,17 +154,9 @@ div.nav__menu-list div a {
     opacity: 0.95;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 0px;
-    img {
-      width: 100px;
-      margin-bottom: 25px;
-    }
   }
   .nav__menu-list.active {
     right: 0;
-    img {
-      width: 100px;
-      margin-bottom: 25px;
-    }
   }
   .nav__link {
     font-size: 40px;
@@ -155,14 +167,24 @@ div.nav__menu-list div a {
   .menu-sticker {
     display: none;
   }
+  .facebook-container,
+  .instagram-container {
+    width: 50px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
   .socials-container {
     position: fixed;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
-    img {
-      width: 50px;
-    }
     a:nth-child(2) {
       margin-left: 5px;
     }
@@ -174,6 +196,19 @@ div.nav__menu-list div a {
   }
   .nav__menu-bar div {
     height: 4px;
+  }
+  .mobile-menu-logo {
+    width: 100px;
+    margin-bottom: 5px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav__menu-list {
     position: fixed;
@@ -187,17 +222,9 @@ div.nav__menu-list div a {
     opacity: 0.95;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 0px;
-    img {
-      width: 100px;
-      margin-bottom: 5px;
-    }
   }
   .nav__menu-list.active {
     right: 0;
-    img {
-      width: 100px;
-      margin-bottom: 5px;
-    }
   }
   .nav__link {
     font-size: 26px;
@@ -208,14 +235,24 @@ div.nav__menu-list div a {
   .menu-sticker {
     display: none;
   }
+  .facebook-container,
+  .instagram-container {
+    width: 65px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
   .socials-container {
     position: fixed;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
-    img {
-      width: 65px;
-    }
     a:nth-child(2) {
       margin-left: 5px;
     }
@@ -227,6 +264,19 @@ div.nav__menu-list div a {
   }
   .nav__menu-bar div {
     height: 5px;
+  }
+  .mobile-menu-logo {
+    width: 200px;
+    margin-bottom: 35px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav__menu-list {
     position: fixed;
@@ -240,17 +290,9 @@ div.nav__menu-list div a {
     opacity: 0.95;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 0px;
-    img {
-      width: 200px;
-      margin-bottom: 35px;
-    }
   }
   .nav__menu-list.active {
     right: 0;
-    img {
-      width: 200px;
-      margin-bottom: 35px;
-    }
   }
   .nav__link {
     font-size: 65px;
@@ -261,15 +303,25 @@ div.nav__menu-list div a {
   .menu-sticker {
     display: none;
   }
+  .facebook-container,
+  .instagram-container {
+    width: 60px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
   .socials-container {
     position: fixed;
     // display: flex;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
-    img {
-      width: 60px;
-    }
     a:nth-child(2) {
       margin-left: 5px;
     }
@@ -281,6 +333,19 @@ div.nav__menu-list div a {
   }
   .nav__menu-bar div {
     height: 5px;
+  }
+  .mobile-menu-logo {
+    width: 175px;
+    margin-bottom: 30px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav__menu-list {
     position: fixed;
@@ -294,17 +359,9 @@ div.nav__menu-list div a {
     opacity: 0.95;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 0px;
-    img {
-      width: 175px;
-      margin-bottom: 30px;
-    }
   }
   .nav__menu-list.active {
     right: 0;
-    img {
-      width: 175px;
-      margin-bottom: 30px;
-    }
   }
   .nav__link {
     font-size: 55px;
@@ -329,6 +386,15 @@ div.nav__menu-list div a {
   }
   .menu-sticker {
     width: 110px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav__menu-list {
     position: unset;
@@ -344,20 +410,31 @@ div.nav__menu-list div a {
       transition: 400ms ease-in-out;
     }
   }
-  .socials-container {
-    position: absolute;
-    display: flex;
-    right: 0;
-    margin-right: 100px;
-    margin-top: 50px;
-    img {
-      width: 50px;
+
+  .facebook-container,
+  .instagram-container {
+    width: 50px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
       &:hover {
         transform: scale(1.1);
         opacity: 1;
         transition: 300ms ease-in-out;
       }
     }
+  }
+  .socials-container {
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
@@ -373,6 +450,15 @@ div.nav__menu-list div a {
   }
   .menu-sticker {
     width: 120px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .nav-container {
     position: absolute;
@@ -406,20 +492,31 @@ div.nav__menu-list div a {
     height: 6px;
     transition: all 0.2s;
   }
-  .socials-container {
-    position: absolute;
-    display: flex;
-    right: 0;
-    margin-right: 100px;
-    margin-top: 50px;
-    img {
-      width: 50px;
+
+  .facebook-container,
+  .instagram-container {
+    width: 50px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
       &:hover {
         transform: scale(1.1);
         opacity: 1;
         transition: 300ms ease-in-out;
       }
     }
+  }
+  .socials-container {
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }

@@ -71,6 +71,15 @@
         width: 14vw;
         margin: 0px 300px 55px 0px;
         transform: rotate(25deg);
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Mobile Landscape
@@ -118,6 +127,15 @@
         margin: 0px 115px 25px 0px;
         // z-index: 50;
         transform: rotate(25deg);
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Portrait
@@ -164,6 +182,15 @@
         width: 14vw;
         margin: 0px 90px 500px 0px;
         transform: rotate(25deg);
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Landscape
@@ -209,6 +236,15 @@
     .chaticon {
         width: 7vw;
         margin: 0px 175px 40px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop
@@ -253,6 +289,15 @@
     .chaticon {
         width: 7vw;
         margin: 0px 175px 40px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop Big
@@ -297,5 +342,14 @@
     .chaticon {
         width: 8vw;
         margin: 0px 175px 40px 0px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }

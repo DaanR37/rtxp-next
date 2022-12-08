@@ -45,19 +45,58 @@
   }
   .rtxplogo {
     width: 55vw;
+    // width: 55%;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
-    width: 27.5vw;
+    width: 30vw;
+    // width: 55%;
     top: 55%;
     transform: translate(-50%, -55%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 15vw;
+    // width: 15%;
     margin: 0px 0px 100px 55px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 15vw;
     margin: 0px 0px 150px 30px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }
 ///Mobile Landscape
@@ -66,20 +105,56 @@
     background-position: center;
   }
   .rtxplogo {
-    width: 35vw;
+    width: 32.5vw;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
     width: 16.5vw;
     top: 65%;
     transform: translate(-50%, -65%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 7vw;
     margin: 0px 0px 50px 70px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 7vw;
     margin: 0px 0px 80px 40px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }
 ///Tablet Portrait
@@ -89,19 +164,55 @@
   }
   .rtxplogo {
     width: 55vw;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
     width: 27.5vw;
     top: 57.5%;
     transform: translate(-50%, -57.5%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 12.5vw;
     margin: 0px 0px 100px 90px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 12.5vw;
     margin: 0px 0px 150px 50px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }
 ///Tablet Landscape
@@ -111,19 +222,55 @@
   }
   .rtxplogo {
     width: 40vw;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
     width: 18vw;
     top: 62.5%;
     transform: translate(-50%, -62.5%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 8vw;
     margin: 0px 0px 95px 95px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 8vw;
     margin: 0px 0px 145px 40px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }
 ///Desktop
@@ -133,19 +280,58 @@
   }
   .rtxplogo {
     width: 40vw;
+    // width: 40%;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
     width: 18vw;
+    // width: 18%;
     top: 67.5%;
     transform: translate(-50%, -67.5%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 9vw;
+    // width: 9%;
     margin: 0px 0px 60px 95px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 9vw;
     margin: 0px 0px 145px 40px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }
 ///Desktop Big
@@ -155,18 +341,54 @@
   }
   .rtxplogo {
     width: 35vw;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .ticketssticker {
     width: 16vw;
     top: 67.5%;
     transform: translate(-50%, -67.5%);
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .bluecross {
     width: 6.5vw;
     margin: 0px 0px 60px 110px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   .redarrows {
     width: 6.5vw;
     margin: 0px 0px 145px 60px;
+    > div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
 }

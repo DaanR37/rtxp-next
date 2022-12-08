@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import NavItem from "./NavItem";
 import { Socials } from "./Socials";
+import Image from "next/image";
 
 const MENU_LIST = [
   {
@@ -38,9 +39,13 @@ const NavBar = () => {
     <header>
       <div className="menu-sticker">
         <Link onClick={() => setActiveIdx(-1)} href={"/"}>
-          <picture>
-            <img src="/images/rtxp-menu-sticker.svg" alt="menu sticker" />
-          </picture>
+          <Image
+            src="/images/rtxp-menu-sticker.svg"
+            alt="menu sticker"
+            className="image"
+            width={250}
+            height={150}
+          />
         </Link>
       </div>
 
@@ -61,9 +66,13 @@ const NavBar = () => {
         >
           <div className="mobile-menu-logo">
             <Link onClick={() => setActiveIdx(-1)} href={"/"}>
-              <picture>
-                <img src="/images/rtxp-main-logo.svg" alt="rtxp logo" />
-              </picture>
+              <Image
+                src="/images/rtxp-main-logo.svg"
+                alt="rtxp logo"
+                className="image"
+                width={250}
+                height={150}
+              />
             </Link>
           </div>
           {MENU_LIST.map((menu, idx) => (

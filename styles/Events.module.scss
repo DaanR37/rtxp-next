@@ -17,10 +17,6 @@
 .banner3 {
     position: relative;
     font-family: "Atrament";
-    img {
-        position: absolute;
-        width: 100%;
-    }
     h1 {
         bottom: 0;
         text-transform: uppercase;
@@ -38,14 +34,6 @@
     position: absolute;
     bottom: 0;
 }
-///// WORDT VERVANGEN DOOR ANDERE STICKER!!!
-// .fragilesticker {
-//     position: absolute;
-//     width: 20vw;
-//     bottom: 0;
-//     right: 0;
-//     margin: 0px 40px 25px 0px;
-// }
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -68,6 +56,92 @@
         transform: translate(-50%, 3.5rem);
         // margin: 105px auto;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -88,21 +162,32 @@
             margin-top: 350px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 12.5px;
-        }
-    }
     .winesticker {
         width: 15vw;
         margin: 0px 0px 80px 95px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 15vw;
         margin: 0px 0px 150px 10px;
         z-index: 2;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Mobile Landscape
@@ -126,6 +211,92 @@
         // margin: 135px auto;
         z-index: 2;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -144,21 +315,32 @@
             margin-top: 275px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 10px;
-        }
-    }
     .winesticker {
         width: 8vw;
         margin: 0px 0px 40px 75px;
         z-index: 1;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 9vw;
         margin: 0px 0px 145px 30px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Portrait
@@ -177,6 +359,92 @@
         transform: translate(-50%, 3.5rem);
         // margin: 125px auto;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -197,21 +465,32 @@
             margin-top: 600px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 22.5px;
-        }
-    }
     .winesticker {
         width: 15vw;
         margin: 0px 0px 80px 95px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 15vw;
         margin: 0px 0px 150px 10px;
         z-index: 2;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Tablet Landscape
@@ -235,6 +514,92 @@
         // margin: 135px auto;
         z-index: 1;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -253,21 +618,32 @@
             margin-top: 300px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 12.5px;
-        }
-    }
     .winesticker {
         width: 9.25vw;
         margin: 0px 0px 80px 95px;
         z-index: 1;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 12.5vw;
         margin: 0px 0px 325px 40px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop
@@ -290,6 +666,92 @@
         transform: translate(-50%, 4rem);
         // margin: 135px auto;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -308,21 +770,32 @@
             margin-top: 300px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 12.5px;
-        }
-    }
     .winesticker {
         width: 10vw;
         margin: 0px 0px 80px 95px;
         z-index: 1;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 12.5vw;
         margin: 0px 0px 325px 40px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
 ///Desktop Big
@@ -345,6 +818,92 @@
         // height: auto;
         // margin: 135px auto;
     }
+
+    //// Banner 1
+    .bannercontainerone {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetone {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 2
+    .bannercontainertwo {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonettwo {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+    //// Banner 3
+    .bannercontainerthree {
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            // position: relative !important;
+            position: absolute;
+            height: unset !important;
+        }
+    }
+    .bannercontainermonetthree {
+        position: absolute;
+        padding: 12.5px;
+        width: 100%;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
     .banner1,
     .banner2,
     .banner3 {
@@ -363,20 +922,31 @@
             margin-top: 400px;
         }
     }
-    .paintingone,
-    .paintingtwo,
-    .paintingthree {
-        img {
-            padding: 12.5px;
-        }
-    }
     .winesticker {
         width: 8.5vw;
         margin: 0px 0px 80px 95px;
         z-index: 1;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
     .handsticker {
         width: 10.5vw;
         margin: 0px 0px 325px 40px;
+        > div {
+            position: unset !important;
+        }
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
     }
 }
