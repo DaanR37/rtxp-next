@@ -26,11 +26,12 @@ export default function Home() {
             className={styles.image}
             width={250}
             height={150}
+            priority={true}
           />
         </div>
         <div className={styles.ticketssticker}>
           <Image
-            src="/images/tickets-sticker.svg"
+            src="/images/tickets-sticker.jpg"
             alt="tickets sticker"
             className={styles.image}
             width={250}

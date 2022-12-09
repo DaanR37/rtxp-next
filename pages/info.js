@@ -116,6 +116,7 @@ const Info = () => {
                         className={styles.image}
                         width={350}
                         height={350}
+                        priority={true}
                     />
                 </div>
                 <div className={styles.chaticon}>
@@ -125,6 +126,7 @@ const Info = () => {
                         className={styles.image}
                         width={350}
                         height={350}
+                        priority={true}
                     />
                 </div>
             </section>

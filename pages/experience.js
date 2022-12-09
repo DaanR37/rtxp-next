@@ -18,8 +18,8 @@ const Experience = () => {
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
+                
                 <div className={styles.monetcontainer}>
-
                     <div className={styles.textcontainer}>
                         <h1>the experience</h1>
                         <p>
@@ -52,9 +52,9 @@ const Experience = () => {
                             className={styles.image}
                             width={350}
                             height={350}
+                            priority={true}
                         />
                     </div>
-
                 </div>
 
                 <div className={styles.redcircle}>
@@ -75,14 +75,6 @@ const Experience = () => {
                         height={150}
                     />
                 </div>
-                {/* <div className={styles.fragilesticker}>
-                <picture>
-                    <img
-                        src="/images/our-art-is-not-fragile.svg"
-                        alt="fragile sticker"
-                    />
-                </picture>
-            </div> */}
             </section>
         </>
     );

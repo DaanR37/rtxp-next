@@ -28,6 +28,7 @@ const Events = () => {
                                 className={styles.image}
                                 width={350}
                                 height={350}
+                                priority={true}
                             />
                         </div>
                         <div className={styles.bannercontainermonetone}>
@@ -48,7 +49,6 @@ const Events = () => {
                             suscipit lobortis nisl ut aliquip ex ea
                             commodo consequat.</p>
                     </div>
-
                     <div className={styles.banner2}>
                         <div className={styles.bannercontainertwo}>
                             <Image
@@ -57,6 +57,7 @@ const Events = () => {
                                 className={styles.image}
                                 width={350}
                                 height={350}
+                                priority={true}
                             />
                         </div>
                         <div className={styles.bannercontainermonettwo}>
@@ -77,7 +78,6 @@ const Events = () => {
                             suscipit lobortis nisl ut aliquip ex ea
                             commodo consequat.</p>
                     </div>
-
                     <div className={styles.banner3}>
                         <div className={styles.bannercontainerthree}>
                             <Image
@@ -86,6 +86,7 @@ const Events = () => {
                                 className={styles.image}
                                 width={350}
                                 height={350}
+                                priority={true}
                             />
                         </div>
                         <div className={styles.bannercontainermonetthree}>
@@ -126,14 +127,6 @@ const Events = () => {
                         height={350}
                     />
                 </div>
-                {/* <div className={styles.fragilesticker}>
-                <picture>
-                    <img
-                        src="/images/our-art-is-not-fragile.svg"
-                        alt="fragile sticker"
-                    />
-                </picture>
-            </div> */}
             </section>
         </>
     );

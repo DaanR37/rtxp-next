@@ -59,6 +59,7 @@ const Shop = () => {
                         className={styles.image}
                         width={350}
                         height={350}
+                        priority={true}
                     />
                 </div>
             </section>

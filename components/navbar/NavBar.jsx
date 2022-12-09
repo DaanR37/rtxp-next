@@ -45,6 +45,7 @@ const NavBar = () => {
             className="image"
             width={250}
             height={150}
+            priority={true}
           />
         </Link>
       </div>
@@ -65,13 +66,19 @@ const NavBar = () => {
         nav__menu-list`}
         >
           <div className="mobile-menu-logo">
-            <Link onClick={() => setActiveIdx(-1)} href={"/"}>
+            <Link
+              onClick={(idx) => {
+                setActiveIdx(idx), setNavActive(false);
+              }}
+              href={"/"}
+            >
               <Image
                 src="/images/rtxp-main-logo.svg"
                 alt="rtxp logo"
                 className="image"
                 width={250}
                 height={150}
+                priority={true}
               />
             </Link>
           </div>

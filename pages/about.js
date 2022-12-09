@@ -72,6 +72,7 @@ const About = () => {
                             className={styles.image}
                             width={350}
                             height={350}
+                            priority={true}
                         />
                     </div>
                 </div>

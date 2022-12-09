@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  // overflow-y: hidden; //// OPTIONEEL
+  // overflow-y: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,11 +45,10 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  row-gap: 6px;
 }
 .nav__menu-bar div {
-  width: 40px;
-  background-color: black;
+  background-color: #e2a937;
+  // border: 0.5px solid black;
   border-radius: 2px;
   transition: all 0.3s;
 }
@@ -77,21 +76,6 @@ div.nav__menu-list div a {
   display: flex;
   top: 0;
   z-index: 10000;
-}
-/// HAMBURGER ANIMATION ON CLICK
-.nav__menu-bar.active div:nth-child(1) {
-  transform: translateY(20px) rotate(45deg);
-}
-.nav__menu-bar.active div:nth-child(2) {
-  opacity: 0;
-  transform: translateX(20px);
-}
-.nav__menu-bar.active div:nth-child(3) {
-  transform: rotate(-45deg);
-}
-.nav__menu-bar.active div:nth-child(2) {
-  transform: scale(0);
-  opacity: 0;
 }
 
 ///Mobile Portrait NavBar
@@ -123,11 +107,15 @@ div.nav__menu-list div a {
   }
   .nav-container {
     position: fixed;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-right: 25px;
   }
+  .nav__menu-bar {
+    row-gap: 5px;
+  }
   .nav__menu-bar div {
-    height: 4px;
+    width: 32.5px;
+    height: 3px;
   }
   .mobile-menu-logo {
     width: 100px;
@@ -160,6 +148,21 @@ div.nav__menu-list div a {
   }
   .nav__link {
     font-size: 40px;
+  }
+  /// HAMBURGER ANIMATION ON CLICK
+  .nav__menu-bar.active div:nth-child(1) {
+    transform: translateY(16px) rotate(45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  .nav__menu-bar.active div:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    transform: scale(0);
+    opacity: 0;
   }
 }
 ///Mobile Landscape NavBar
@@ -194,7 +197,11 @@ div.nav__menu-list div a {
     margin-top: 25px;
     margin-right: 25px;
   }
+  .nav__menu-bar {
+    row-gap: 6px;
+  }
   .nav__menu-bar div {
+    width: 40px;
     height: 4px;
   }
   .mobile-menu-logo {
@@ -229,6 +236,21 @@ div.nav__menu-list div a {
   .nav__link {
     font-size: 26px;
   }
+  /// HAMBURGER ANIMATION ON CLICK
+  .nav__menu-bar.active div:nth-child(1) {
+    transform: translateY(20px) rotate(45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  .nav__menu-bar.active div:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    transform: scale(0);
+    opacity: 0;
+  }
 }
 ///Tablet Portrait NavBar
 @media screen and (min-width: 600px) and (orientation: portrait) {
@@ -262,7 +284,11 @@ div.nav__menu-list div a {
     margin-top: 35px;
     margin-right: 35px;
   }
+  .nav__menu-bar {
+    row-gap: 6px;
+  }
   .nav__menu-bar div {
+    width: 40px;
     height: 5px;
   }
   .mobile-menu-logo {
@@ -296,6 +322,21 @@ div.nav__menu-list div a {
   }
   .nav__link {
     font-size: 65px;
+  }
+  /// HAMBURGER ANIMATION ON CLICK
+  .nav__menu-bar.active div:nth-child(1) {
+    transform: translateY(22px) rotate(45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  .nav__menu-bar.active div:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    transform: scale(0);
+    opacity: 0;
   }
 }
 ///Tablet Landscape NavBar
@@ -331,7 +372,11 @@ div.nav__menu-list div a {
     margin-top: 35px;
     margin-right: 35px;
   }
+  .nav__menu-bar {
+    row-gap: 6px;
+  }
   .nav__menu-bar div {
+    width: 40px;
     height: 5px;
   }
   .mobile-menu-logo {
@@ -365,6 +410,21 @@ div.nav__menu-list div a {
   }
   .nav__link {
     font-size: 55px;
+  }
+  /// HAMBURGER ANIMATION ON CLICK
+  .nav__menu-bar.active div:nth-child(1) {
+    transform: translateY(22px) rotate(45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  .nav__menu-bar.active div:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .nav__menu-bar.active div:nth-child(2) {
+    transform: scale(0);
+    opacity: 0;
   }
 }
 ///Desktop NavBar

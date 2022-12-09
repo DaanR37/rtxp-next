@@ -46,7 +46,7 @@
         // transform: rotateX(180deg);
     }
     .slidercontainer {
-        position: absolute; /// was relative
+        position: absolute;
         flex-direction: column;
         align-items: center;
         width: 88vw;
@@ -73,7 +73,7 @@
     }
     .bannercontainermonetone {
         position: absolute;
-        padding: 12.5px;
+        padding: 15px;
         width: 100%;
         > div {
             position: unset !important;
@@ -101,7 +101,7 @@
     }
     .bannercontainermonettwo {
         position: absolute;
-        padding: 12.5px;
+        padding: 15px;
         width: 100%;
         > div {
             position: unset !important;
@@ -129,7 +129,7 @@
     }
     .bannercontainermonetthree {
         position: absolute;
-        padding: 12.5px;
+        padding: 15px;
         width: 100%;
         > div {
             position: unset !important;
@@ -151,15 +151,15 @@
         z-index: 1;
         h1 {
             position: absolute;
-            font-size: 27px;
-            padding: 12.5px;
-            margin-bottom: 235px;
+            font-size: 30px;
+            padding: 15px;
+            margin-bottom: 200px;
         }
         p {
             position: relative;
-            font-size: 21px;
-            padding: 12.5px;
-            margin-top: 350px;
+            font-size: 17px;
+            padding: 15px;
+            margin-top: 385px;
         }
     }
     .winesticker {
