@@ -3,10 +3,15 @@ import Image from 'next/image';
 import Form from '../components/Form';
 import styles from '../styles/Shop.module.scss';
 
+import Pixel from '../components/pixel';
+
+
 const Shop = () => {
 
     return (
         <>
+
+            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Contact Form</title>
                 <meta name="keywords" content="shop page rtxp" />

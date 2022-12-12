@@ -7,10 +7,8 @@ import Pixel from '../components/pixel';
 export default function Home() {
   return (
     <>
-    
-      <div>
-        <Pixel name='FaceBookPixel' />
-      </div>
+
+      <Pixel name='FaceBookPixel' />
 
       <Head>
         <title>RTXP - Home</title>

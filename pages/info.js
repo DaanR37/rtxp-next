@@ -5,10 +5,15 @@ import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
 import styles from '../styles/Info.module.scss';
 
+import Pixel from '../components/pixel';
+
+
 const Info = () => {
 
     return (
         <>
+
+            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Info & FAQ</title>
                 <meta name="keywords" content="info page rtxp" />

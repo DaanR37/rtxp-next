@@ -2,9 +2,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/About.module.scss';
 
+import Pixel from '../components/pixel';
+
+
 const About = () => {
     return (
         <>
+
+            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - About</title>
                 <meta name="keywords" content="contact page rtxp" />

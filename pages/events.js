@@ -2,9 +2,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Events.module.scss';
 
+import Pixel from '../components/pixel';
+
+
 const Events = () => {
     return (
         <>
+
+            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Events</title>
                 <meta name="keywords" content="events page rtxp" />
