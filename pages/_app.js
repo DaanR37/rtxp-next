@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-
 import Head from 'next/head'
 import Layout from '../components/Layout';
 import '../styles/globals.scss';
