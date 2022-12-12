@@ -9,7 +9,7 @@ export default function Home() {
     <>
     
       <div>
-        {/* <Pixel name='FaceBookPixel' /> */}
+        <Pixel name='FaceBookPixel' />
       </div>
 
       <Head>
