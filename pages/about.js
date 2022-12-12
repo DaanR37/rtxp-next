@@ -2,13 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/About.module.scss';
 
-import Pixel from '../components/pixel';
-
 
 const About = () => {
     return (
         <>
-
             <Head>
                 <title>RTXP - About</title>
                 <meta name="keywords" content="contact page rtxp" />
@@ -19,8 +16,6 @@ const About = () => {
             </Head>
 
             <section className={styles.aboutcontainer}>
-                <Pixel name='FaceBookPixel' />
-
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-hp.jpg)"
                 }}></div>
@@ -102,14 +97,6 @@ const About = () => {
                         height={350}
                     />
                 </div>
-                {/* <div className={styles.fragilestickerabout}>
-                <picture>
-                    <img
-                        src="images/our-art-is-not-fragile.svg"
-                        alt="fragile sticker"
-                    />
-                </picture>
-            </div> */}
             </section>
         </>
     );

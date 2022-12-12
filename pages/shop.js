@@ -3,14 +3,11 @@ import Image from 'next/image';
 import Form from '../components/Form';
 import styles from '../styles/Shop.module.scss';
 
-import Pixel from '../components/pixel';
-
 
 const Shop = () => {
 
     return (
         <>
-
             <Head>
                 <title>RTXP - Contact Form</title>
                 <meta name="keywords" content="shop page rtxp" />
@@ -21,12 +18,9 @@ const Shop = () => {
             </Head>
 
             <section className={styles.shopcontainer}>
-                <Pixel name='FaceBookPixel' />
-
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
-
                 <div className={styles.shopitemscontainer}>
                     <div className={styles.textcontainer}>
                         <h1>shop</h1>
@@ -57,7 +51,6 @@ const Shop = () => {
                         <Form />
                     </div>
                 </div>
-
                 <div className={styles.chaticon}>
                     <Image
                         src="/images/chat-icon.svg"

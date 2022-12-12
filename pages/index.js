@@ -2,12 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
-import Pixel from '../components/pixel';
 
 export default function Home() {
   return (
     <>
-
       <Head>
         <title>RTXP - Home</title>
         <meta name="keywords" content="home page rtxp" />
@@ -18,8 +16,6 @@ export default function Home() {
       </Head>
 
       <section className={styles.homepagecontainer}>
-        <Pixel name='FaceBookPixel' />
-
         <div className={styles.backgroundimage} style={{
           backgroundImage: "url(/images/background-image-hp.jpg)"
         }}></div>
@@ -61,14 +57,6 @@ export default function Home() {
             height={125}
           />
         </div>
-        {/* <div className={styles.fragilesticker}>
-        <picture>
-          <img
-            src="/images/our-art-is-not-fragile.svg"
-            alt="fragile sticker"
-          />
-        </picture>
-      </div> */}
       </section>
     </>
   )

@@ -5,14 +5,11 @@ import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
 import styles from '../styles/Info.module.scss';
 
-import Pixel from '../components/pixel';
-
 
 const Info = () => {
 
     return (
         <>
-
             <Head>
                 <title>RTXP - Info & FAQ</title>
                 <meta name="keywords" content="info page rtxp" />
@@ -23,8 +20,6 @@ const Info = () => {
             </Head>
 
             <section className={styles.infocontainer}>
-                <Pixel name='FaceBookPixel' />
-
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(images/background-image-hp.jpg)"
                 }}></div>

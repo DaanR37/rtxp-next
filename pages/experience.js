@@ -2,14 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Experience.module.scss';
 
-import Pixel from '../components/pixel';
-
 
 const Experience = () => {
     return (
         <>
-
-
             <Head>
                 <title>RTXP - Experience</title>
                 <meta name="keywords" content="experience page rtxp" />
@@ -20,12 +16,9 @@ const Experience = () => {
             </Head>
 
             <section className={styles.experiencecontainer}>
-                <Pixel name='FaceBookPixel' />
-
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
-
                 <div className={styles.monetcontainer}>
                     <div className={styles.textcontainer}>
                         <h1>the experience</h1>
@@ -63,7 +56,6 @@ const Experience = () => {
                         />
                     </div>
                 </div>
-
                 <div className={styles.redcircle}>
                     <Image
                         src="/images/red-circle-icon.svg"

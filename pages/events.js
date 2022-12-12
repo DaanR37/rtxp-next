@@ -2,13 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Events.module.scss';
 
-import Pixel from '../components/pixel';
-
 
 const Events = () => {
     return (
         <>
-
             <Head>
                 <title>RTXP - Events</title>
                 <meta name="keywords" content="events page rtxp" />
@@ -19,8 +16,6 @@ const Events = () => {
             </Head>
 
             <section className={styles.eventscontainer}>
-                <Pixel name='FaceBookPixel' />
-
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
@@ -114,7 +109,6 @@ const Events = () => {
                             commodo consequat.</p>
                     </div>
                 </div>
-
                 <div className={styles.winesticker}>
                     <Image
                         src="/images/events-wine.svg"
