@@ -8,8 +8,6 @@ export default function Home() {
   return (
     <>
 
-      <Pixel name='FaceBookPixel' />
-
       <Head>
         <title>RTXP - Home</title>
         <meta name="keywords" content="home page rtxp" />
@@ -17,10 +15,11 @@ export default function Home() {
         <meta property="og:title" content="Home Page RTXP" />
         <meta property="og:url" content="https://www.rtxp.nl/" />
         <link rel="icon" href="/favicon.ico" />
-        <Pixel name='FaceBookPixel' />
       </Head>
 
       <section className={styles.homepagecontainer}>
+        <Pixel name='FaceBookPixel' />
+
         <div className={styles.backgroundimage} style={{
           backgroundImage: "url(/images/background-image-hp.jpg)"
         }}></div>

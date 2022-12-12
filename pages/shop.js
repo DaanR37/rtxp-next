@@ -11,7 +11,6 @@ const Shop = () => {
     return (
         <>
 
-            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Contact Form</title>
                 <meta name="keywords" content="shop page rtxp" />
@@ -22,6 +21,8 @@ const Shop = () => {
             </Head>
 
             <section className={styles.shopcontainer}>
+                <Pixel name='FaceBookPixel' />
+
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>

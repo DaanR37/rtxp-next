@@ -9,7 +9,6 @@ const Events = () => {
     return (
         <>
 
-            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Events</title>
                 <meta name="keywords" content="events page rtxp" />
@@ -20,6 +19,8 @@ const Events = () => {
             </Head>
 
             <section className={styles.eventscontainer}>
+                <Pixel name='FaceBookPixel' />
+
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>

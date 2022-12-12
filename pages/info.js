@@ -13,7 +13,6 @@ const Info = () => {
     return (
         <>
 
-            <Pixel name='FaceBookPixel' />
             <Head>
                 <title>RTXP - Info & FAQ</title>
                 <meta name="keywords" content="info page rtxp" />
@@ -24,6 +23,8 @@ const Info = () => {
             </Head>
 
             <section className={styles.infocontainer}>
+                <Pixel name='FaceBookPixel' />
+
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(images/background-image-hp.jpg)"
                 }}></div>

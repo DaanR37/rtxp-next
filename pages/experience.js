@@ -9,7 +9,6 @@ const Experience = () => {
     return (
         <>
 
-            <Pixel name='FaceBookPixel' />
 
             <Head>
                 <title>RTXP - Experience</title>
@@ -21,6 +20,8 @@ const Experience = () => {
             </Head>
 
             <section className={styles.experiencecontainer}>
+                <Pixel name='FaceBookPixel' />
+
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
