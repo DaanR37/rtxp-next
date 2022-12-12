@@ -2,9 +2,16 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
+import Pixel from '../components/pixel';
+
 export default function Home() {
   return (
     <>
+    
+      <div>
+        {/* <Pixel name='FaceBookPixel' /> */}
+      </div>
+
       <Head>
         <title>RTXP - Home</title>
         <meta name="keywords" content="home page rtxp" />
@@ -12,6 +19,7 @@ export default function Home() {
         <meta property="og:title" content="Home Page RTXP" />
         <meta property="og:url" content="https://www.rtxp.nl/" />
         <link rel="icon" href="/favicon.ico" />
+        <Pixel name='FaceBookPixel' />
       </Head>
 
       <section className={styles.homepagecontainer}>
@@ -48,13 +56,13 @@ export default function Home() {
           />
         </div>
         <div className={styles.redarrows}>
-            <Image
-              src="/images/red-arrows-icon.svg"
-              alt="red arrows"
-              className={styles.image}
-              width={250}
-              height={125}
-            />
+          <Image
+            src="/images/red-arrows-icon.svg"
+            alt="red arrows"
+            className={styles.image}
+            width={250}
+            height={125}
+          />
         </div>
         {/* <div className={styles.fragilesticker}>
         <picture>
