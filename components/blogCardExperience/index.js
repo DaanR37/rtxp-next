@@ -1,4 +1,3 @@
-import styles from "./BlogCardExperience.module.scss";
 
 const BlogCardExperience = (props) => {
 
@@ -7,11 +6,11 @@ const BlogCardExperience = (props) => {
     const { title, description } = blogPostExperience;
 
     return (
-        <div className={styles.textcontainer}>
-            <div className={styles.title}>
+        <div className="textcontainer">
+            <div className="title">
                 <h1>{title}</h1>
             </div>
-            <div className={styles.description}>
+            <div className="description">
                 <span>{description}</span>
             </div>
         </div>

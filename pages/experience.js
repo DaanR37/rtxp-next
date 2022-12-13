@@ -5,7 +5,7 @@ import styles from '../styles/Experience.module.scss';
 import { useRouter } from "next/router";
 
 import blogPostExperience from "./assets/postexperience.json";
-import BlogCardExperience from './components/blogCardExperience';
+import BlogCardExperience from '../components/blogCardExperience/index';
 
 const Experience = () => {
 

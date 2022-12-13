@@ -15,6 +15,7 @@
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.9",
+    "i18n": "^0.15.1",
     "next": "^13.0.4",
     "node": "^16.18.1",
     "prop-types": "^15.8.1",

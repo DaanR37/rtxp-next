@@ -522,6 +522,21 @@ div.nav__menu-list div a {
     color: white;
     border-radius: 5px;
   }
+  .textcontainer {
+    width: 45vw;
+    max-width: 330px;
+    margin: 5px;
+    padding: 20px;
+    font-family: "Atrament";
+    text-align: justify;
+  }
+  .title h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description {
+    font-size: 17px;
+  }
 }
 ///Desktop Big NavBar
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
