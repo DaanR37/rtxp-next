@@ -4,6 +4,8 @@ import NavItem from "./NavItem";
 import { Socials } from "./Socials";
 import Image from "next/image";
 
+import { useRouter } from "next/router";
+
 const MENU_LIST = [
   {
     text: "the experience",
@@ -32,6 +34,8 @@ const MENU_LIST = [
 ];
 
 const NavBar = () => {
+  const { locale, locales, asPath } = useRouter();
+
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
 
@@ -95,6 +99,19 @@ const NavBar = () => {
           ))}
         </div>
       </nav>
+
+      <div className="navbar-i18">
+        {locales.map((l, i) => {
+          return (
+            <span key={i} className={l === locale ? "selected" : ""}>
+              <Link href={asPath} locale={l}>
+                {l}
+              </Link>
+            </span>
+          );
+        })}
+      </div>
+
       <div className="socials-icons">
         <Socials />
       </div>

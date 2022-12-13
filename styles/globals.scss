@@ -470,7 +470,6 @@ div.nav__menu-list div a {
       transition: 400ms ease-in-out;
     }
   }
-
   .facebook-container,
   .instagram-container {
     width: 50px;
@@ -493,11 +492,35 @@ div.nav__menu-list div a {
     position: absolute;
     display: flex;
     right: 0;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
+  }
+  /// Styling MultiLanguage i18n
+  .navbar-i18 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 170px;
+    margin-top: 60px;
+    // margin: 5px 5px 5px 5px;
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    // width: 40px;
+    color: white;
+    border-radius: 5px;
   }
 }
 ///Desktop Big NavBar

@@ -2,8 +2,15 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Experience.module.scss';
 
+import { useRouter } from "next/router";
+
+import blogPostExperience from "./assets/postexperience.json";
+import BlogCardExperience from './components/blogCardExperience';
 
 const Experience = () => {
+
+    const { locale } = useRouter();
+
     return (
         <>
             <Head>
@@ -19,9 +26,19 @@ const Experience = () => {
                 <div className={styles.backgroundimage} style={{
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
+
                 <div className={styles.monetcontainer}>
-                    <div className={styles.textcontainer}>
-                        <h1>the experience</h1>
+
+                    <div>
+                        {blogPostExperience.postexperience
+                            .filter((p) => p.locale === locale)
+                            .map((blogPostExperience, i) => {
+                                return <BlogCardExperience key={i} blogPostExperience={blogPostExperience} />
+                            })}
+                    </div>
+
+                    {/* <div className={styles.textcontainer}> */}
+                    {/* <h1>the experience</h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry.
@@ -43,8 +60,10 @@ const Experience = () => {
                             content here, making it look like readable English.
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry.
-                        </p>
-                    </div>
+                        </p> */}
+                    {/* </div> */}
+
+
                     <div className={styles.imagecontainer}>
                         <Image
                             src="/images/monet.jpg"
@@ -75,6 +94,7 @@ const Experience = () => {
                     />
                 </div>
             </section>
+
         </>
     );
 }

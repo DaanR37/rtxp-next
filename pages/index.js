@@ -14,7 +14,6 @@ export default function Home() {
         <meta property="og:url" content="https://www.rtxp.nl/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <section className={styles.homepagecontainer}>
         <div className={styles.backgroundimage} style={{
           backgroundImage: "url(/images/background-image-hp.jpg)"
