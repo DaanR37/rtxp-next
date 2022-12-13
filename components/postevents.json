@@ -1,0 +1,14 @@
+{
+  "postevents": [
+    {
+      "locale": "NL",
+      "title": "Monet bij <i>nacht</i>",
+      "description": "Heel veel mooie werken van verschillende kunstenaars. Leer, geniet, proef en observeer. Het impressionisme is een kunststroming, ontstaan vanuit de schilderkunst. Typerende kenmerken van het impressionisme zijn de gerichtheid op de beleving van het moment."
+    },
+    {
+      "locale": "ENG",
+      "title": "Monet by <i>night</i>",
+      "description": "Lots of beautiful works by different artists. Learn, enjoy, taste and observe. Impressionism is an art movement that originated from painting. Typical features of Impressionism are the focus on the experience of the moment."
+    }
+  ]
+}

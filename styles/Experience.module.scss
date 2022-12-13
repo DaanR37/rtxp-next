@@ -17,12 +17,12 @@
     // position: absolute;
     font-family: "Atrament";
     text-align: justify;
-    h1 {
-        text-transform: uppercase;
-    }
-    p {
-        margin: 0;
-    }
+    // h1 {
+    //     text-transform: uppercase;
+    // }
+    // p {
+    //     margin: 0;
+    // }
 }
 .redcircle {
     position: absolute;
@@ -352,19 +352,19 @@
         transform: translate(-50%, 4rem);
         // margin: 125px auto;
     }
-    // .textcontainer {
-    //     width: 45vw;
-    //     max-width: 330px;
-    //     margin: 5px;
-    //     padding: 20px;
-    //     h1 {
-    //         font-size: 32px;
-    //         margin: 0px 0px 5px 0px;
-    //     }
-    //     p {
-    //         font-size: 17px;
-    //     }
-    // }
+    .textcontainer {
+        width: 45vw;
+        max-width: 330px;
+        margin: 5px;
+        padding: 20px;
+        // h1 {
+        //     font-size: 32px;
+        //     margin: 0px 0px 5px 0px;
+        // }
+        // p {
+        //     font-size: 17px;
+        // }
+    }
     .imagecontainer {
         width: 600px;
         padding: 15px;

@@ -4,8 +4,6 @@ import styles from '../styles/Experience.module.scss';
 
 import { useRouter } from "next/router";
 
-// import blogPostExperience from "./assets/postexperience.json";
-// import blogPostExperience from "../asset/postexperience.json;"
 import blogPostExperience from "../components/postexperience.json";
 import BlogCardExperience from '../components/blogCardExperience/index';
 
@@ -31,7 +29,7 @@ const Experience = () => {
 
                 <div className={styles.monetcontainer}>
 
-                    <div>
+                    <div className={styles.textcontainer}>
                         {blogPostExperience.postexperience
                             .filter((p) => p.locale === locale)
                             .map((blogPostExperience, i) => {
@@ -39,8 +37,8 @@ const Experience = () => {
                             })}
                     </div>
 
-                    {/* <div className={styles.textcontainer}> */}
-                    {/* <h1>the experience</h1>
+                    {/* <div className={styles.textcontainer}>
+                        <h1>the experience</h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry.
@@ -62,9 +60,8 @@ const Experience = () => {
                             content here, making it look like readable English.
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry.
-                        </p> */}
-                    {/* </div> */}
-
+                        </p>
+                    </div> */}
 
                     <div className={styles.imagecontainer}>
                         <Image

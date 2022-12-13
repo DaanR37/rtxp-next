@@ -98,9 +98,20 @@ const NavBar = () => {
             </div>
           ))}
         </div>
+        <div className="navbar-i18">
+          {locales.map((l, i) => {
+            return (
+              <span key={i} className={l === locale ? "selected" : ""}>
+                <Link href={asPath} locale={l}>
+                  {l}
+                </Link>
+              </span>
+            );
+          })}
+        </div>
       </nav>
 
-      <div className="navbar-i18">
+      {/* <div className="navbar-i18">
         {locales.map((l, i) => {
           return (
             <span key={i} className={l === locale ? "selected" : ""}>
@@ -110,7 +121,7 @@ const NavBar = () => {
             </span>
           );
         })}
-      </div>
+      </div> */}
 
       <div className="socials-icons">
         <Socials />

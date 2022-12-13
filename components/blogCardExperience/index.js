@@ -6,11 +6,11 @@ const BlogCardExperience = (props) => {
     const { title, description } = blogPostExperience;
 
     return (
-        <div className="textcontainer">
-            <div className="title">
+        <div>
+            <div className="title experience">
                 <h1>{title}</h1>
             </div>
-            <div className="description">
+            <div className="description experience">
                 <span>{description}</span>
             </div>
         </div>

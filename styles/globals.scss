@@ -21,7 +21,7 @@ a {
   font-family: "Atrament";
   src: url("../asset/Atrament/Atrament.ttf") format("truetype");
 }
-//// Algemene CSS voor NavBar
+/* Algemene CSS voor NavBar */
 .nav-container {
   right: 0;
   top: 0;
@@ -85,7 +85,7 @@ div.nav__menu-list div a {
   }
   .facebook-container,
   .instagram-container {
-    width: 50px;
+    width: 40px;
     > div {
       position: unset !important;
     }
@@ -107,6 +107,7 @@ div.nav__menu-list div a {
   }
   .nav-container {
     position: fixed;
+    display: flex;
     margin-top: 30px;
     margin-right: 25px;
   }
@@ -149,7 +150,7 @@ div.nav__menu-list div a {
   .nav__link {
     font-size: 40px;
   }
-  /// HAMBURGER ANIMATION ON CLICK
+  /* HAMBURGER ANIMATION ON CLICK */
   .nav__menu-bar.active div:nth-child(1) {
     transform: translateY(16px) rotate(45deg);
   }
@@ -164,6 +165,26 @@ div.nav__menu-list div a {
     transform: scale(0);
     opacity: 0;
   }
+  /* Styling MultiLanguage i18n */
+  .navbar-i18 {
+    position: fixed; /// was absolute
+    // display: flex;
+    // margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    color: white;
+    border-radius: 5px;
+  }
 }
 ///Mobile Landscape NavBar
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
@@ -172,7 +193,7 @@ div.nav__menu-list div a {
   }
   .facebook-container,
   .instagram-container {
-    width: 50px;
+    width: 40px;
     > div {
       position: unset !important;
     }
@@ -194,6 +215,7 @@ div.nav__menu-list div a {
   }
   .nav-container {
     position: fixed;
+    display: flex;
     margin-top: 25px;
     margin-right: 25px;
   }
@@ -251,6 +273,26 @@ div.nav__menu-list div a {
     transform: scale(0);
     opacity: 0;
   }
+  /* Styling MultiLanguage i18n */
+  .navbar-i18 {
+    position: fixed; /// was absolute
+    // display: flex;
+    // margin-top: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    color: white;
+    border-radius: 5px;
+  }
 }
 ///Tablet Portrait NavBar
 @media screen and (min-width: 600px) and (orientation: portrait) {
@@ -259,7 +301,7 @@ div.nav__menu-list div a {
   }
   .facebook-container,
   .instagram-container {
-    width: 65px;
+    width: 55px;
     > div {
       position: unset !important;
     }
@@ -281,6 +323,7 @@ div.nav__menu-list div a {
   }
   .nav-container {
     position: fixed;
+    display: flex;
     margin-top: 35px;
     margin-right: 35px;
   }
@@ -338,6 +381,26 @@ div.nav__menu-list div a {
     transform: scale(0);
     opacity: 0;
   }
+  /* Styling MultiLanguage i18n */
+  .navbar-i18 {
+    position: fixed; /// was absolute
+    // display: flex;
+    // margin-top: 35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    color: white;
+    border-radius: 5px;
+  }
 }
 ///Tablet Landscape NavBar
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
@@ -346,7 +409,7 @@ div.nav__menu-list div a {
   }
   .facebook-container,
   .instagram-container {
-    width: 60px;
+    width: 50px;
     > div {
       position: unset !important;
     }
@@ -369,6 +432,7 @@ div.nav__menu-list div a {
   }
   .nav-container {
     position: fixed;
+    display: flex;
     margin-top: 35px;
     margin-right: 35px;
   }
@@ -425,6 +489,26 @@ div.nav__menu-list div a {
   .nav__menu-bar.active div:nth-child(2) {
     transform: scale(0);
     opacity: 0;
+  }
+  /* Styling MultiLanguage i18n */
+  .navbar-i18 {
+    position: fixed; /// was absolute
+    // display: flex;
+    // margin-top: 35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    color: white;
+    border-radius: 5px;
   }
 }
 ///Desktop NavBar
@@ -498,15 +582,15 @@ div.nav__menu-list div a {
       margin-right: 5px;
     }
   }
-  /// Styling MultiLanguage i18n
+  /* Styling MultiLanguage i18n */
   .navbar-i18 {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     right: 0;
-    margin-right: 170px;
-    margin-top: 60px;
+    margin-right: 175px;
+    // margin-top: 60px;
     // margin: 5px 5px 5px 5px;
     z-index: 1000000;
   }
@@ -521,21 +605,6 @@ div.nav__menu-list div a {
     // width: 40px;
     color: white;
     border-radius: 5px;
-  }
-  .textcontainer {
-    width: 45vw;
-    max-width: 330px;
-    margin: 5px;
-    padding: 20px;
-    font-family: "Atrament";
-    text-align: justify;
-  }
-  .title h1 {
-    font-size: 32px;
-    margin: 0px 0px 5px 0px;
-  }
-  .description {
-    font-size: 17px;
   }
 }
 ///Desktop Big NavBar
@@ -618,6 +687,30 @@ div.nav__menu-list div a {
     a:nth-child(1) {
       margin-right: 5px;
     }
+  }
+  /* Styling MultiLanguage i18n */
+  .navbar-i18 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 270px;
+    // margin-top: 60px;
+    // margin: 5px 5px 5px 5px;
+    z-index: 1000000;
+  }
+  .navbar-i18 span {
+    // margin-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar-i18 .selected {
+    background-color: #ff70db;
+    // width: 40px;
+    color: white;
+    border-radius: 5px;
   }
 }
 
@@ -1166,5 +1259,40 @@ div.nav__menu-list div a {
       opacity: 1;
       transition: all 400ms;
     }
+  }
+}
+
+///// BREAK
+
+/* Algemene css voor JSON files */
+.title {
+  text-transform: uppercase;
+}
+/* Desktop JSON files */
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 28px;
+    padding: 12.5px;
+    margin-bottom: 27.5px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+    padding: 12.5px;
+    margin-top: 300px;
+    bottom: 0;
   }
 }

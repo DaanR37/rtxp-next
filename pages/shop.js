@@ -3,8 +3,15 @@ import Image from 'next/image';
 import Form from '../components/Form';
 import styles from '../styles/Shop.module.scss';
 
+import { useRouter } from 'next/router';
+
+import blogPostShop from '../components/postshop.json';
+import BlogCardShop from '../components/blogCardShop/index';
+
 
 const Shop = () => {
+
+    const { locale } = useRouter();
 
     return (
         <>
@@ -22,7 +29,16 @@ const Shop = () => {
                     backgroundImage: "url(/images/background-image-exp.jpg)"
                 }}></div>
                 <div className={styles.shopitemscontainer}>
+
                     <div className={styles.textcontainer}>
+                        {blogPostShop.postshop
+                            .filter((p) => p.locale === locale)
+                            .map((blogPostShop, i) => {
+                                return <BlogCardShop key={i} blogPostShop={blogPostShop} />
+                            })}
+                    </div>
+
+                    {/* <div className={styles.textcontainer}>
                         <h1>shop</h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the
@@ -46,7 +62,8 @@ const Shop = () => {
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry.
                         </p>
-                    </div>
+                    </div> */}
+
                     <div className={styles.formcontainer}>
                         <Form />
                     </div>

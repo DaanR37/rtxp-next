@@ -17,14 +17,14 @@
 .banner3 {
     position: relative;
     font-family: "Atrament";
-    h1 {
-        bottom: 0;
-        text-transform: uppercase;
-    }
-    p {
-        text-align: justify;
-        bottom: 0;
-    }
+    // h1 {
+    //     bottom: 0;
+    //     text-transform: uppercase;
+    // }
+    // p {
+    //     text-align: justify;
+    //     bottom: 0;
+    // }
 }
 .winesticker {
     position: absolute;
@@ -757,18 +757,18 @@
     .banner3 {
         width: 300px;
         height: 350px;
-        h1 {
-            position: absolute;
-            font-size: 28px;
-            padding: 12.5px;
-            margin-bottom: 25px;
-        }
-        p {
-            position: relative;
-            font-size: 18px;
-            padding: 12.5px;
-            margin-top: 300px;
-        }
+        // h1 {
+        //     position: absolute;
+        //     font-size: 28px;
+        //     padding: 12.5px;
+        //     margin-bottom: 25px;
+        // }
+        // p {
+        //     position: relative;
+        //     font-size: 18px;
+        //     padding: 12.5px;
+        //     margin-top: 300px;
+        // }
     }
     .winesticker {
         width: 10vw;

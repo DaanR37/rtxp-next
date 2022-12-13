@@ -2,8 +2,22 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Events.module.scss';
 
+import { useRouter } from "next/router";
+
+import blogPostEvents from '../components/postevents.json';
+import BlogCardEvents from '../components/blogCardEvents/index';
+
+import blogPostEventsTwo from '../components/posteventstwo.json';
+import BlogCardEventsTwo from '../components/blogCardEventsTwo/index';
+
+import blogPostEventsThree from '../components/posteventsthree.json';
+import BlogCardEventsThree from '../components/blogCardEventsThree/index';
+
 
 const Events = () => {
+
+    const { locale } = useRouter();
+
     return (
         <>
             <Head>
@@ -41,14 +55,22 @@ const Events = () => {
                                 height={350}
                             />
                         </div>
-                        <h1>Monet by <i>night</i></h1>
+                        <div>
+                            {blogPostEvents.postevents
+                                .filter((p) => p.locale === locale)
+                                .map((blogPostEvents, i) => {
+                                    return <BlogCardEvents key={i} blogPostEvents={blogPostEvents} />
+                                })}
+                        </div>
+
+                        {/* <h1>Monet by <i>night</i></h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer
                             adipiscing elit, sed diam nonummy nibh
                             euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat. Ut wisi enim ad minim
                             veniam, quis nostrud exerci tation ullamcorper
                             suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p>
+                            commodo consequat.</p> */}
                     </div>
                     <div className={styles.banner2}>
                         <div className={styles.bannercontainertwo}>
@@ -70,14 +92,22 @@ const Events = () => {
                                 height={350}
                             />
                         </div>
-                        <h1>Monet by <i>night</i></h1>
+                        <div>
+                            {blogPostEventsTwo.posteventstwo
+                                .filter((p) => p.locale === locale)
+                                .map((blogPostEventsTwo, i) => {
+                                    return <BlogCardEventsTwo key={i} blogPostEventsTwo={blogPostEventsTwo} />
+                                })}
+                        </div>
+
+                        {/* <h1>Monet by <i>night</i></h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer
                             adipiscing elit, sed diam nonummy nibh
                             euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat. Ut wisi enim ad minim
                             veniam, quis nostrud exerci tation ullamcorper
                             suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p>
+                            commodo consequat.</p> */}
                     </div>
                     <div className={styles.banner3}>
                         <div className={styles.bannercontainerthree}>
@@ -99,14 +129,22 @@ const Events = () => {
                                 height={350}
                             />
                         </div>
-                        <h1>Monet by <i>night</i></h1>
+                        <div>
+                            {blogPostEventsThree.posteventsthree
+                                .filter((p) => p.locale === locale)
+                                .map((blogPostEventsThree, i) => {
+                                    return <BlogCardEventsThree key={i} blogPostEventsThree={blogPostEventsThree} />
+                                })}
+                        </div>
+
+                        {/* <h1>Monet by <i>night</i></h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer
                             adipiscing elit, sed diam nonummy nibh
                             euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat. Ut wisi enim ad minim
                             veniam, quis nostrud exerci tation ullamcorper
                             suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p>
+                            commodo consequat.</p> */}
                     </div>
                 </div>
                 <div className={styles.winesticker}>
