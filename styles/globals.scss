@@ -31,7 +31,8 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 100px;
+  margin-left: 7%;
+  // margin-left: 100px;
   margin-top: 50px;
   z-index: 10000;
   cursor: pointer;
@@ -78,7 +79,7 @@ div.nav__menu-list div a {
   z-index: 10000;
 }
 
-///Mobile Portrait NavBar
+/* Mobile Portrait NavBar */
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu-sticker {
     display: none;
@@ -186,7 +187,7 @@ div.nav__menu-list div a {
     border-radius: 5px;
   }
 }
-///Mobile Landscape NavBar
+/* Mobile Landscape NavBar */
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
   .menu-sticker {
     display: none;
@@ -294,7 +295,7 @@ div.nav__menu-list div a {
     border-radius: 5px;
   }
 }
-///Tablet Portrait NavBar
+/* Tablet Portrait NavBar */
 @media screen and (min-width: 600px) and (orientation: portrait) {
   .menu-sticker {
     display: none;
@@ -402,7 +403,7 @@ div.nav__menu-list div a {
     border-radius: 5px;
   }
 }
-///Tablet Landscape NavBar
+/* Tablet Landscape NavBar */
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
   .menu-sticker {
     display: none;
@@ -511,7 +512,7 @@ div.nav__menu-list div a {
     border-radius: 5px;
   }
 }
-///Desktop NavBar
+/* Desktop NavBar */
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
   .nav__menu-bar {
     display: none;
@@ -575,9 +576,11 @@ div.nav__menu-list div a {
   .socials-container {
     position: absolute;
     display: flex;
-    right: 0;
-    margin-right: 50px;
-    margin-top: 50px;
+    left: 0;
+    margin-left: 90%;
+    // right: 0;
+    // margin-right: 50px;
+    // margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
@@ -588,8 +591,10 @@ div.nav__menu-list div a {
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 0;
-    margin-right: 175px;
+    left: 0;
+    margin-left: 84%;
+    // right: 0;
+    // margin-right: 175px;
     // margin-top: 60px;
     // margin: 5px 5px 5px 5px;
     z-index: 1000000;
@@ -607,7 +612,7 @@ div.nav__menu-list div a {
     border-radius: 5px;
   }
 }
-///Desktop Big NavBar
+/* Desktop Big NavBar */
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
   .nav__menu-bar {
     display: none;
@@ -681,9 +686,11 @@ div.nav__menu-list div a {
   .socials-container {
     position: absolute;
     display: flex;
-    right: 0;
-    margin-right: 100px;
-    margin-top: 50px;
+    left: 0;
+    margin-left: 90%;
+    // right: 0;
+    // margin-right: 100px;
+    // margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
@@ -694,8 +701,10 @@ div.nav__menu-list div a {
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 0;
-    margin-right: 270px;
+    left: 0;
+    margin-left: 84%;
+    // right: 0;
+    // margin-right: 270px;
     // margin-top: 60px;
     // margin: 5px 5px 5px 5px;
     z-index: 1000000;
@@ -764,7 +773,7 @@ div.nav__menu-list div a {
   font-family: "Atrament";
   font-weight: 400;
 }
-///Mobile Portrait Accordion
+/* Mobile Portrait Accordion */
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .accordion__section {
     margin: 3.5px;
@@ -786,7 +795,7 @@ div.nav__menu-list div a {
     padding: 10px;
   }
 }
-///Mobile Landscape Accordion
+/* Mobile Landscape Accordion */
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
   .accordion__section {
     margin: 3.5px;
@@ -808,7 +817,7 @@ div.nav__menu-list div a {
     padding: 10px;
   }
 }
-///Tablet Portrait Accordion
+/* Tablet Portrait Accordion */
 @media screen and (min-width: 600px) and (orientation: portrait) {
   .accordion__section {
     margin: 3.5px;
@@ -830,7 +839,7 @@ div.nav__menu-list div a {
     padding: 10px;
   }
 }
-///Tablet Landscape Accordion
+/* Tablet Landscape Accordion */
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
   .accordion__section {
     margin: 3.5px;
@@ -852,7 +861,7 @@ div.nav__menu-list div a {
     padding: 10px;
   }
 }
-///Desktop Accordion
+/* Desktop Accordion */
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
   .accordion__section {
     margin: 5px;
@@ -883,7 +892,7 @@ div.nav__menu-list div a {
     padding: 10px;
   }
 }
-///Desktop Big Accordion
+/* Desktop Big Accordion */
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
   .accordion__section {
     margin: 5px;
@@ -917,7 +926,7 @@ div.nav__menu-list div a {
 
 ///// BREAK
 
-///Mobile Portrait FORM Web3Forms
+/* Mobile Portrait FORM Web3Forms */
 @media screen and (max-width: 600px) and (orientation: portrait) {
   #__next
     > section
@@ -974,7 +983,7 @@ div.nav__menu-list div a {
     opacity: 1;
   }
 }
-///Mobile Landscape FORM Web3Forms
+/* Mobile Landscape FORM Web3Forms */
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
   #__next
     > section
@@ -1031,7 +1040,7 @@ div.nav__menu-list div a {
     opacity: 1;
   }
 }
-///Tablet Portrait FORM Web3Forms
+/* Tablet Portrait FORM Web3Forms */
 @media screen and (min-width: 600px) and (orientation: portrait) {
   #__next
     > section
@@ -1088,7 +1097,7 @@ div.nav__menu-list div a {
     opacity: 1;
   }
 }
-///Tablet Landscape Web3Forms
+/* Tablet Landscape Web3Forms */
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
   #__next
     > section
@@ -1145,7 +1154,7 @@ div.nav__menu-list div a {
     opacity: 1;
   }
 }
-///Desktop FORM Web3Forms
+/* Desktop FORM Web3Forms */
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
   #__next
     > section
@@ -1203,7 +1212,7 @@ div.nav__menu-list div a {
     }
   }
 }
-///Desktop Big Web3Forms
+/* Desktop Big Web3Forms */
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
   #__next
     > section
@@ -1268,8 +1277,148 @@ div.nav__menu-list div a {
 .title {
   text-transform: uppercase;
 }
+/* Mobile Portrait JSON files */
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 29px;
+    padding: 15px;
+    margin-bottom: 200px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 385px;
+    bottom: 0;
+  }
+}
+/* Mobile Landscape JSON files */
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 125px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 14.5px;
+    padding: 10px;
+    margin-top: 260px;
+    bottom: 0;
+  }
+}
+/* Tablet Portrait JSON files */
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 36px;
+    padding: 22.5px;
+    margin-bottom: 380px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 28px;
+    padding: 22.5px;
+    margin-top: 600px;
+    bottom: 0;
+  }
+}
+/* Tablet Landscape JSON files */
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 28px;
+    padding: 12.5px;
+    margin-bottom: 30px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 17px;
+    padding: 12.5px;
+    margin-top: 300px;
+    bottom: 0;
+  }
+}
 /* Desktop JSON files */
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
+  .title.experience h1,
+  .title.shop h1 {
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+  }
+  .description.experience,
+  .description.shop {
+    font-size: 17px;
+    margin: 0;
+  }
+  .title.events {
+    position: absolute;
+    font-size: 28px;
+    padding: 12.5px;
+    margin-bottom: 27.5px;
+    bottom: 0;
+  }
+  .description.monet {
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+    padding: 12.5px;
+    margin-top: 300px;
+    bottom: 0;
+  }
+}
+/* Desktop Big JSON files */
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
   .title.experience h1,
   .title.shop h1 {
     font-size: 32px;

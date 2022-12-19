@@ -1,4 +1,3 @@
-import blogPostEvents from "../postevents.json";
 
 const BlogCardEvents = (props) => {
 
@@ -8,7 +7,7 @@ const BlogCardEvents = (props) => {
 
     return (
         <div>
-            <div className="title events __one" dangerouslySetInnerHTML={{__html:blogPostEvents["title"]}}></div>
+            <div className="title events __one" dangerouslySetInnerHTML={{ __html: blogPostEvents["title"] }}></div>
             {/* <div className="title">
                 <h1>{title}</h1>
             </div> */}

@@ -13,7 +13,8 @@ const MENU_LIST = [
   },
   {
     text: "tickets",
-    href: "/tickets",
+    href: "https://tickets.rtxp.nl/nl/tickets/",
+    target: "_blank",
   },
   {
     text: "events",
@@ -98,6 +99,7 @@ const NavBar = () => {
             </div>
           ))}
         </div>
+
         <div className="navbar-i18">
           {locales.map((l, i) => {
             return (
@@ -109,23 +111,10 @@ const NavBar = () => {
             );
           })}
         </div>
+        <div className="socials-icons">
+          <Socials />
+        </div>
       </nav>
-
-      {/* <div className="navbar-i18">
-        {locales.map((l, i) => {
-          return (
-            <span key={i} className={l === locale ? "selected" : ""}>
-              <Link href={asPath} locale={l}>
-                {l}
-              </Link>
-            </span>
-          );
-        })}
-      </div> */}
-
-      <div className="socials-icons">
-        <Socials />
-      </div>
     </header>
   );
 };

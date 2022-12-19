@@ -21,7 +21,7 @@ export function Socials(props) {
         </div>
       </Link>
       <Link
-        href="https://www.instagram.com/rtxp_amsterdam/"
+        href="https://www.instagram.com/rtxp.amsterdam/"
         target="_blank"
         rel="noreferrer"
       >
