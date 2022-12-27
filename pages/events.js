@@ -62,15 +62,6 @@ const Events = () => {
                                     return <BlogCardEvents key={i} blogPostEvents={blogPostEvents} />
                                 })}
                         </div>
-
-                        {/* <h1>Monet by <i>night</i></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore magna
-                            aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p> */}
                     </div>
                     <div className={styles.banner2}>
                         <div className={styles.bannercontainertwo}>
@@ -99,15 +90,6 @@ const Events = () => {
                                     return <BlogCardEventsTwo key={i} blogPostEventsTwo={blogPostEventsTwo} />
                                 })}
                         </div>
-
-                        {/* <h1>Monet by <i>night</i></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore magna
-                            aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p> */}
                     </div>
                     <div className={styles.banner3}>
                         <div className={styles.bannercontainerthree}>
@@ -136,15 +118,6 @@ const Events = () => {
                                     return <BlogCardEventsThree key={i} blogPostEventsThree={blogPostEventsThree} />
                                 })}
                         </div>
-
-                        {/* <h1>Monet by <i>night</i></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore magna
-                            aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p> */}
                     </div>
                 </div>
                 <div className={styles.winesticker}>
