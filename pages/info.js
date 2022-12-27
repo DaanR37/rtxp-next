@@ -1,19 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import React, { useState } from "react";
 import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
 import styles from '../styles/Info.module.scss';
 
-import blogPostInfoLeft from "../components/postinfoleft.json";
-import BlogCardInfo from "../components/blogCardInfo/index";
-import { useRouter } from "next/router";
-
-
-
 const Info = (props) => {
-
-    const { locale } = useRouter();
 
     return (
         <>
@@ -32,13 +23,6 @@ const Info = (props) => {
                 }}></div>
                 <div className={styles.faqcontainer}>
                     <div className={styles.accordionleft}>
-
-                        {/* {blogPostInfoLeft.postinfoleft
-                            .filter((p) => p.locale === locale)
-                            .map((blogPostInfoLeft, i) => {
-                                return <Accordion key={i} blogPostInfoLeft={blogPostInfoLeft} BlogCardInfo={BlogCardInfo} />
-                                    
-                            })} */}
                         <Accordion
                             title="When?"
                             content="Our grand openening will be at the 22nd of December."
