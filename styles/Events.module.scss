@@ -30,12 +30,10 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .eventscontainer {
-        // height: 250vh;
         height: 2500px;
     }
     .backgroundimage {
         background-position: 10%;
-        // transform: rotateX(180deg);
     }
     .slidercontainer {
         position: absolute;
@@ -46,9 +44,7 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 105px auto;
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;
@@ -188,7 +184,6 @@
         left: 50%;
         top: 2.5rem;
         transform: translate(-50%, 2.5rem);
-        // margin: 135px auto;
         z-index: 2;
     }
 
@@ -325,7 +320,6 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 125px auto;
     }
 
     //// Banner 1
@@ -467,7 +461,6 @@
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 135px auto;
         z-index: 1;
     }
 
@@ -608,7 +601,6 @@
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 135px auto;
     }
 
     //// Banner 1
@@ -695,7 +687,6 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
@@ -748,9 +739,7 @@
         top: 4rem;
         transform: translate(-50%, 4rem);
         // height: auto;
-        // margin: 135px auto;
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;

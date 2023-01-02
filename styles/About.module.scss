@@ -19,10 +19,6 @@
         margin: 0;
         text-transform: uppercase;
     }
-    p {
-        // margin: 0;
-        margin: 0 0 17.5px 0;
-    }
 }
 .pinkarrowsicon {
     position: absolute;
@@ -38,7 +34,6 @@
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .aboutcontainer {
-        // height: 150vh;
         height: 1400px;
     }
     .backgroundimage {
@@ -53,28 +48,12 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 105px auto;
         z-index: 1;
     }
     .contactdetails {
         width: 85vw;
         max-width: 340px;
         padding: 15px;
-        // margin: 10px;
-        h1 {
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 40px;
-            padding: 15px;
-            margin: 7.5px 0px 0px 0px;
-        }
-        h2 {
-            font-size: 27px;
-        }
-        p {
-            font-size: 21px;
-        }
     }
     .locationmap {
         width: 88vw;
@@ -122,7 +101,6 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .aboutcontainer {
-        // height: 375vh;
         height: 1700px;
     }
     .backgroundimage {
@@ -137,26 +115,12 @@
         left: 50%;
         top: 2.5rem;
         transform: translate(-50%, 2.5rem);
-        // margin: 120px auto;
         z-index: 1;
     }
     .contactdetails {
         width: 65vw;
         max-width: 330px;
         padding: 15px;
-        h1 {
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 40px;
-            margin: 10px 0px 5px 15px;
-        }
-        h2 {
-            font-size: 29px;
-        }
-        p {
-            font-size: 23px;
-        }
     }
     .locationmap {
         width: 65vw;
@@ -218,26 +182,12 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 120px auto;
         z-index: 1;
     }
     .contactdetails {
         width: 65vw;
         max-width: 330px;
         padding: 15px;
-        h1 {
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 40px;
-            margin: 10px 0px 5px 15px;
-        }
-        h2 {
-            font-size: 27px;
-        }
-        p {
-            font-size: 21px;
-        }
     }
     .locationmap {
         width: 65vw;
@@ -298,31 +248,19 @@
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 125px auto;
         z-index: 1;
     }
     .contactdetails {
         width: 45vw;
-        max-width: 250px;
+        max-width: 275px;
         padding: 15px;
-        // margin: 5px;
-        h1 {
-            font-size: 30px;
-            margin: 0px 0px 5px 0px;
-        }
-        h2 {
-            font-size: 20px;
-        }
-        p {
-            font-size: 12px;
-        }
     }
     .locationmap {
         position: absolute;
         width: 45vw;
-        max-width: 450px;
+        max-width: 500px;
         padding: 15px;
-        // margin: 5px;
+        right: 0;
         > div {
             position: unset !important;
         }
@@ -372,12 +310,11 @@
     .googlemapcontainer {
         position: absolute;
         width: 65vw;
-        // height: auto;
-        height: 75vh;
+        height: auto;
+        // height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 125px auto;
     }
     .contactdetails {
         width: 45vw;
@@ -442,34 +379,23 @@
         position: absolute;
         align-items: center;
         width: 65vw;
-        // height: 75vh;
+        // height: 65vh;
         height: auto;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 125px auto;
     }
     .contactdetails {
         width: 45vw;
-        max-width: 330px;
+        max-width: 280px;
         padding: 10px;
         margin: 10px;
-        h1 {
-            font-size: 34px;
-            margin: 0px 0px 5px 0px;
-        }
-        h2 {
-            font-size: 23px;
-        }
-        p {
-            font-size: 19px;
-        }
     }
     .locationmap {
         position: absolute;
-        width: 45vw;
+        width: 35vw;
         max-width: 700px;
-        padding: 20px;
+        padding: 10px;
         margin: 10px;
         right: 0;
         > div {
@@ -477,7 +403,7 @@
         }
         .image {
             object-fit: contain;
-            width: 100% !important;
+            width: 90% !important;
             position: relative !important;
             height: unset !important;
         }

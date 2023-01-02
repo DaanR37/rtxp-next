@@ -32,7 +32,6 @@ a {
   top: 0;
   left: 0;
   margin-left: 7%;
-  // margin-left: 100px;
   margin-top: 50px;
   z-index: 10000;
   cursor: pointer;
@@ -49,7 +48,6 @@ a {
 }
 .nav__menu-bar div {
   background-color: #e2a937;
-  // border: 0.5px solid black;
   border-radius: 2px;
   transition: all 0.3s;
 }
@@ -61,7 +59,6 @@ a {
 }
 div.nav__menu-list div a {
   text-transform: uppercase;
-  // font-weight: 600;
   color: black;
 }
 .nav__link {
@@ -168,15 +165,12 @@ div.nav__menu-list div a {
   }
   /* Styling MultiLanguage i18n */
   .navbar-i18 {
-    position: fixed; /// was absolute
-    // display: flex;
-    // margin-top: 30px;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
     padding: 5px;
@@ -246,7 +240,6 @@ div.nav__menu-list div a {
     top: 75px;
     width: 350px;
     right: -350px;
-    // row-gap: 3.5px;
     padding: 40px 0px;
     min-height: calc(100vh - 75px);
     opacity: 0.95;
@@ -276,15 +269,12 @@ div.nav__menu-list div a {
   }
   /* Styling MultiLanguage i18n */
   .navbar-i18 {
-    position: fixed; /// was absolute
-    // display: flex;
-    // margin-top: 25px;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
     padding: 5px;
@@ -384,15 +374,12 @@ div.nav__menu-list div a {
   }
   /* Styling MultiLanguage i18n */
   .navbar-i18 {
-    position: fixed; /// was absolute
-    // display: flex;
-    // margin-top: 35px;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
     padding: 5px;
@@ -423,7 +410,6 @@ div.nav__menu-list div a {
   }
   .socials-container {
     position: fixed;
-    // display: flex;
     left: 0;
     margin-left: 25px;
     margin-top: 20px;
@@ -493,15 +479,12 @@ div.nav__menu-list div a {
   }
   /* Styling MultiLanguage i18n */
   .navbar-i18 {
-    position: fixed; /// was absolute
-    // display: flex;
-    // margin-top: 35px;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
     padding: 5px;
@@ -578,9 +561,6 @@ div.nav__menu-list div a {
     display: flex;
     left: 0;
     margin-left: 90%;
-    // right: 0;
-    // margin-right: 50px;
-    // margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
@@ -593,14 +573,9 @@ div.nav__menu-list div a {
     align-items: center;
     left: 0;
     margin-left: 84%;
-    // right: 0;
-    // margin-right: 175px;
-    // margin-top: 60px;
-    // margin: 5px 5px 5px 5px;
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -608,7 +583,6 @@ div.nav__menu-list div a {
   }
   .navbar-i18 .selected {
     background-color: #ff70db;
-    // width: 40px;
     color: white;
     border-radius: 5px;
   }
@@ -665,7 +639,6 @@ div.nav__menu-list div a {
     height: 6px;
     transition: all 0.2s;
   }
-
   .facebook-container,
   .instagram-container {
     width: 50px;
@@ -689,9 +662,6 @@ div.nav__menu-list div a {
     display: flex;
     left: 0;
     margin-left: 90%;
-    // right: 0;
-    // margin-right: 100px;
-    // margin-top: 50px;
     a:nth-child(1) {
       margin-right: 5px;
     }
@@ -704,14 +674,9 @@ div.nav__menu-list div a {
     align-items: center;
     left: 0;
     margin-left: 84%;
-    // right: 0;
-    // margin-right: 270px;
-    // margin-top: 60px;
-    // margin: 5px 5px 5px 5px;
     z-index: 1000000;
   }
   .navbar-i18 span {
-    // margin-right: 20px;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -719,7 +684,6 @@ div.nav__menu-list div a {
   }
   .navbar-i18 .selected {
     background-color: #ff70db;
-    // width: 40px;
     color: white;
     border-radius: 5px;
   }
@@ -1286,10 +1250,25 @@ div.nav__menu-list div a {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
   }
+  .title.about h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    padding: 15px;
+    margin: 7.5px 0px 0px 0px;
+  }
+  .title-secundair h2 {
+    font-size: 27px;
+  }
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about p {
+    font-size: 21px;
+    margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;
@@ -1314,10 +1293,24 @@ div.nav__menu-list div a {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
   }
+  .title.about h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    margin: 20px 0px 5px 15px;
+  }
+  .title-secundair h2 {
+    font-size: 29px;
+  }
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about p {
+    font-size: 23px;
+    margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;
@@ -1342,10 +1335,24 @@ div.nav__menu-list div a {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
   }
+  .title.about h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    margin: 20px 0px 5px 15px;
+  }
+  .title-secundair h2 {
+    font-size: 27px;
+  }
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about p {
+    font-size: 21px;
+    margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;
@@ -1370,10 +1377,22 @@ div.nav__menu-list div a {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
   }
+  .title.about h1 {
+    font-size: 30px;
+    margin: 0px 0px 5px 0px;
+  }
+  .title-secundair h2 {
+    font-size: 21px;
+  }
+
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
   }
   .title.events {
     position: absolute;
@@ -1407,8 +1426,9 @@ div.nav__menu-list div a {
     font-size: 17px;
     margin: 0;
   }
-  .description.about {
+  .description.about p {
     font-size: 17px;
+    margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;
@@ -1429,14 +1449,22 @@ div.nav__menu-list div a {
 /* Desktop Big JSON files */
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
   .title.experience h1,
-  .title.shop h1 {
+  .title.shop h1,
+  .title.about h1 {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
+  }
+  .title-secundair h2 {
+    font-size: 23px;
   }
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about p {
+    font-size: 19px;
+    margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;

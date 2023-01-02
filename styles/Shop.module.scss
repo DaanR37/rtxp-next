@@ -14,7 +14,6 @@
     background: #c5e3f3;
 }
 .textcontainer {
-    // position: absolute;
     font-family: "Atrament";
     text-align: justify;
 }
@@ -41,7 +40,6 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 105px auto;
         z-index: 10;
     }
     .textcontainer {
@@ -79,7 +77,6 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .shopcontainer {
-        // height: 130vh;
         height: 650px;
     }
     .backgroundimage {
@@ -89,14 +86,12 @@
     .shopitemscontainer {
         position: absolute;
         justify-content: space-between;
-        // width: 65vw;
         width: 70vw;
         height: auto;
         // height: 75vh;
         left: 50%;
         top: 2.5rem;
         transform: translate(-50%, 2.5rem);
-        // margin: 110px auto;
         z-index: 1;
     }
     .textcontainer {
@@ -119,7 +114,6 @@
     .chaticon {
         width: 7vw;
         margin: 0px 115px 25px 0px;
-        // z-index: 50;
         transform: rotate(25deg);
         > div {
             position: unset !important;
@@ -150,7 +144,6 @@
         left: 50%;
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
-        // margin: 125px auto;
         z-index: 10;
     }
     .textcontainer {
@@ -205,7 +198,6 @@
         left: 50%;
         top: 5rem;
         transform: translate(-50%, 5rem);
-        // margin: 125px auto;
         z-index: 1;
     }
     .textcontainer {
@@ -259,7 +251,6 @@
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 125px auto;
     }
     .textcontainer {
         width: 45vw;
@@ -305,7 +296,6 @@
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
-        // margin: 125px auto;
     }
     .textcontainer {
         width: 45vw;

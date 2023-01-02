@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import { NavLink } from "../Navlink";
 
 const NavItem = ({ href, text, active }) => {

@@ -22,7 +22,7 @@ const Accordion = (props) => {
     return (
         <div className="accordion__section">
             <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-                    <p className="accordion__title">{props.title}</p>
+                <p className="accordion__title">{props.title}</p>
                 <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
             </button>
 
