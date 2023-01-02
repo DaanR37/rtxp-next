@@ -15,19 +15,14 @@
 }
 .contactdetails {
     font-family: "Atrament";
-    h1 {
-        text-transform: uppercase;
-    }
     h2 {
         margin: 0;
         text-transform: uppercase;
     }
     p {
-        margin: 0;
+        // margin: 0;
+        margin: 0 0 17.5px 0;
     }
-}
-.locationmap {
-    right: 0;
 }
 .pinkarrowsicon {
     position: absolute;
@@ -376,10 +371,9 @@
     }
     .googlemapcontainer {
         position: absolute;
-        align-items: center;
         width: 65vw;
-        height: auto;
-        // height: 75vh;
+        // height: auto;
+        height: 75vh;
         left: 50%;
         top: 4rem;
         transform: translate(-50%, 4rem);
@@ -387,19 +381,9 @@
     }
     .contactdetails {
         width: 45vw;
-        max-width: 330px;
+        max-width: 230px;
         padding: 10px;
         margin: 10px;
-        h1 {
-            font-size: 32px;
-            margin: 0px 0px 5px 0px;
-        }
-        h2 {
-            font-size: 21px;
-        }
-        p {
-            font-size: 17px;
-        }
     }
     .locationmap {
         position: absolute;
@@ -407,6 +391,7 @@
         max-width: 600px;
         padding: 10px;
         margin: 10px;
+        right: 0;
         > div {
             position: unset !important;
         }
@@ -486,6 +471,7 @@
         max-width: 700px;
         padding: 20px;
         margin: 10px;
+        right: 0;
         > div {
             position: unset !important;
         }

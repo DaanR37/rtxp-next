@@ -2,8 +2,16 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/About.module.scss';
 
+import { useRouter } from "next/router";
+
+import blogPostAbout from "../components/postabout.json";
+import BlogCardAbout from "../components/blogCardAbout/index";
+
 
 const About = () => {
+
+    const { locale } = useRouter();
+
     return (
         <>
             <Head>
@@ -21,7 +29,14 @@ const About = () => {
                 }}></div>
                 <div className={styles.googlemapcontainer}>
                     <div className={styles.contactdetails}>
-                        <h1>about</h1>
+                        {blogPostAbout.postabout
+                            .filter((p) => p.locale === locale)
+                            .map((blogPostAbout, i) => {
+                                return <BlogCardAbout key={i} blogPostAbout={blogPostAbout} />
+                            })}
+                    </div>
+
+                    {/* <h1>about</h1>
                         <h2>contact</h2>
                         <p>RTXP Amsterdam
                             <br />
@@ -64,8 +79,8 @@ const About = () => {
                             en aan de overkant op het Marie Heinekenplein
                             zijn meerdere fietsenrekken om je fiets aan
                             te bevestigen.
-                        </p>
-                    </div>
+                        </p> */}
+                    {/* </div> */}
                     <div className={styles.locationmap}>
                         <Image
                             src="/images/location-map.svg"

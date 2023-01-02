@@ -1,0 +1,46 @@
+{
+  "postabout": [
+    {
+      "locale": "NL",
+      "title": "Over Ons",
+      "titlesecundair": "Contact",
+      "description": "RTXP Amsterdam Tel: 020 - 6261433 Email: info@rtxp.com Adres gegevens: 1e Jacob van Campenstraat 59 1072 BD Amsterdam"
+    },
+    {
+      "locale": "NL",
+      "titlesecundair": "Bereikbaarheid",
+      "description": "Openbaar vervoer: Trams 1, 7, 19 (Halte Vijzelgracht), lijn 24 (Halte Marie Heinekenplein) & Metro 52 (Halte De Pijp)"
+    },
+    {
+      "locale": "NL",
+      "titlesecundair": "Parkeren",
+      "description": "APCOA: Eerste van der Helststraat 6 1072 NV Amsterdam, Parking Museumquarter Nicolaas Maesstraat 2A 1071 RA Amsterdam, Parkeergarage Albert Cuyp Ruysdaelkade 93 1072 AM Amsterdam"
+    },
+    {
+      "locale": "NL",
+      "titlesecundair": "Fiets",
+      "description": " Aan de voorzijde, verderop in de straat en aan de overkant op het Marie Heinekenplein zijn meerdere fietsenrekken om je fiets aan te bevestigen."
+    },
+    {
+      "locale": "ENG",
+      "title": "About",
+      "titlesecundair": "Contact",
+      "description": "RTXP Amsterdam Tel: 020 - 6261433 Email: info@rtxp.com Address details: 1e Jacob van Campenstraat 59 1072 BD Amsterdam"
+    },
+    {
+      "locale": "ENG",
+      "titlesecundair": "Accessibility",
+      "description": "Public Transport: Tram lines 1, 7, 19 (Stop 'Vijzelgracht'), line 24 (Stop 'Marie Heinekenplein') & Metro 52 (Stop 'De Pijp')"
+    },
+    {
+      "locale": "ENG",
+      "titlesecundair": "Parking",
+      "description": "APCOA: Eerste van der Helststraat 6 1072 NV Amsterdam, Parking Museumquarter Nicolaas Maesstraat 2A 1071 RA Amsterdam, Parking garage Albert Cuyp Ruysdaelkade 93 1072 AM Amsterdam"
+    },
+    {
+      "locale": "ENG",
+      "titlesecundair": "Bike",
+      "description": "At the front, further down the street and across the Marie Heinekenplein are several bicycle racks to attach your bicycle."
+    }
+  ]
+}

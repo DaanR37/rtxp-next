@@ -1394,14 +1394,21 @@ div.nav__menu-list div a {
 /* Desktop JSON files */
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
   .title.experience h1,
-  .title.shop h1 {
+  .title.shop h1,
+  .title.about h1 {
     font-size: 32px;
     margin: 0px 0px 5px 0px;
+  }
+  .title-secundair h2 {
+    font-size: 21px;
   }
   .description.experience,
   .description.shop {
     font-size: 17px;
     margin: 0;
+  }
+  .description.about {
+    font-size: 17px;
   }
   .title.events {
     position: absolute;
