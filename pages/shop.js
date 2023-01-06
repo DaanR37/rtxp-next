@@ -25,11 +25,7 @@ const Shop = () => {
             </Head>
 
             <section className={styles.shopcontainer}>
-                <div className={styles.backgroundimage} style={{
-                    backgroundImage: "url(/images/background-image-exp.jpg)"
-                }}></div>
                 <div className={styles.shopitemscontainer}>
-
                     <div className={styles.textcontainer}>
                         {blogPostShop.postshop
                             .filter((p) => p.locale === locale)
@@ -37,20 +33,9 @@ const Shop = () => {
                                 return <BlogCardShop key={i} blogPostShop={blogPostShop} />
                             })}
                     </div>
-
                     <div className={styles.formcontainer}>
                         <Form />
                     </div>
-                </div>
-                <div className={styles.chaticon}>
-                    <Image
-                        src="/images/chat-icon.svg"
-                        alt="chat icon"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                        priority={true}
-                    />
                 </div>
             </section>
         </>

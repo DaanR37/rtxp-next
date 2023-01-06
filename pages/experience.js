@@ -23,12 +23,7 @@ const Experience = () => {
             </Head>
 
             <section className={styles.experiencecontainer}>
-                <div className={styles.backgroundimage} style={{
-                    backgroundImage: "url(/images/background-image-exp.jpg)"
-                }}></div>
-
                 <div className={styles.monetcontainer}>
-
                     <div className={styles.textcontainer}>
                         {blogPostExperience.postexperience
                             .filter((p) => p.locale === locale)
@@ -36,7 +31,6 @@ const Experience = () => {
                                 return <BlogCardExperience key={i} blogPostExperience={blogPostExperience} />
                             })}
                     </div>
-
                     <div className={styles.imagecontainer}>
                         <Image
                             src="/images/monet.jpg"
@@ -47,24 +41,6 @@ const Experience = () => {
                             priority={true}
                         />
                     </div>
-                </div>
-                <div className={styles.redcircle}>
-                    <Image
-                        src="/images/red-circle-icon.svg"
-                        alt="red circle"
-                        className={styles.image}
-                        width={250}
-                        height={150}
-                    />
-                </div>
-                <div className={styles.umbrellasticker}>
-                    <Image
-                        src="/images/umbrella-icon.svg"
-                        alt="umbrella sticker"
-                        className={styles.image}
-                        width={250}
-                        height={150}
-                    />
                 </div>
             </section>
 

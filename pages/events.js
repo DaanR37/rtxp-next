@@ -30,10 +30,6 @@ const Events = () => {
             </Head>
 
             <section className={styles.eventscontainer}>
-                <div className={styles.backgroundimage} style={{
-                    backgroundImage: "url(/images/background-image-exp.jpg)"
-                }}></div>
-
                 <div className={styles.slidercontainer}>
                     <div className={styles.banner1}>
                         <div className={styles.bannercontainerone}>
@@ -119,24 +115,6 @@ const Events = () => {
                                 })}
                         </div>
                     </div>
-                </div>
-                <div className={styles.winesticker}>
-                    <Image
-                        src="/images/events-wine.svg"
-                        alt="blue cross"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                    />
-                </div>
-                <div className={styles.handsticker}>
-                    <Image
-                        src="/images/events-hand.svg"
-                        alt="red arrows"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                    />
                 </div>
             </section>
         </>

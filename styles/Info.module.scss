@@ -2,30 +2,8 @@
     position: absolute;
     width: 100vw;
 }
-.backgroundimage {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .faqcontainer {
     background: #c5e3f3;
-}
-.bluecrossinfo {
-    position: absolute;
-    bottom: 0;
-    transform: rotate(120deg);
-}
-.purplearrows {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-.chaticon {
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -46,45 +24,6 @@
     .accordionleft,
     .accordionright {
         width: 100%;
-    }
-    .bluecrossinfo {
-        width: 15vw;
-        margin: 0px 0px 180px 280px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 16vw;
-        margin: 0px 347.5px 950px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 11vw;
-        margin: 0px 375px 150px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Mobile Landscape
@@ -107,45 +46,6 @@
     .accordionright {
         width: 100%;
     }
-    .bluecrossinfo {
-        width: 8.5vw;
-        margin: 0px 0px 400px 100px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 11.5vw;
-        margin: 0px 75px 800px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 8vw;
-        margin: 0px 100px 100px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
@@ -167,55 +67,11 @@
     .accordionright {
         width: 100%;
     }
-    .bluecrossinfo {
-        width: 8.5vw;
-        margin: 0px 0px 400px 100px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 11.5vw;
-        margin: 0px 75px 800px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 8vw;
-        margin: 0px 100px 100px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .infocontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        height: 100%;
-        background-position: 10% 100%;
-        background-size: cover;
     }
     .faqcontainer {
         position: absolute;
@@ -233,53 +89,11 @@
     .accordionright {
         width: 50%;
     }
-    .bluecrossinfo {
-        width: 10vw;
-        margin: 0px 0px 150px 75px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 13.25vw;
-        margin: 0px 75px 400px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 7vw;
-        margin: 0px 150px 100px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
     .infocontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: 10% 100%;
     }
     .faqcontainer {
         position: absolute;
@@ -295,45 +109,6 @@
     .accordionleft,
     .accordionright {
         width: 50%;
-    }
-    .bluecrossinfo {
-        width: 10vw;
-        margin: 0px 0px 80px 75px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 14vw;
-        margin: 0px 50px 250px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 7vw;
-        margin: 0px 75px 100px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Desktop Big
@@ -341,10 +116,6 @@
     .infocontainer {
         height: 100vh;
     }
-    .backgroundimage {
-        background-position: 30% 100%;
-        background-size: 115% auto;
-    }
     .faqcontainer {
         position: absolute;
         display: flex;
@@ -359,44 +130,5 @@
     .accordionleft,
     .accordionright {
         width: 50%;
-    }
-    .bluecrossinfo {
-        width: 7.5vw;
-        margin: 0px 0px 80px 75px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .purplearrows {
-        width: 10.5vw;
-        margin: 0px 50px 350px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .chaticon {
-        width: 4.5vw;
-        margin: 0px 75px 100px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }

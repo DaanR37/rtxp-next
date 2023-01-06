@@ -24,9 +24,6 @@ const About = () => {
             </Head>
 
             <section className={styles.aboutcontainer}>
-                <div className={styles.backgroundimage} style={{
-                    backgroundImage: "url(/images/background-image-hp.jpg)"
-                }}></div>
                 <div className={styles.googlemapcontainer}>
                     <div className={styles.contactdetails}>
                         {blogPostAbout.postabout
@@ -45,26 +42,6 @@ const About = () => {
                             priority={true}
                         />
                     </div>
-                </div>
-
-                <div className={styles.pinkarrowsicon}>
-                    <Image
-                        src="/images/pink-arrows-icon.svg"
-                        alt="pink arrows icon"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                    />
-                </div>
-
-                <div className={styles.greencrossicon}>
-                    <Image
-                        src="/images/green-cross-icon.svg"
-                        alt="green cross icon"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                    />
                 </div>
             </section>
         </>

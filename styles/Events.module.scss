@@ -2,13 +2,6 @@
     position: absolute;
     width: 100vw;
 }
-.backgroundimage {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .slidercontainer {
     display: flex;
 }
@@ -18,22 +11,11 @@
     position: relative;
     font-family: "Atrament";
 }
-.winesticker {
-    position: absolute;
-    bottom: 0;
-}
-.handsticker {
-    position: absolute;
-    bottom: 0;
-}
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .eventscontainer {
         height: 2500px;
-    }
-    .backgroundimage {
-        background-position: 10%;
     }
     .slidercontainer {
         position: absolute;
@@ -129,7 +111,6 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
@@ -138,42 +119,11 @@
         margin-bottom: 50px;
         z-index: 1;
     }
-    .winesticker {
-        width: 15vw;
-        margin: 0px 0px 80px 95px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 15vw;
-        margin: 0px 0px 150px 10px;
-        z-index: 2;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .eventscontainer {
         height: 150vh;
-    }
-    .backgroundimage {
-        background-position: center;
-        transform: rotateX(180deg);
     }
     .slidercontainer {
         position: absolute;
@@ -186,7 +136,6 @@
         transform: translate(-50%, 2.5rem);
         z-index: 2;
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;
@@ -271,39 +220,11 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
         width: 250px;
         height: 400px;
-    }
-    .winesticker {
-        width: 8vw;
-        margin: 0px 0px 40px 75px;
-        z-index: 1;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 9vw;
-        margin: 0px 0px 145px 30px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Tablet Portrait
@@ -321,7 +242,6 @@
         top: 3.5rem;
         transform: translate(-50%, 3.5rem);
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;
@@ -406,7 +326,6 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
@@ -415,42 +334,11 @@
         margin-bottom: 25px;
         z-index: 1;
     }
-    .winesticker {
-        width: 15vw;
-        margin: 0px 0px 80px 95px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 15vw;
-        margin: 0px 0px 150px 10px;
-        z-index: 2;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .eventscontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
-        transform: rotateX(180deg);
     }
     .slidercontainer {
         position: absolute;
@@ -463,7 +351,6 @@
         transform: translate(-50%, 4rem);
         z-index: 1;
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;
@@ -548,49 +435,17 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
         width: 300px;
         height: 350px;
     }
-    .winesticker {
-        width: 9.25vw;
-        margin: 0px 0px 80px 95px;
-        z-index: 1;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 12.5vw;
-        margin: 0px 0px 325px 40px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
     .eventscontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
-        transform: rotateX(180deg);
     }
     .slidercontainer {
         position: absolute;
@@ -602,7 +457,6 @@
         top: 4rem;
         transform: translate(-50%, 4rem);
     }
-
     //// Banner 1
     .bannercontainerone {
         width: 100%;
@@ -693,42 +547,11 @@
         width: 300px;
         height: 350px;
     }
-    .winesticker {
-        width: 10vw;
-        margin: 0px 0px 80px 95px;
-        z-index: 1;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 12.5vw;
-        margin: 0px 0px 325px 40px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
     .eventscontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
-        transform: rotateX(180deg);
     }
     .slidercontainer {
         position: absolute;
@@ -824,38 +647,10 @@
             height: unset !important;
         }
     }
-
     .banner1,
     .banner2,
     .banner3 {
         width: 375px;
         height: 400px;
-    }
-    .winesticker {
-        width: 8.5vw;
-        margin: 0px 0px 80px 95px;
-        z-index: 1;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .handsticker {
-        width: 10.5vw;
-        margin: 0px 0px 325px 40px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }

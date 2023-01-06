@@ -2,13 +2,6 @@
     position: absolute;
     width: 100vw;
 }
-.backgroundimage {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .monetcontainer {
     display: flex;
     background: #c5e3f3;
@@ -17,24 +10,11 @@
     font-family: "Atrament";
     text-align: justify;
 }
-.redcircle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.umbrellasticker {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .experiencecontainer {
         height: 1050px;
-    }
-    .backgroundimage {
-        background-position: 15%;
     }
     .monetcontainer {
         position: absolute;
@@ -74,40 +54,11 @@
             height: unset !important;
         }
     }
-    .redcircle {
-        width: 15vw;
-        margin: 0px 0px 300px 5px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 17vw;
-        margin: 0px 40px 150px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .experiencecontainer {
         height: 650px;
-    }
-    .backgroundimage {
-        background-position: center;
     }
     .monetcontainer {
         position: absolute;
@@ -145,40 +96,11 @@
             height: unset !important;
         }
     }
-    .redcircle {
-        width: 8.5vw;
-        margin: 0px 0px 150px 110px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 7.5vw;
-        margin: 0px 100px 250px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
     .experiencecontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: 15%;
     }
     .monetcontainer {
         position: absolute;
@@ -220,41 +142,11 @@
             height: unset !important;
         }
     }
-    .redcircle {
-        width: 14vw;
-        margin: 0px 0px 300px 50px;
-        z-index: 2;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 14vw;
-        margin: 0px 55px 600px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .experiencecontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
     }
     .monetcontainer {
         position: absolute;
@@ -293,40 +185,11 @@
             height: unset !important;
         }
     }
-    .redcircle {
-        width: 9.5vw;
-        margin: 0px 0px 300px 120px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 8.5vw;
-        margin: 0px 140px 400px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
     .experiencecontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
     }
     .monetcontainer {
         position: absolute;
@@ -358,40 +221,11 @@
             height: unset !important;
         }
     }
-    .redcircle {
-        width: 10vw;
-        margin: 0px 0px 200px 125px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 8.5vw;
-        margin: 0px 140px 300px 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
     .experiencecontainer {
         height: 100vh;
-    }
-    .backgroundimage {
-        background-position: center;
     }
     .monetcontainer {
         position: absolute;
@@ -420,32 +254,6 @@
         width: 750px;
         padding: 15px;
         margin: 15px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .redcircle {
-        width: 9vw;
-        margin: 0px 0px 200px 200px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    .umbrellasticker {
-        width: 8vw;
-        margin: 0px 220px 320px 0px;
         > div {
             position: unset !important;
         }

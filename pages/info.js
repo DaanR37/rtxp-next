@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
 import styles from '../styles/Info.module.scss';
@@ -18,9 +17,6 @@ const Info = (props) => {
             </Head>
 
             <section className={styles.infocontainer}>
-                <div className={styles.backgroundimage} style={{
-                    backgroundImage: "url(/images/background-image-hp.jpg)"
-                }}></div>
                 <div className={styles.faqcontainer}>
                     <div className={styles.accordionleft}>
                         <Accordion
@@ -98,35 +94,6 @@ const Info = (props) => {
                             content="Lorem Ipsum Ballzium"
                         />
                     </div>
-                </div>
-                <div className={styles.bluecrossinfo}>
-                    <Image
-                        src="/images/blue-cross-icon.svg"
-                        alt="blue cross"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                    />
-                </div>
-                <div className={styles.purplearrows}>
-                    <Image
-                        src="/images/purple-arrows-icon.svg"
-                        alt="purple arrows"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                        priority={true}
-                    />
-                </div>
-                <div className={styles.chaticon}>
-                    <Image
-                        src="/images/chat-icon.svg"
-                        alt="chat icon"
-                        className={styles.image}
-                        width={350}
-                        height={350}
-                        priority={true}
-                    />
                 </div>
             </section>
         </>

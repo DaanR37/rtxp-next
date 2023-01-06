@@ -33,9 +33,10 @@ a {
   left: 0;
   margin-left: 7%;
   margin-top: 50px;
+  opacity: 0.85;
   z-index: 10000;
   cursor: pointer;
-  opacity: 0.85;
+  filter: invert(1);
   &:hover {
     opacity: 1;
     transition: 350ms ease-in-out;
@@ -47,33 +48,43 @@ a {
   flex-direction: column;
 }
 .nav__menu-bar div {
-  background-color: #e2a937;
+  background-color: black;
   border-radius: 2px;
   transition: all 0.3s;
 }
 .nav__menu-list {
   display: flex;
   align-items: center;
+  background: black;
   font-family: "Atrament";
-  background-color: #ff70db;
 }
 div.nav__menu-list div a {
   text-transform: uppercase;
-  color: black;
+  padding: 2.25px;
+  border-radius: 1.5px;
+  color: white;
+  background-color: black;
 }
 .nav__link {
   position: relative;
-  font-family: "Atrament";
   text-transform: uppercase;
   transition: all 0.2s;
 }
 .nav__link.active {
-  color: whitesmoke;
+  filter: invert(1);
 }
 .socials-container {
   display: flex;
   top: 0;
   z-index: 10000;
+}
+.navbar-i18 span {
+  text-transform: uppercase;
+}
+.navbar-i18 .selected {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 /* Mobile Portrait NavBar */
@@ -168,17 +179,10 @@ div.nav__menu-list div a {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 15px;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 /* Mobile Landscape NavBar */
@@ -272,17 +276,10 @@ div.nav__menu-list div a {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 15px;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 /* Tablet Portrait NavBar */
@@ -377,17 +374,10 @@ div.nav__menu-list div a {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 15px;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 /* Tablet Landscape NavBar */
@@ -482,17 +472,10 @@ div.nav__menu-list div a {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 15px;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 /* Desktop NavBar */
@@ -534,7 +517,7 @@ div.nav__menu-list div a {
   div.nav__menu-list div a {
     font-size: 31px;
     &:hover {
-      color: whitesmoke;
+      filter: invert(1);
       transition: 400ms ease-in-out;
     }
   }
@@ -573,18 +556,11 @@ div.nav__menu-list div a {
     align-items: center;
     left: 0;
     margin-left: 84%;
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 /* Desktop Big NavBar */
@@ -626,7 +602,7 @@ div.nav__menu-list div a {
   div.nav__menu-list div a {
     font-size: 34px;
     &:hover {
-      color: whitesmoke;
+      filter: invert(1);
       transition: 400ms ease-in-out;
     }
   }
@@ -674,18 +650,11 @@ div.nav__menu-list div a {
     align-items: center;
     left: 0;
     margin-left: 84%;
-    z-index: 1000000;
   }
   .navbar-i18 span {
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase;
     padding: 5px;
-  }
-  .navbar-i18 .selected {
-    background-color: #ff70db;
-    color: white;
-    border-radius: 5px;
   }
 }
 

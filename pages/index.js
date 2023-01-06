@@ -15,9 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles.homepagecontainer}>
-        <div className={styles.backgroundimage} style={{
-          backgroundImage: "url(/images/background-image-hp.jpg)"
-        }}></div>
 
         <div className={styles.rtxplogo}>
           <Image
@@ -33,24 +30,6 @@ export default function Home() {
           <Image
             src="/images/tickets-sticker.jpg"
             alt="tickets sticker"
-            className={styles.image}
-            width={250}
-            height={125}
-          />
-        </div>
-        <div className={styles.bluecross}>
-          <Image
-            src="/images/blue-cross-icon.svg"
-            alt="blue cross"
-            className={styles.image}
-            width={250}
-            height={125}
-          />
-        </div>
-        <div className={styles.redarrows}>
-          <Image
-            src="/images/red-arrows-icon.svg"
-            alt="red arrows"
             className={styles.image}
             width={250}
             height={125}
