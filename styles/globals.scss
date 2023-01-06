@@ -37,9 +37,10 @@ a {
   z-index: 10000;
   cursor: pointer;
   filter: invert(1);
-  &:hover {
+  img:hover {
     opacity: 1;
     transition: 350ms ease-in-out;
+    filter: invert(1);
   }
 }
 .nav__menu-bar {
@@ -77,6 +78,11 @@ div.nav__menu-list div a {
   display: flex;
   top: 0;
   z-index: 10000;
+  img:hover {
+    opacity: 1;
+    transition: 350ms ease-in-out;
+    filter: invert(1);
+  }
 }
 .navbar-i18 span {
   text-transform: uppercase;
@@ -670,15 +676,19 @@ div.nav__menu-list div a {
 .accordion {
   display: flex;
   align-items: center;
-  background: #98d4f4;
+  // background: #98d4f4;
+  background: white;
+  color: black;
   border-radius: 5px;
   border: none;
   outline: none;
 }
 .accordion.active {
-  background-color: #65c4f7;
+  // background-color: #65c4f7;
+  background-color: black;
   transition: all 0.4s ease;
-  color: #ff70db !important;
+  // color: #ff70db !important;
+  color: white;
 }
 /* Style the accordion content title */
 .accordion__title {
@@ -699,7 +709,8 @@ div.nav__menu-list div a {
 }
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-  background-color: greenyellow;
+  // background-color: greenyellow;
+  background: white;
   overflow: auto;
   transition: max-height 0.6s ease;
 }
@@ -809,7 +820,9 @@ div.nav__menu-list div a {
   }
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion:hover {
-    background-color: #65c4f7;
+    // background-color: #65c4f7;
+    background-color: black;
+    color: white;
     transition: all 0.4s ease;
   }
   /* Style the accordion content title */
@@ -840,7 +853,9 @@ div.nav__menu-list div a {
   }
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion:hover {
-    background-color: #65c4f7;
+    // background-color: #65c4f7;
+    background-color: black;
+    color: white;
     transition: all 0.4s ease;
   }
   /* Style the accordion content title */
@@ -892,7 +907,9 @@ div.nav__menu-list div a {
     width: 200px;
     height: 25px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -900,7 +917,8 @@ div.nav__menu-list div a {
     width: 225px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     display: flex;
@@ -912,7 +930,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 21px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 1;
@@ -949,7 +968,9 @@ div.nav__menu-list div a {
     width: 200px;
     height: 25px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -957,7 +978,8 @@ div.nav__menu-list div a {
     width: 225px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     display: flex;
@@ -969,7 +991,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 19px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 1;
@@ -1006,7 +1029,9 @@ div.nav__menu-list div a {
     width: 200px;
     height: 25px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -1014,7 +1039,8 @@ div.nav__menu-list div a {
     width: 225px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     display: flex;
@@ -1026,7 +1052,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 21px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 1;
@@ -1063,7 +1090,9 @@ div.nav__menu-list div a {
     width: 200px;
     height: 25px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -1071,7 +1100,8 @@ div.nav__menu-list div a {
     width: 225px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    // border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     display: flex;
@@ -1083,7 +1113,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 21px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 1;
@@ -1120,7 +1151,8 @@ div.nav__menu-list div a {
     width: 250px;
     height: 30px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -1128,7 +1160,7 @@ div.nav__menu-list div a {
     width: 275px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     width: 100px;
@@ -1137,7 +1169,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 21px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 0.8;
@@ -1178,7 +1211,8 @@ div.nav__menu-list div a {
     width: 275px;
     height: 25px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
+    color: white;
   }
   #message {
     border-radius: 5px;
@@ -1186,7 +1220,7 @@ div.nav__menu-list div a {
     width: 300px;
     height: 60px;
     margin-bottom: 5px;
-    border: 1.5px solid #ff70db;
+    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     width: 100px;
@@ -1195,7 +1229,8 @@ div.nav__menu-list div a {
     margin-top: 7.5px;
     font-size: 21px;
     font-family: "Atrament";
-    background-color: #40e00b;
+    // background-color: #40e00b;
+    background-color: white;
     border: none;
     cursor: pointer;
     opacity: 0.8;
