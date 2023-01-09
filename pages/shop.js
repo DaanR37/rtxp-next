@@ -23,21 +23,18 @@ const Shop = () => {
                 <meta property="og:url" content="https://www.rtxp.nl/shop" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <section className={styles.shopcontainer}>
-                <div className={styles.shopitemscontainer}>
-                    <div className={styles.textcontainer}>
-                        {blogPostShop.postshop
-                            .filter((p) => p.locale === locale)
-                            .map((blogPostShop, i) => {
-                                return <BlogCardShop key={i} blogPostShop={blogPostShop} />
-                            })}
-                    </div>
-                    <div className={styles.formcontainer}>
-                        <Form />
-                    </div>
+            <div className={styles.shopitemscontainer}>
+                <div className={styles.textcontainer}>
+                    {blogPostShop.postshop
+                        .filter((p) => p.locale === locale)
+                        .map((blogPostShop, i) => {
+                            return <BlogCardShop key={i} blogPostShop={blogPostShop} />
+                        })}
                 </div>
-            </section>
+                <div className={styles.formcontainer}>
+                    <Form />
+                </div>
+            </div>
         </>
     );
 }

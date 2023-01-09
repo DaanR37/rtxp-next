@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
-
 export default function Home() {
   return (
     <>
@@ -14,28 +13,25 @@ export default function Home() {
         <meta property="og:url" content="https://www.rtxp.nl/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className={styles.homepagecontainer}>
-
-        <div className={styles.rtxplogo}>
-          <Image
-            src="/images/rtxp-main-logo.svg"
-            alt="rtxp logo"
-            className={styles.image}
-            width={250}
-            height={150}
-            priority={true}
-          />
-        </div>
-        <div className={styles.ticketssticker}>
-          <Image
-            src="/images/tickets-sticker.jpg"
-            alt="tickets sticker"
-            className={styles.image}
-            width={250}
-            height={125}
-          />
-        </div>
-      </section>
+      <div className={styles.rtxplogo}>
+        <Image
+          src="/images/rtxp-main-logo.svg"
+          alt="rtxp logo"
+          className={styles.image}
+          width={250}
+          height={150}
+          priority={true}
+        />
+      </div>
+      <div className={styles.ticketssticker}>
+        <Image
+          src="/images/tickets-sticker.jpg"
+          alt="tickets sticker"
+          className={styles.image}
+          width={250}
+          height={125}
+        />
+      </div>
     </>
   )
 }

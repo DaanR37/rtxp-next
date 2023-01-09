@@ -1,7 +1,3 @@
-.shopcontainer {
-    position: absolute;
-    width: 100vw;
-}
 .shopitemscontainer {
     display: flex;
     background-color: black;
@@ -11,28 +7,19 @@
     font-family: "Atrament";
     text-align: justify;
 }
-
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .shopcontainer {
-        height: 1100px;
-    }
     .shopitemscontainer {
-        position: absolute;
         flex-direction: column;
         align-items: center;
         width: 88vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 10;
+        margin: 125px auto;
     }
     .textcontainer {
         width: 85vw;
         max-width: 340px;
-        padding: 15px;
+        padding: 10px;
         h1 {
             font-size: 30px;
             margin: 0px 0px 5px 0px;
@@ -44,28 +31,22 @@
     .formcontainer {
         width: 85vw;
         max-width: 340px;
-        padding: 15px;
+        padding: 10px;
+        margin-bottom: 25px;
     }
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .shopcontainer {
-        height: 650px;
-    }
     .shopitemscontainer {
-        position: absolute;
         justify-content: space-between;
-        width: 70vw;
+        width: 85vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 2.5rem;
-        transform: translate(-50%, 2.5rem);
-        z-index: 1;
+        margin: 105px auto;
     }
     .textcontainer {
-        width: 50vw;
-        max-width: 300px;
+        width: 70vw;
+        max-width: 350px;
+        margin: 5px;
         padding: 15px;
         h1 {
             font-size: 22px;
@@ -78,30 +59,20 @@
     .formcontainer {
         width: 50vw;
         max-width: 300px;
-        padding: 15px;
+        margin-bottom: 25px;
     }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .shopcontainer {
-        height: 100vh;
-    }
     .shopitemscontainer {
-        position: absolute;
         flex-direction: column;
         align-items: center;
-        width: 65vw;
+        width: 85vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 10;
+        margin: 175px auto;
     }
     .textcontainer {
-        width: 85vw;
-        max-width: 450px;
-        padding: 10px;
+        max-width: 650px;
         margin: 15px;
         h1 {
             font-size: 31px;
@@ -113,32 +84,23 @@
     }
     .formcontainer {
         width: 85vw;
-        max-width: 450px;
-        padding: 10px;
+        max-width: 650px;
         margin: 15px;
     }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .shopcontainer {
-        height: 100vh;
-    }
     .shopitemscontainer {
-        position: absolute;
         justify-content: space-between;
-        width: 65vw;
+        width: 85vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 5rem;
-        transform: translate(-50%, 5rem);
-        z-index: 1;
+        margin: 150px auto;
     }
     .textcontainer {
-        width: 35vw;
-        max-width: 600px;
+        width: 55vw;
+        max-width: 450px;
         padding: 15px;
-        margin: 5px;
+        margin: 10px;
         h1 {
             font-size: 32px;
             margin: 0px 0px 5px 0px;
@@ -148,26 +110,18 @@
         }
     }
     .formcontainer {
-        width: 35vw;
-        max-width: 600px;
-        padding: 15px;
-        margin: 5px;
+        width: 70vw;
+        max-width: 300px;
+        margin-bottom: 25px;
     }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
-    .shopcontainer {
-        height: 100vh;
-    }
     .shopitemscontainer {
-        position: absolute;
         justify-content: space-between;
         width: 65vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 125px auto;
     }
     .textcontainer {
         width: 45vw;
@@ -176,44 +130,28 @@
         padding: 20px;
     }
     .formcontainer {
-        width: 45vw;
-        max-width: 450px;
-        margin: 5px;
-        padding: 20px;
+        width: 50vw;
+        max-width: 400px;
+        margin-bottom: 25px;
     }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
-    .shopcontainer {
-        height: 100vh;
-    }
     .shopitemscontainer {
-        position: absolute;
         justify-content: space-between;
         width: 65vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 135px auto;
     }
     .textcontainer {
         width: 45vw;
         max-width: 450px;
         margin: 5px;
         padding: 20px;
-        h1 {
-            font-size: 34px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 19px;
-        }
     }
     .formcontainer {
-        width: 45vw;
+        width: 50vw;
         max-width: 450px;
-        margin: 5px;
-        padding: 20px;
+        margin-bottom: 25px;
     }
 }

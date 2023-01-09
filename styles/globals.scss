@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  background: #F7F7F7;
 }
 a {
   color: inherit;
@@ -231,7 +232,7 @@ div.nav__menu-list div a {
   }
   .mobile-menu-logo {
     width: 100px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .nav__menu-list {
     position: fixed;
@@ -793,6 +794,54 @@ div.nav__menu-list div a {
 
 ///// BREAK
 
+/* Algemene CSS FORM Web3Forms */
+#__next
+  > section
+  > div.Shop_shopitemscontainer__bocEk
+  > div.Shop_formcontainer__v4ZAc
+  > div
+  > div
+  > div
+  > div.text-center
+  > h1 {
+  font-family: "Atrament";
+  font-weight: 100;
+  margin: 0;
+}
+#form > div > label {
+  display: flex;
+  font-weight: 100;
+  font-family: "Atrament";
+}
+#name,
+#email,
+#phone {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  margin-bottom: 5px;
+}
+#message {
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 5px;
+  border: 1.5px solid white;
+  color: white;
+}
+#form > div:nth-child(9) > button {
+  border-radius: 5px;
+  margin-top: 7.5px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Atrament";
+  &:hover {
+    opacity: 1;
+    transition: ease-in-out 350ms;
+  }
+}
+
 /* Mobile Portrait FORM Web3Forms */
 @media screen and (max-width: 600px) and (orientation: portrait) {
   #__next
@@ -804,54 +853,26 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 29px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 7.5px;
   }
   #form > div > label {
-    display: flex;
     font-size: 18px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 200px;
     height: 25px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 225px;
     height: 60px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100px;
     height: 30px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 21px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
   }
 }
 /* Mobile Landscape FORM Web3Forms */
@@ -865,54 +886,26 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 24px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 5px;
   }
   #form > div > label {
-    display: flex;
     font-size: 14px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 200px;
     height: 25px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 225px;
     height: 60px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 85px;
     height: 25px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 19px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
   }
 }
 /* Tablet Portrait FORM Web3Forms */
@@ -926,54 +919,26 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 29px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 7.5px;
   }
   #form > div > label {
-    display: flex;
     font-size: 18px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 200px;
     height: 25px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 225px;
     height: 60px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100px;
     height: 30px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 21px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
   }
 }
 /* Tablet Landscape Web3Forms */
@@ -987,54 +952,26 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 29px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 5px;
   }
   #form > div > label {
-    display: flex;
     font-size: 18px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 200px;
     height: 25px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 225px;
     height: 60px;
-    margin-bottom: 5px;
-    // border: 1.5px solid #ff70db;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100px;
     height: 30px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 21px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
   }
 }
 /* Desktop FORM Web3Forms */
@@ -1048,53 +985,27 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 31px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 7.5px;
   }
   #form > div > label {
-    display: flex;
     font-size: 17px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 250px;
     height: 30px;
-    margin-bottom: 5px;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 275px;
     height: 60px;
-    margin-bottom: 5px;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     width: 100px;
     height: 35px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 21px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    &:hover {
-      opacity: 1;
-      transition: all 400ms;
-    }
+    opacity: 0.85;
   }
 }
 /* Desktop Big Web3Forms */
@@ -1108,59 +1019,33 @@ div.nav__menu-list div a {
     > div
     > div.text-center
     > h1 {
-    font-family: "Atrament";
     font-size: 31px;
-    font-weight: 100;
-    margin: 0;
     margin-bottom: 10px;
   }
   #form > div > label {
-    display: flex;
     font-size: 19px;
-    font-weight: 100;
-    font-family: "Atrament";
   }
   #name,
   #email,
   #phone {
-    border-radius: 5px;
-    background-color: transparent;
     width: 275px;
     height: 25px;
-    margin-bottom: 5px;
-    border: 1.5px solid white;
-    color: white;
   }
   #message {
-    border-radius: 5px;
-    background-color: transparent;
     width: 300px;
     height: 60px;
-    margin-bottom: 5px;
-    border: 1.5px solid white;
   }
   #form > div:nth-child(9) > button {
     width: 100px;
     height: 35px;
-    border-radius: 5px;
-    margin-top: 7.5px;
     font-size: 21px;
-    font-family: "Atrament";
-    // background-color: #40e00b;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    &:hover {
-      opacity: 1;
-      transition: all 400ms;
-    }
+    opacity: 0.85;
   }
 }
 
 ///// BREAK
 
-/* Algemene css voor JSON files */
+/* Algemene CSS voor JSON files */
 .title {
   text-transform: uppercase;
 }
@@ -1175,7 +1060,7 @@ div.nav__menu-list div a {
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 40px;
+    font-size: 32px;
     padding: 15px;
     margin: 7.5px 0px 0px 0px;
   }
@@ -1277,17 +1162,17 @@ div.nav__menu-list div a {
   }
   .title.events {
     position: absolute;
-    font-size: 36px;
-    padding: 22.5px;
-    margin-bottom: 380px;
+    font-size: 46px;
+    padding: 30px;
+    margin-bottom: 225px;
     bottom: 0;
   }
   .description.monet {
     position: relative;
     text-align: justify;
     font-size: 28px;
-    padding: 22.5px;
-    margin-top: 600px;
+    padding: 30px;
+    margin-top: 750px;
     bottom: 0;
   }
 }
@@ -1305,7 +1190,6 @@ div.nav__menu-list div a {
   .title-secundair h2 {
     font-size: 21px;
   }
-
   .description.experience,
   .description.shop {
     font-size: 17px;
@@ -1318,16 +1202,16 @@ div.nav__menu-list div a {
   .title.events {
     position: absolute;
     font-size: 28px;
-    padding: 12.5px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
     bottom: 0;
   }
   .description.monet {
     position: relative;
     text-align: justify;
     font-size: 17px;
-    padding: 12.5px;
-    margin-top: 300px;
+    padding: 20px;
+    margin-top: 325px;
     bottom: 0;
   }
 }
@@ -1354,16 +1238,16 @@ div.nav__menu-list div a {
   .title.events {
     position: absolute;
     font-size: 28px;
-    padding: 12.5px;
-    margin-bottom: 27.5px;
+    padding: 15px;
+    margin-bottom: 40px;
     bottom: 0;
   }
   .description.monet {
     position: relative;
     text-align: justify;
     font-size: 18px;
-    padding: 12.5px;
-    margin-top: 300px;
+    padding: 15px;
+    margin-top: 290px;
     bottom: 0;
   }
 }
@@ -1380,26 +1264,26 @@ div.nav__menu-list div a {
   }
   .description.experience,
   .description.shop {
-    font-size: 17px;
+    font-size: 21px;
     margin: 0;
   }
   .description.about p {
-    font-size: 19px;
+    font-size: 21px;
     margin: 0 0 17.5px 0;
   }
   .title.events {
     position: absolute;
     font-size: 28px;
-    padding: 12.5px;
-    margin-bottom: 27.5px;
+    padding: 15px;
+    margin-bottom: 1px;
     bottom: 0;
   }
   .description.monet {
     position: relative;
     text-align: justify;
     font-size: 18px;
-    padding: 12.5px;
-    margin-top: 300px;
+    padding: 15px;
+    margin-top: 415px;
     bottom: 0;
   }
 }

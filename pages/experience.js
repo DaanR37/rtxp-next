@@ -21,29 +21,25 @@ const Experience = () => {
                 <meta property="og:url" content="https://www.rtxp.nl/experience" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <section className={styles.experiencecontainer}>
-                <div className={styles.monetcontainer}>
-                    <div className={styles.textcontainer}>
-                        {blogPostExperience.postexperience
-                            .filter((p) => p.locale === locale)
-                            .map((blogPostExperience, i) => {
-                                return <BlogCardExperience key={i} blogPostExperience={blogPostExperience} />
-                            })}
-                    </div>
-                    <div className={styles.imagecontainer}>
-                        <Image
-                            src="/images/monet.jpg"
-                            alt="monet painting"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                            priority={true}
-                        />
-                    </div>
+            <div className={styles.monetcontainer}>
+                <div className={styles.textcontainer}>
+                    {blogPostExperience.postexperience
+                        .filter((p) => p.locale === locale)
+                        .map((blogPostExperience, i) => {
+                            return <BlogCardExperience key={i} blogPostExperience={blogPostExperience} />
+                        })}
                 </div>
-            </section>
-
+                <div className={styles.imagecontainer}>
+                    <Image
+                        src="/images/monet.jpg"
+                        alt="monet painting"
+                        className={styles.image}
+                        width={350}
+                        height={350}
+                        priority={true}
+                    />
+                </div>
+            </div>
         </>
     );
 }

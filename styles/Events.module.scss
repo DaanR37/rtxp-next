@@ -1,7 +1,3 @@
-.eventscontainer {
-    position: absolute;
-    width: 100vw;
-}
 .slidercontainer {
     display: flex;
 }
@@ -12,105 +8,105 @@
     font-family: "Atrament";
     color: white;
 }
+//// Banner 1
+.bannercontainerone {
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        // position: relative !important;
+        position: absolute;
+        height: unset !important;
+    }
+}
+.bannercontainermonetone {
+    position: absolute;
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+    }
+}
+//// Banner 2
+.bannercontainertwo {
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        // position: relative !important;
+        position: absolute;
+        height: unset !important;
+    }
+}
+.bannercontainermonettwo {
+    position: absolute;
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+    }
+}
+//// Banner 3
+.bannercontainerthree {
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        // position: relative !important;
+        position: absolute;
+        height: unset !important;
+    }
+}
+.bannercontainermonetthree {
+    position: absolute;
+    width: 100%;
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+    }
+}
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .eventscontainer {
-        height: 2500px;
-    }
     .slidercontainer {
-        position: absolute;
         flex-direction: column;
         align-items: center;
         width: 88vw;
         height: auto;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        margin: 125px auto;
     }
     .bannercontainermonetone {
-        position: absolute;
         padding: 15px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
     }
     .bannercontainermonettwo {
-        position: absolute;
         padding: 15px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
     }
     .bannercontainermonetthree {
-        position: absolute;
         padding: 15px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
     .banner1,
     .banner2,
@@ -123,103 +119,20 @@
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .eventscontainer {
-        height: 150vh;
-    }
     .slidercontainer {
-        position: absolute;
-        justify-content: space-between;
         width: 87.5vw;
-        // height: 75vh;
         height: auto;
-        left: 50%;
-        top: 2.5rem;
-        transform: translate(-50%, 2.5rem);
-        z-index: 2;
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        margin: 105px auto;
+        justify-content: space-between;
     }
     .bannercontainermonetone {
-        position: absolute;
         padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
     }
     .bannercontainermonettwo {
-        position: absolute;
         padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
     }
     .bannercontainermonetthree {
-        position: absolute;
         padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
     .banner1,
     .banner2,
@@ -230,317 +143,70 @@
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .eventscontainer {
-        height: 300vh;
-    }
     .slidercontainer {
-        position: absolute;
         flex-direction: column;
         align-items: center;
-        // width: 65vw;
         height: auto;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        margin: 175px auto;
     }
     .bannercontainermonetone {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 30px;
     }
     .bannercontainermonettwo {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 30px;
     }
     .bannercontainermonetthree {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
+        padding: 30px;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 550px;
+        // width: 85vw;
+        max-width: 650px;
         height: 1000px;
-        margin-bottom: 25px;
-        z-index: 1;
+        margin-bottom: 150px;
     }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .eventscontainer {
-        height: 100vh;
-    }
     .slidercontainer {
-        position: absolute;
         justify-content: space-between;
         width: 85vw;
-        // height: 75vh;
         height: auto;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
-        z-index: 1;
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        margin: 150px auto;
     }
     .bannercontainermonetone {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 20px;
     }
     .bannercontainermonettwo {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 20px;
     }
     .bannercontainermonetthree {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
+        padding: 20px;
     }
     .banner1,
     .banner2,
     .banner3 {
-        width: 300px;
+        width: 325px;
         height: 350px;
     }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
-    .eventscontainer {
-        height: 100vh;
-    }
     .slidercontainer {
-        position: absolute;
         justify-content: space-between;
         width: 65vw;
-        // height: 75vh;
         height: auto;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        margin: 125px auto;
     }
     .bannercontainermonetone {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .bannercontainermonettwo {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .bannercontainermonetthree {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .banner1,
     .banner2,
@@ -551,107 +217,25 @@
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
-    .eventscontainer {
-        height: 100vh;
-    }
     .slidercontainer {
-        position: absolute;
         justify-content: space-between;
         width: 65vw;
-        height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
-        // height: auto;
-    }
-    //// Banner 1
-    .bannercontainerone {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        height: auto;
+        margin: 135px auto;
     }
     .bannercontainermonetone {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 2
-    .bannercontainertwo {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .bannercontainermonettwo {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-    }
-    //// Banner 3
-    .bannercontainerthree {
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            // position: relative !important;
-            position: absolute;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .bannercontainermonetthree {
-        position: absolute;
-        padding: 12.5px;
-        width: 100%;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
+        padding: 15px;
     }
     .banner1,
     .banner2,
     .banner3 {
         width: 375px;
-        height: 400px;
+        height: 425px;
     }
 }

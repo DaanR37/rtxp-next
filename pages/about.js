@@ -22,28 +22,25 @@ const About = () => {
                 <meta property="og:url" content="https://www.rtxp.nl/about" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <section className={styles.aboutcontainer}>
-                <div className={styles.googlemapcontainer}>
-                    <div className={styles.contactdetails}>
-                        {blogPostAbout.postabout
-                            .filter((p) => p.locale === locale)
-                            .map((blogPostAbout, i) => {
-                                return <BlogCardAbout key={i} blogPostAbout={blogPostAbout} />
-                            })}
-                    </div>
-                    <div className={styles.locationmap}>
-                        <Image
-                            src="/images/location-map.svg"
-                            alt="location map"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                            priority={true}
-                        />
-                    </div>
+            <div className={styles.googlemapcontainer}>
+                <div className={styles.contactdetails}>
+                    {blogPostAbout.postabout
+                        .filter((p) => p.locale === locale)
+                        .map((blogPostAbout, i) => {
+                            return <BlogCardAbout key={i} blogPostAbout={blogPostAbout} />
+                        })}
                 </div>
-            </section>
+                <div className={styles.locationmap}>
+                    <Image
+                        src="/images/location-map.svg"
+                        alt="location map"
+                        className={styles.image}
+                        width={350}
+                        height={350}
+                        priority={true}
+                    />
+                </div>
+            </div>
         </>
     );
 }

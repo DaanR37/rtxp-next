@@ -1,25 +1,13 @@
-.infocontainer {
-    position: absolute;
-    width: 100vw;
-}
 .faqcontainer {
     background: black;
+    align-items: center;
+    height: auto;
 }
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .infocontainer {
-        height: 150vh;
-    }
     .faqcontainer {
-        position: absolute;
-        align-items: center;
         width: 88vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 1;
+        margin: 125px auto;
     }
     .accordionleft,
     .accordionright {
@@ -28,19 +16,9 @@
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .infocontainer {
-        height: 325vh;
-    }
     .faqcontainer {
-        position: absolute;
-        align-items: center;
-        width: 65vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 2.5rem;
-        transform: translate(-50%, 2.5rem);
-        z-index: 1;
+        width: 85vw;
+        margin: 105px auto;
     }
     .accordionleft,
     .accordionright {
@@ -49,19 +27,9 @@
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .infocontainer {
-        height: 125vh;
-    }
     .faqcontainer {
-        position: absolute;
-        align-items: center;
-        width: 65vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 1;
+        width: 85vw;
+        margin: 175px auto;
     }
     .accordionleft,
     .accordionright {
@@ -70,20 +38,10 @@
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .infocontainer {
-        height: 100vh;
-    }
     .faqcontainer {
-        position: absolute;
         display: flex;
-        align-items: center;
-        width: 65vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
-        z-index: 1;
+        width: 85vw;
+        margin: 150px auto;
     }
     .accordionleft,
     .accordionright {
@@ -92,19 +50,10 @@
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
-    .infocontainer {
-        height: 100vh;
-    }
     .faqcontainer {
-        position: absolute;
         display: flex;
-        align-items: center;
         width: 65vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 125px auto;
     }
     .accordionleft,
     .accordionright {
@@ -113,19 +62,10 @@
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
-    .infocontainer {
-        height: 100vh;
-    }
     .faqcontainer {
-        position: absolute;
         display: flex;
-        align-items: center;
         width: 65vw;
-        height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 135px auto;
     }
     .accordionleft,
     .accordionright {

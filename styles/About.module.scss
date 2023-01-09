@@ -1,10 +1,5 @@
-.aboutcontainer {
-    position: absolute;
-    width: 100vw;
-}
 .googlemapcontainer {
     display: flex;
-    // background: #c5e3f3;
     background: black;
     color: white;
 }
@@ -15,24 +10,29 @@
         text-transform: uppercase;
     }
 }
+div.locationmap {
+    > div {
+        position: unset !important;
+    }
+    .image {
+        object-fit: contain;
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+    }
+}
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .aboutcontainer {
-        height: 1400px;
-    }
     .googlemapcontainer {
-        position: absolute;
+        position: relative;
         flex-direction: column-reverse;
         width: 88vw;
         height: auto;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 1;
+        margin: 125px auto;
     }
     .contactdetails {
-        width: 85vw;
+        width: 88vw;
         max-width: 340px;
         padding: 15px;
     }
@@ -42,139 +42,78 @@
         padding: 15px;
         margin: 55px auto;
         margin-bottom: 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .aboutcontainer {
-        height: 1700px;
-    }
     .googlemapcontainer {
-        position: absolute;
+        position: relative;
         flex-direction: column-reverse;
-        width: 65vw;
+        width: 85vw;
         height: auto;
-        left: 50%;
-        top: 2.5rem;
-        transform: translate(-50%, 2.5rem);
-        z-index: 1;
+        margin: 105px auto;
     }
     .contactdetails {
-        width: 65vw;
+        width: 85vw;
         max-width: 330px;
         padding: 15px;
     }
     .locationmap {
-        width: 65vw;
+        width: 85vw;
         padding: 15px;
         margin: 55px auto;
         margin-bottom: 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .aboutcontainer {
-        height: 150vh;
-    }
     .googlemapcontainer {
-        position: absolute;
+        position: relative;
         flex-direction: column-reverse;
-        width: 65vw;
+        width: 85vw;
         height: auto;
-        left: 50%;
-        top: 3.5rem;
-        transform: translate(-50%, 3.5rem);
-        z-index: 1;
+        margin: 175px auto;
     }
     .contactdetails {
-        width: 65vw;
+        width: 85vw;
         max-width: 330px;
         padding: 15px;
     }
     .locationmap {
-        width: 65vw;
+        width: 85vw;
         padding: 15px;
         margin: 55px auto;
         margin-bottom: 0px;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .aboutcontainer {
-        height: 100vh;
-    }
     .googlemapcontainer {
-        position: absolute;
-        width: 65vw;
+        position: relative;
+        width: 85vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
-        z-index: 1;
+        margin: 150px auto;
     }
     .contactdetails {
-        width: 45vw;
+        width: 55vw;
         max-width: 275px;
         padding: 15px;
     }
     .locationmap {
         position: absolute;
-        width: 45vw;
+        width: 70vw;
         max-width: 500px;
         padding: 15px;
         right: 0;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
-    .aboutcontainer {
-        height: 100vh;
-    }
     .googlemapcontainer {
-        position: absolute;
+        position: relative;
         width: 65vw;
         height: auto;
-        // height: 75vh;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 125px auto;
     }
     .contactdetails {
         width: 45vw;
@@ -189,31 +128,16 @@
         padding: 10px;
         margin: 10px;
         right: 0;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
-    .aboutcontainer {
-        height: 100vh;
-    }
     .googlemapcontainer {
-        position: absolute;
+        position: relative;
         align-items: center;
         width: 65vw;
-        // height: 65vh;
         height: auto;
-        left: 50%;
-        top: 4rem;
-        transform: translate(-50%, 4rem);
+        margin: 135px auto;
     }
     .contactdetails {
         width: 45vw;
@@ -224,18 +148,9 @@
     .locationmap {
         position: absolute;
         width: 35vw;
-        max-width: 700px;
+        max-width: 650px;
         padding: 10px;
         margin: 10px;
         right: 0;
-        > div {
-            position: unset !important;
-        }
-        .image {
-            object-fit: contain;
-            width: 90% !important;
-            position: relative !important;
-            height: unset !important;
-        }
     }
 }
