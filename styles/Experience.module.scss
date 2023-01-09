@@ -27,19 +27,12 @@ div.imagecontainer {
     }
     .textcontainer {
         width: 85vw;
-        max-width: 340px;
+        max-width: 380px;
         padding: 10px;
-        h1 {
-            font-size: 30px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 17px;
-        }
     }
     .imagecontainer {
         width: 85vw;
-        max-width: 340px;
+        max-width: 380px;
         padding: 10px;
     }
 }
@@ -53,20 +46,12 @@ div.imagecontainer {
     .textcontainer {
         width: 70vw;
         max-width: 350px;
-        margin: 5px;
         padding: 15px;
-        h1 {
-            font-size: 22px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 13px;
-        }
     }
     .imagecontainer {
         width: 600px;
-        margin: 5px;
         padding: 15px;
+        margin-bottom: 20px;
     }
 }
 ///Tablet Portrait
@@ -79,22 +64,15 @@ div.imagecontainer {
         margin: 175px auto;
     }
     .textcontainer {
-        max-width: 650px;
-        padding: 10px;
-        margin: 15px;
-        h1 {
-            font-size: 31px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 21px;
-        }
+        width: 85vw;
+        max-width: 700px;
+        padding: 15px;
     }
     .imagecontainer {
         width: 105vw;
-        max-width: 650px;
-        padding: 10px;
-        margin: 15px;
+        max-width: 700px;
+        padding: 15px;
+        margin-bottom: 15px;
     }
 }
 ///Tablet Landscape
@@ -108,19 +86,12 @@ div.imagecontainer {
     .textcontainer {
         width: 55vw;
         max-width: 600px;
-        padding: 15px;
-        h1 {
-            font-size: 32px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 17px;
-        }
+        padding: 20px;
     }
     .imagecontainer {
         width: 70vw;
         max-width: 600px;
-        padding: 15px;
+        padding: 20px;
     }
 }
 ///Desktop
@@ -134,13 +105,11 @@ div.imagecontainer {
     .textcontainer {
         width: 45vw;
         max-width: 330px;
-        margin: 5px;
         padding: 20px;
     }
     .imagecontainer {
         width: 600px;
-        padding: 15px;
-        margin: 15px;
+        padding: 20px;
     }
 }
 ///Desktop Big
@@ -154,12 +123,10 @@ div.imagecontainer {
     .textcontainer {
         width: 45vw;
         max-width: 450px;
-        margin: 5px;
         padding: 20px;
     }
     .imagecontainer {
         width: 750px;
-        padding: 15px;
-        margin: 15px;
+        padding: 20px;
     }
 }

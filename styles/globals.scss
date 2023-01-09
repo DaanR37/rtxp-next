@@ -594,7 +594,6 @@ div.nav__menu-list div a {
 .accordion {
   display: flex;
   align-items: center;
-  // background: #98d4f4;
   background: white;
   color: black;
   border-radius: 5px;
@@ -602,7 +601,6 @@ div.nav__menu-list div a {
   outline: none;
 }
 .accordion.active {
-  // background-color: #65c4f7;
   background-color: black;
   transition: all 0.4s ease;
   // color: #ff70db !important;
@@ -627,7 +625,6 @@ div.nav__menu-list div a {
 }
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-  // background-color: greenyellow;
   background: white;
   overflow: auto;
   transition: max-height 0.6s ease;
@@ -738,7 +735,6 @@ div.nav__menu-list div a {
   }
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion:hover {
-    // background-color: #65c4f7;
     background-color: black;
     color: white;
     transition: all 0.4s ease;
@@ -771,7 +767,6 @@ div.nav__menu-list div a {
   }
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion:hover {
-    // background-color: #65c4f7;
     background-color: black;
     color: white;
     transition: all 0.4s ease;
@@ -1061,8 +1056,8 @@ div.nav__menu-list div a {
     left: 0;
     top: 0;
     font-size: 32px;
-    padding: 15px;
-    margin: 7.5px 0px 0px 0px;
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
   }
   .title-secundair h2 {
     font-size: 27px;
@@ -1103,8 +1098,9 @@ div.nav__menu-list div a {
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 40px;
-    margin: 20px 0px 5px 15px;
+    font-size: 32px;
+    margin: 0px 0px 5px 0px;
+    padding: 15px;
   }
   .title-secundair h2 {
     font-size: 29px;
@@ -1145,8 +1141,8 @@ div.nav__menu-list div a {
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 40px;
-    margin: 20px 0px 5px 15px;
+    font-size: 32px;
+    margin: 25px 0px 5px 15px;
   }
   .title-secundair h2 {
     font-size: 27px;
@@ -1179,12 +1175,9 @@ div.nav__menu-list div a {
 /* Tablet Landscape JSON files */
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
   .title.experience h1,
-  .title.shop h1 {
-    font-size: 32px;
-    margin: 0px 0px 5px 0px;
-  }
+  .title.shop h1,
   .title.about h1 {
-    font-size: 30px;
+    font-size: 32px;
     margin: 0px 0px 5px 0px;
   }
   .title-secundair h2 {

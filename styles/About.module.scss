@@ -32,16 +32,14 @@ div.locationmap {
         margin: 125px auto;
     }
     .contactdetails {
-        width: 88vw;
-        max-width: 340px;
-        padding: 15px;
+        width: 85vw;
+        max-width: 380px;
+        padding: 10px;
     }
     .locationmap {
-        width: 88vw;
-        max-width: 400px;
-        padding: 15px;
-        margin: 55px auto;
-        margin-bottom: 0px;
+        max-width: 380px;
+        padding: 10px;
+        margin-top: 50px;
     }
 }
 ///Mobile Landscape
@@ -55,14 +53,14 @@ div.locationmap {
     }
     .contactdetails {
         width: 85vw;
-        max-width: 330px;
+        max-width: 350px;
         padding: 15px;
     }
     .locationmap {
         width: 85vw;
+        max-width: 800px;
         padding: 15px;
-        margin: 55px auto;
-        margin-bottom: 0px;
+        margin-top: 50px;
     }
 }
 ///Tablet Portrait
@@ -81,9 +79,9 @@ div.locationmap {
     }
     .locationmap {
         width: 85vw;
+        max-width: 700px;
         padding: 15px;
-        margin: 55px auto;
-        margin-bottom: 0px;
+        margin-top: 50px;
     }
 }
 ///Tablet Landscape
@@ -96,14 +94,14 @@ div.locationmap {
     }
     .contactdetails {
         width: 55vw;
-        max-width: 275px;
-        padding: 15px;
+        max-width: 300px;
+        padding: 20px;
     }
     .locationmap {
         position: absolute;
         width: 70vw;
         max-width: 500px;
-        padding: 15px;
+        padding: 20px;
         right: 0;
     }
 }
@@ -117,15 +115,15 @@ div.locationmap {
     }
     .contactdetails {
         width: 45vw;
-        max-width: 230px;
-        padding: 10px;
+        max-width: 250px;
+        padding: 15px;
         margin: 10px;
     }
     .locationmap {
         position: absolute;
         width: 45vw;
         max-width: 600px;
-        padding: 10px;
+        padding: 15px;
         margin: 10px;
         right: 0;
     }
@@ -147,8 +145,8 @@ div.locationmap {
     }
     .locationmap {
         position: absolute;
-        width: 35vw;
-        max-width: 650px;
+        width: 45vw;
+        max-width: 700px;
         padding: 10px;
         margin: 10px;
         right: 0;

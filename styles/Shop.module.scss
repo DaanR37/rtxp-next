@@ -18,21 +18,13 @@
     }
     .textcontainer {
         width: 85vw;
-        max-width: 340px;
+        max-width: 380px;
         padding: 10px;
-        h1 {
-            font-size: 30px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 17px;
-        }
     }
     .formcontainer {
         width: 85vw;
-        max-width: 340px;
+        max-width: 380px;
         padding: 10px;
-        margin-bottom: 25px;
     }
 }
 ///Mobile Landscape
@@ -46,15 +38,7 @@
     .textcontainer {
         width: 70vw;
         max-width: 350px;
-        margin: 5px;
         padding: 15px;
-        h1 {
-            font-size: 22px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 13px;
-        }
     }
     .formcontainer {
         width: 50vw;
@@ -72,20 +56,15 @@
         margin: 175px auto;
     }
     .textcontainer {
-        max-width: 650px;
-        margin: 15px;
-        h1 {
-            font-size: 31px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 21px;
-        }
+        width: 85vw;
+        max-width: 700px;
+        padding: 15px;
     }
     .formcontainer {
         width: 85vw;
-        max-width: 650px;
-        margin: 15px;
+        max-width: 700px;
+        padding: 15px;
+        margin-bottom: 15px;
     }
 }
 ///Tablet Landscape
@@ -99,20 +78,12 @@
     .textcontainer {
         width: 55vw;
         max-width: 450px;
-        padding: 15px;
-        margin: 10px;
-        h1 {
-            font-size: 32px;
-            margin: 0px 0px 5px 0px;
-        }
-        p {
-            font-size: 17px;
-        }
+        padding: 20px;
     }
     .formcontainer {
         width: 70vw;
         max-width: 300px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 }
 ///Desktop
@@ -126,7 +97,6 @@
     .textcontainer {
         width: 45vw;
         max-width: 330px;
-        margin: 5px;
         padding: 20px;
     }
     .formcontainer {
@@ -146,7 +116,6 @@
     .textcontainer {
         width: 45vw;
         max-width: 450px;
-        margin: 5px;
         padding: 20px;
     }
     .formcontainer {
