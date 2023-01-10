@@ -637,88 +637,88 @@ div.nav__menu-list div a {
 /* Mobile Portrait Accordion */
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .accordion__section {
-    margin: 3.5px;
-    padding: 3px;
+    // margin: 2.5px;
+    padding: 2.5px;
   }
   .accordion {
     height: 40px;
     padding: 1px;
   }
   .accordion__title {
-    font-size: 26px;
+    font-size: 18px;
     padding-left: 7.5px;
   }
   .accordion__icon {
     margin-right: 1rem;
   }
   .accordion__text {
-    font-size: 19px;
+    font-size: 17px;
     padding: 10px;
   }
 }
 /* Mobile Landscape Accordion */
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
   .accordion__section {
-    margin: 3.5px;
-    padding: 3px;
+    // margin: 3.5px;
+    padding: 2.5px;
   }
   .accordion {
     height: 40px;
     padding: 1px;
   }
   .accordion__title {
-    font-size: 26px;
+    font-size: 21px;
     padding-left: 7.5px;
   }
   .accordion__icon {
     margin-right: 1rem;
   }
   .accordion__text {
-    font-size: 19px;
+    font-size: 20px;
     padding: 10px;
   }
 }
 /* Tablet Portrait Accordion */
 @media screen and (min-width: 600px) and (orientation: portrait) {
   .accordion__section {
-    margin: 3.5px;
-    padding: 3px;
+    margin: 1.5px;
+    padding: 2.5px;
   }
   .accordion {
     height: 40px;
     padding: 1px;
   }
   .accordion__title {
-    font-size: 26px;
-    padding-left: 7.5px;
+    font-size: 24px;
+    padding-left: 10px;
   }
   .accordion__icon {
     margin-right: 1rem;
   }
   .accordion__text {
-    font-size: 19px;
+    font-size: 22px;
     padding: 10px;
   }
 }
 /* Tablet Landscape Accordion */
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
   .accordion__section {
-    margin: 3.5px;
-    padding: 3px;
+    margin: 1.5px;
+    padding: 2.5px;
   }
   .accordion {
     height: 40px;
     padding: 1px;
   }
   .accordion__title {
-    font-size: 26px;
-    padding-left: 7.5px;
+    font-size: 23px;
+    padding-left: 10px;
   }
   .accordion__icon {
     margin-right: 1rem;
   }
   .accordion__text {
-    font-size: 19px;
+    font-size: 21px;
     padding: 10px;
   }
 }
@@ -741,8 +741,8 @@ div.nav__menu-list div a {
   }
   /* Style the accordion content title */
   .accordion__title {
-    font-size: 26px;
-    padding-left: 10px;
+    font-size: 21px;
+    padding-left: 7.5px;
   }
   /* Style the accordion chevron icon */
   .accordion__icon {
@@ -773,7 +773,7 @@ div.nav__menu-list div a {
   }
   /* Style the accordion content title */
   .accordion__title {
-    font-size: 26px;
+    font-size: 24px;
     padding-left: 10px;
   }
   /* Style the accordion chevron icon */
@@ -783,7 +783,7 @@ div.nav__menu-list div a {
   /* Style the accordion content text */
   .accordion__text {
     font-size: 18px;
-    padding: 10px;
+    padding: 12.5px;
   }
 }
 

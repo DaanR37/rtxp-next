@@ -18,78 +18,80 @@ const Info = (props) => {
             <div className={styles.faqcontainer}>
                 <div className={styles.accordionleft}>
                     <Accordion
-                        title="When?"
-                        content="Our grand openening will be at the 22nd of December."
+                        title="Wat zijn de openingstijden?"
+                        content="Maandag t/m Zondag van 10:30 tot 20:00."
                     />
                     <Accordion
-                        title="Where can I get tickets?"
-                        content="At the door or buy them via our website."
+                        title="Is de Museumkaart geldig bij RTXP?"
+                        content="RTXP is geen museum en daarom niet aangesloten bij deze organisatie. Wel bieden wij €7,50 korting
+                        aan."
                     />
                     <Accordion
-                        title="Minimum age?"
-                        content="All ages"
+                        title="Zijn er invalidenvoorzieningen beschikbaar bij RTXP?"
+                        content="Nee, er zijn op dit moment helaas geen invalidenvoorzieningen beschikbaar."
                     />
                     <Accordion
-                        title="Food & Drinks"
-                        content="Lorem Ipsum Ballzium"
+                        title="Is RTXP rolstoel vriendelijk?"
+                        content="Nee, op dit moment is het niet mogelijk om RTXP met een rolstoel te bezoeken."
                     />
                     <Accordion
-                        title="Dissability Acces"
-                        content="We are situated on ground floor, therefore we are wheelchair friendly."
+                        title="Zijn er zitplaatsen beschikbaar?"
+                        content="Ja er zijn 40 zitplaatsen beschikbaar verspreid over de tentoonstelling."
                     />
                     <Accordion
-                        title="House Rules"
-                        content="Lorem Ipsum Ballzium"
+                        title="Is er een garderobe?"
+                        content="Ja er is een (onbewaakte) garderobe beschikbaar."
                     />
                     <Accordion
-                        title="Identification"
-                        content="Lorem Ipsum Ballzium"
+                        title="Mogen dieren mee naar RTXP?"
+                        content="Nee, dieren zijn niet toegestaan. Met uitzondering van geleidehonden."
                     />
                     <Accordion
-                        title="Lost & Found"
-                        content="Lorem Ipsum Ballzium"
+                        title="Kan ik wat eten of drinken bij RTXP?"
+                        content="Er is een bar met koffie, thee, fris en diverse zoetigheden."
                     />
                     <Accordion
-                        title="Contact us"
-                        content="Lorem Ipsum Ballzium"
+                        title="Wat is de minimale leeftijd?"
+                        content="Er is geen minimale leeftijd. Kinderen tot 6 jaar mogen gratis naar binnen. Kinderen van 7 tot 12 jaar betalen €7,50."
                     />
                 </div>
                 <div className={styles.accordionright}>
                     <Accordionright
-                        title="When?"
-                        content="Our grand openening will be at the 22nd of December."
+                        title="What are the opening hours?"
+                        content="Monday till Sunday from 10:30 to 20:00."
                     />
                     <Accordionright
-                        title="Where can I get tickets?"
-                        content="At the door or buy them via our website."
+                        title="Is the Museum Card valid at RTXP?"
+                        content="RTXP is not a museum and therefore not affiliated with this organization. However, we do offer a €7.50
+                        discount."
                     />
                     <Accordionright
-                        title="Minimum age?"
-                        content="All ages"
+                        title="Are disabled facilities available at RTXP?"
+                        content="No, unfortunately there are no disabled facilities available at this time."
                     />
                     <Accordionright
-                        title="Food & Drinks"
-                        content="Lorem Ipsum Ballzium"
+                        title="Is RTXP wheelchair friendly?"
+                        content="No, at this time it is not possible to visit RTXP with a wheelchair."
                     />
                     <Accordionright
-                        title="Dissability Acces"
-                        content="We are situated on ground floor, therefore we are wheelchair friendly."
+                        title="Is there seating available?"
+                        content="Yes there are 40 seats available throughout the exhibition."
                     />
                     <Accordionright
-                        title="House Rules"
-                        content="Lorem Ipsum Ballzium"
+                        title="Is there a wardrobe?"
+                        content="Yes there is a (unattended) wardrobe available."
                     />
                     <Accordionright
-                        title="Identification"
-                        content="Lorem Ipsum Ballzium"
+                        title="Are animals allowed to visit RTXP?"
+                        content="No, animals are not allowed. With the exception of guide dogs."
                     />
                     <Accordionright
-                        title="Lost & Found"
-                        content="Lorem Ipsum Ballzium"
+                        title="Can I get something to eat or drink at RTXP?"
+                        content="There is a bar with coffee, tea, soft drinks and various sweets."
                     />
                     <Accordionright
-                        title="Contact us"
-                        content="Lorem Ipsum Ballzium"
+                        title="What is the minimum age?"
+                        content="There is no minimum age. Children up to 6 years may enter for free. Children between 7 and 12 years pay €7.50."
                     />
                 </div>
             </div>
