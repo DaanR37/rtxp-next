@@ -21,7 +21,6 @@ div.locationmap {
         height: unset !important;
     }
 }
-
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .googlemapcontainer {
@@ -109,6 +108,7 @@ div.locationmap {
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
     .googlemapcontainer {
         position: relative;
+        align-items: center;
         width: 65vw;
         height: auto;
         margin: 125px auto;
