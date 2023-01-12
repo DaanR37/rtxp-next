@@ -23,7 +23,7 @@ export default function Home() {
           priority={true}
         />
       </div>
-      <div className={styles.ticketssticker}>
+      {/* <div className={styles.ticketssticker}>
         <Image
           src="/images/tickets-sticker.jpg"
           alt="tickets sticker"
@@ -31,7 +31,7 @@ export default function Home() {
           width={250}
           height={125}
         />
-      </div>
+      </div> */}
     </>
   )
 }
