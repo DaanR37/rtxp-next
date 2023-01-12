@@ -151,8 +151,7 @@ div.nav__menu-list div a {
     height: 3px;
   }
   .mobile-menu-logo {
-    width: 125px;
-    margin-bottom: 25px;
+    width: 165px;
   }
   .nav__menu-list {
     position: fixed;
@@ -161,7 +160,7 @@ div.nav__menu-list div a {
     width: 300px;
     right: -300px;
     row-gap: 10px;
-    padding: 120px 0px;
+    padding: 70px 0px;
     min-height: calc(100vh - 75px);
     opacity: 0.95;
     transition: all 0.3s;
@@ -169,10 +168,10 @@ div.nav__menu-list div a {
   }
   .nav__menu-list.active {
     right: 0;
-    row-gap: 12.5px;
+    row-gap: 10.5px;
   }
   .nav__link {
-    font-size: 40px;
+    font-size: 35px;
   }
   /* HAMBURGER ANIMATION ON CLICK */
   .nav__menu-bar.active div:nth-child(1) {
@@ -232,8 +231,7 @@ div.nav__menu-list div a {
     height: 4px;
   }
   .mobile-menu-logo {
-    width: 90px;
-    margin-bottom: 12.5px;
+    width: 155px;
   }
   .nav__menu-list {
     position: fixed;
@@ -241,7 +239,7 @@ div.nav__menu-list div a {
     top: 75px;
     width: 350px;
     right: -350px;
-    padding: 40px 0px;
+    padding: 5px 0px;
     min-height: calc(100vh - 75px);
     opacity: 0.95;
     transition: all 0.3s;
@@ -249,7 +247,7 @@ div.nav__menu-list div a {
   }
   .nav__menu-list.active {
     right: 0;
-    row-gap: 6px;
+    row-gap: 4px;
   }
   .nav__link {
     font-size: 25px;
@@ -312,8 +310,7 @@ div.nav__menu-list div a {
     height: 5px;
   }
   .mobile-menu-logo {
-    width: 200px;
-    margin-bottom: 35px;
+    width: 300px;
   }
   .nav__menu-list {
     position: fixed;
@@ -322,7 +319,7 @@ div.nav__menu-list div a {
     width: 450px;
     right: -450px;
     row-gap: 15px;
-    padding: 200px 0px;
+    padding: 25px 0px;
     min-height: calc(100vh - 90px);
     opacity: 0.95;
     transition: all 0.3s;
@@ -330,10 +327,10 @@ div.nav__menu-list div a {
   }
   .nav__menu-list.active {
     right: 0;
-    row-gap: 17.5px;
+    row-gap: 12.5px;
   }
   .nav__link {
-    font-size: 55px;
+    font-size: 45px;
   }
   /// HAMBURGER ANIMATION ON CLICK
   .nav__menu-bar.active div:nth-child(1) {
@@ -393,8 +390,7 @@ div.nav__menu-list div a {
     height: 5px;
   }
   .mobile-menu-logo {
-    width: 175px;
-    margin-bottom: 30px;
+    width: 300px;
   }
   .nav__menu-list {
     position: fixed;
@@ -403,7 +399,7 @@ div.nav__menu-list div a {
     width: 550px;
     right: -550px;
     row-gap: 5px;
-    padding: 100px 0px;
+    padding: 20px 0px;
     min-height: calc(100vh - 90px);
     opacity: 0.95;
     transition: all 0.3s;
@@ -411,7 +407,7 @@ div.nav__menu-list div a {
   }
   .nav__menu-list.active {
     right: 0;
-    row-gap: 17.5px;
+    row-gap: 12.5px;
   }
   .nav__link {
     font-size: 45px;

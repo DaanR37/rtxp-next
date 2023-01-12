@@ -23,11 +23,15 @@ const Experience = () => {
             </Head>
             <div className={styles.monetcontainer}>
                 <div className={styles.textcontainer}>
+
+
                     {blogPostExperience.postexperience
                         .filter((p) => p.locale === locale)
                         .map((blogPostExperience, i) => {
                             return <BlogCardExperience key={i} blogPostExperience={blogPostExperience} />
                         })}
+
+                        
                 </div>
                 <div className={styles.imagecontainer}>
                     <Image

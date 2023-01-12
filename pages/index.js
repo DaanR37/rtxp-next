@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className={styles.rtxplogo}>
         <Image
-          src="/images/rtxp-main-logo.svg"
+          src="/images/rtxp-main-logo-new.svg"
           alt="rtxp logo"
           className={styles.image}
           width={250}

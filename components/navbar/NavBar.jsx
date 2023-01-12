@@ -78,7 +78,7 @@ const NavBar = () => {
               href={"/"}
             >
               <Image
-                src="/images/rtxp-main-logo.svg"
+                src="/images/rtxp-main-logo-new.svg"
                 alt="rtxp logo"
                 className="image"
                 width={250}
