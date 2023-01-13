@@ -13,29 +13,10 @@
     height: unset !important;
   }
 }
-.ticketssticker {
-  position: absolute;
-  left: 50%;
-  filter: drop-shadow(2px 4px 6px black);
-  > div {
-    position: unset !important;
-  }
-  .image {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
-  }
-}
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .rtxplogo {
     width: 100vw;
-  }
-  .ticketssticker {
-    width: 30vw;
-    bottom: 30%;
-    transform: translate(-50%, -30%);
   }
 }
 ///Mobile Landscape
@@ -43,21 +24,11 @@
   .rtxplogo {
     width: 50vw;
   }
-  .ticketssticker {
-    width: 13vw;
-    bottom: 12.5%;
-    transform: translate(-50%, -12.5%);
-  }
 }
 ///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
   .rtxplogo {
     width: 90vw;
-  }
-  .ticketssticker {
-    width: 27.5vw;
-    bottom: 25%;
-    transform: translate(-50%, -25%);
   }
 }
 ///Tablet Landscape
@@ -65,31 +36,16 @@
   .rtxplogo {
     width: 80vw;
   }
-  .ticketssticker {
-    width: 17.5vw;
-    bottom: 12.5%;
-    transform: translate(-50%, -12.5%);
-  }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
   .rtxplogo {
     width: 55vw;
   }
-  .ticketssticker {
-    width: 15vw;
-    bottom: 12.5%;
-    transform: translate(-50%, -12.5%);
-  }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
   .rtxplogo {
     width: 50vw;
-  }
-  .ticketssticker {
-    width: 13vw;
-    bottom: 10%;
-    transform: translate(-50%, -10%);
   }
 }

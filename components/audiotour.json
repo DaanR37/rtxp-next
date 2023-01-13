@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "monet",
-      "url": "public/audio/dans-moulin-rouge.mp3"
+      "url": "./audio/dans-moulin-rouge.mp3"
     },
     {
       "id": 2,
       "name": "van Gogh",
-      "url": "public/audio/de-rode-boom.mp3"
+      "url": "./audio/de-rode-boom.mp3"
     }
   ]
 }

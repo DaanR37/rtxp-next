@@ -23,15 +23,6 @@ export default function Home() {
           priority={true}
         />
       </div>
-      {/* <div className={styles.ticketssticker}>
-        <Image
-          src="/images/tickets-sticker.jpg"
-          alt="tickets sticker"
-          className={styles.image}
-          width={250}
-          height={125}
-        />
-      </div> */}
     </>
   )
 }

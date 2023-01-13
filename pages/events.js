@@ -43,7 +43,7 @@ const Events = () => {
                     </div>
                     <div className={styles.bannercontainermonetone}>
                         <Image
-                            src="/images/events-monet.png"
+                            src="/images/building-rtxp.jpg"
                             alt="monet painting"
                             className={styles.image}
                             width={350}
@@ -71,7 +71,7 @@ const Events = () => {
                     </div>
                     <div className={styles.bannercontainermonettwo}>
                         <Image
-                            src="/images/events-monet.png"
+                            src="/images/nachtwacht.png"
                             alt="monet painting"
                             className={styles.image}
                             width={350}
@@ -99,7 +99,7 @@ const Events = () => {
                     </div>
                     <div className={styles.bannercontainermonetthree}>
                         <Image
-                            src="/images/events-monet.png"
+                            src="/images/garden-monet.jpg"
                             alt="monet painting"
                             className={styles.image}
                             width={350}
