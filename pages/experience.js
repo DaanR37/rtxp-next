@@ -35,7 +35,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.imagecontainer}>
                     <Image
-                        src="/images/monet.jpg"
+                        src="/images/van-gogh-nieuw.jpg"
                         alt="monet painting"
                         className={styles.image}
                         width={350}

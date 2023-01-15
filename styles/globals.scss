@@ -32,16 +32,17 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 7%;
+  margin-left: 9%;
   margin-top: 50px;
-  opacity: 0.85;
-  z-index: 10000;
   cursor: pointer;
-  filter: invert(1);
+  border: 1.4px solid #000000;
+  border-radius: 5%;
+  // filter: invert(1);
+  z-index: 10000;
   img:hover {
-    opacity: 1;
-    transition: 350ms ease-in-out;
-    filter: invert(1);
+    transform: scale(1.15);
+    transition: 400ms ease-in-out;
+    // filter: invert(1);
   }
 }
 .facebook-container,
@@ -456,7 +457,7 @@ div.nav__menu-list div a {
     margin-top: 50px;
   }
   .menu-sticker {
-    width: 110px;
+    width: 62px;
     > div {
       position: unset !important;
     }
@@ -996,6 +997,12 @@ div.nav__menu-list div a {
 /* Algemene CSS voor JSON files */
 .title {
   text-transform: uppercase;
+  color: white;
+  font-family: "Atrament";
+}
+.description {
+  color: white;
+  font-family: "Atrament";
 }
 /* Mobile Portrait JSON files */
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -1025,19 +1032,15 @@ div.nav__menu-list div a {
     margin: 0 0 17.5px 0;
   }
   .title.events {
-    position: absolute;
     font-size: 29px;
-    padding: 15px;
-    margin-bottom: 200px;
-    bottom: 0;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
-    font-size: 18px;
-    padding: 15px;
-    margin-top: 385px;
-    bottom: 0;
+    font-size: 21px;
+    padding: 0px 15px;
   }
 }
 /* Mobile Landscape JSON files */
@@ -1068,19 +1071,15 @@ div.nav__menu-list div a {
     margin: 0 0 17.5px 0;
   }
   .title.events {
-    position: absolute;
-    font-size: 24px;
-    padding: 10px;
-    margin-bottom: 125px;
-    bottom: 0;
+    font-size: 21px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
-    font-size: 14.5px;
-    padding: 10px;
-    margin-top: 260px;
-    bottom: 0;
+    font-size: 17px;
+    padding: 0px 15px;
   }
 }
 /* Tablet Portrait JSON files */
@@ -1110,19 +1109,15 @@ div.nav__menu-list div a {
     margin: 0 0 17.5px 0;
   }
   .title.events {
-    position: absolute;
     font-size: 46px;
-    padding: 30px;
-    margin-bottom: 225px;
-    bottom: 0;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
-    font-size: 28px;
-    padding: 30px;
-    margin-top: 750px;
-    bottom: 0;
+    font-size: 36px;
+    padding: 0px 20px;
   }
 }
 /* Tablet Landscape JSON files */
@@ -1146,19 +1141,15 @@ div.nav__menu-list div a {
     margin: 0 0 10px 0;
   }
   .title.events {
-    position: absolute;
     font-size: 28px;
-    padding: 20px;
-    margin-bottom: 10px;
-    bottom: 0;
+    padding: 0px 12.5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
-    font-size: 17px;
-    padding: 20px;
-    margin-top: 325px;
-    bottom: 0;
+    font-size: 21px;
+    padding: 0px 12.5px;
   }
 }
 /* Desktop JSON files */
@@ -1182,19 +1173,15 @@ div.nav__menu-list div a {
     margin: 0 0 17.5px 0;
   }
   .title.events {
-    position: absolute;
     font-size: 28px;
-    padding: 15px;
-    margin-bottom: 40px;
-    bottom: 0;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
-    font-size: 18px;
-    padding: 15px;
-    margin-top: 290px;
-    bottom: 0;
+    font-size: 21.5px;
+    padding: 0px 15px;
   }
 }
 /* Desktop Big JSON files */
@@ -1218,18 +1205,14 @@ div.nav__menu-list div a {
     margin: 0 0 17.5px 0;
   }
   .title.events {
-    position: absolute;
     font-size: 28px;
-    padding: 15px;
-    margin-bottom: 1px;
-    bottom: 0;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
   }
-  .description.monet {
-    position: relative;
+  .description.events {
     text-align: justify;
     font-size: 18px;
-    padding: 15px;
-    margin-top: 415px;
-    bottom: 0;
+    padding: 0px 15px;
   }
 }

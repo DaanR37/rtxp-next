@@ -1,84 +1,13 @@
 .slidercontainer {
     display: flex;
 }
-.banner1,
-.banner2,
-.banner3 {
-    position: relative;
-    font-family: "Atrament";
-    color: white;
-}
-//// Banner 1
-.bannercontainerone {
-    width: 100%;
-    > div {
-        position: unset !important;
-    }
-    .image {
-        object-fit: contain;
-        width: 100% !important;
-        // position: relative !important;
-        position: absolute;
-        height: unset !important;
-    }
-}
-.bannercontainermonetone {
-    position: absolute;
-    width: 100%;
-    > div {
-        position: unset !important;
-    }
-    .image {
-        object-fit: contain;
-        width: 100% !important;
-        position: relative !important;
-        height: unset !important;
-    }
-}
-//// Banner 2
-.bannercontainertwo {
-    width: 100%;
-    > div {
-        position: unset !important;
-    }
-    .image {
-        object-fit: contain;
-        width: 100% !important;
-        // position: relative !important;
-        position: absolute;
-        height: unset !important;
-    }
-}
-.bannercontainermonettwo {
-    position: absolute;
-    width: 100%;
-    > div {
-        position: unset !important;
-    }
-    .image {
-        object-fit: contain;
-        width: 100% !important;
-        position: relative !important;
-        height: unset !important;
-    }
-}
-//// Banner 3
+//// Banner 1, 2, 3
+.bannercontainerone,
+.bannercontainertwo,
 .bannercontainerthree {
-    width: 100%;
-    > div {
-        position: unset !important;
-    }
-    .image {
-        object-fit: contain;
-        width: 100% !important;
-        // position: relative !important;
-        position: absolute;
-        height: unset !important;
-    }
-}
-.bannercontainermonetthree {
-    position: absolute;
-    width: 100%;
+    border-radius: 2.5px;
+    background: black;
+    border: 1px solid hsl(0, 0%, 0%);
     > div {
         position: unset !important;
     }
@@ -86,6 +15,7 @@
         object-fit: contain;
         width: 100% !important;
         position: relative !important;
+        // position: absolute !important;
         height: unset !important;
     }
 }
@@ -98,22 +28,15 @@
         height: auto;
         margin: 125px auto;
     }
-    .bannercontainermonetone {
-        padding: 15px;
-    }
-    .bannercontainermonettwo {
-        padding: 15px;
-    }
-    .bannercontainermonetthree {
-        padding: 15px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
         width: 350px;
         height: 600px;
         margin-bottom: 50px;
-        z-index: 1;
+        img {
+            padding: 15px;
+        }
     }
 }
 ///Mobile Landscape
@@ -124,20 +47,14 @@
         margin: 105px auto;
         justify-content: space-between;
     }
-    .bannercontainermonetone {
-        padding: 12.5px;
-    }
-    .bannercontainermonettwo {
-        padding: 12.5px;
-    }
-    .bannercontainermonetthree {
-        padding: 12.5px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
         width: 250px;
-        height: 400px;
+        height: 475px;
+        img {
+            padding: 12.5px;
+        }
     }
 }
 ///Tablet Portrait
@@ -148,22 +65,15 @@
         height: auto;
         margin: 175px auto;
     }
-    .bannercontainermonetone {
-        padding: 30px;
-    }
-    .bannercontainermonettwo {
-        padding: 30px;
-    }
-    .bannercontainermonetthree {
-        padding: 30px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
-        // width: 85vw;
-        max-width: 650px;
-        height: 1000px;
-        margin-bottom: 150px;
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
+        width: 650px;
+        height: 1150px;
+        margin-bottom: 50px;
+        img {
+            padding: 20px;
+        }
     }
 }
 ///Tablet Landscape
@@ -174,20 +84,14 @@
         height: auto;
         margin: 150px auto;
     }
-    .bannercontainermonetone {
-        padding: 20px;
-    }
-    .bannercontainermonettwo {
-        padding: 20px;
-    }
-    .bannercontainermonetthree {
-        padding: 20px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
         width: 325px;
-        height: 350px;
+        height: 600px;
+        img {
+            padding: 12.5px;
+        }
     }
 }
 ///Desktop
@@ -198,20 +102,30 @@
         height: auto;
         margin: 125px auto;
     }
-    .bannercontainermonetone {
-        padding: 15px;
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
+        width: 310px;
+        height: 575px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            filter: contrast(1.75);
+            // transition: all 0.5s ease-in-out;
+        }
+        img {
+            padding: 15px;
+        }
     }
-    .bannercontainermonettwo {
-        padding: 15px;
+    .overlay {
+        opacity: 0.2;
+        transition: all 0.5s ease-in-out;
+        background-color: black;
     }
-    .bannercontainermonetthree {
-        padding: 15px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
-        width: 300px;
-        height: 350px;
+    .bannercontainerone:hover .overlay,
+    .bannercontainertwo:hover .overlay,
+    .bannercontainerthree:hover .overlay {
+        opacity: 1 !important;
     }
 }
 ///Desktop Big
@@ -222,19 +136,29 @@
         height: auto;
         margin: 135px auto;
     }
-    .bannercontainermonetone {
-        padding: 15px;
+    .bannercontainerone,
+    .bannercontainertwo,
+    .bannercontainerthree {
+        width: 400px;
+        height: 675px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            filter: contrast(1.75);
+            // transition: all 0.5s ease-in-out;
+        }
+        img {
+            padding: 15px;
+        }
     }
-    .bannercontainermonettwo {
-        padding: 15px;
+    .overlay {
+        opacity: 0.2;
+        transition: all 0.5s ease-in-out;
+        background-color: black;
     }
-    .bannercontainermonetthree {
-        padding: 15px;
-    }
-    .banner1,
-    .banner2,
-    .banner3 {
-        width: 375px;
-        height: 425px;
+    .bannercontainerone:hover .overlay,
+    .bannercontainertwo:hover .overlay,
+    .bannercontainerthree:hover .overlay {
+        opacity: 1 !important;
     }
 }

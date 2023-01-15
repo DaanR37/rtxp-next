@@ -28,29 +28,16 @@ const Events = () => {
                 <meta property="og:url" content="https://www.rtxp.nl/events" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
             <div className={styles.slidercontainer}>
-                <div className={styles.banner1}>
-                    <div className={styles.bannercontainerone}>
-                        <Image
-                            src="/images/events-text-banner.svg"
-                            alt="text banner"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                            priority={true}
-                        />
-                    </div>
-                    <div className={styles.bannercontainermonetone}>
-                        <Image
-                            src="/images/building-rtxp.jpg"
-                            alt="monet painting"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                        />
-                    </div>
-                    <div>
+                <div className={styles.bannercontainerone}>
+                    <Image
+                        src="/images/building-rtxp.jpg"
+                        alt="rtxp gebouw"
+                        className={styles.image}
+                        width={350}
+                        height={350}
+                    />
+                    <div className={styles.overlay}>
                         {blogPostEvents.postevents
                             .filter((p) => p.locale === locale)
                             .map((blogPostEvents, i) => {
@@ -58,27 +45,15 @@ const Events = () => {
                             })}
                     </div>
                 </div>
-                <div className={styles.banner2}>
-                    <div className={styles.bannercontainertwo}>
-                        <Image
-                            src="/images/events-text-banner.svg"
-                            alt="text banner"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                            priority={true}
-                        />
-                    </div>
-                    <div className={styles.bannercontainermonettwo}>
-                        <Image
-                            src="/images/nachtwacht.png"
-                            alt="monet painting"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                        />
-                    </div>
-                    <div>
+                <div className={styles.bannercontainertwo}>
+                    <Image
+                        src="/images/nachtwacht.png"
+                        alt="nachtwacht"
+                        className={styles.image}
+                        width={350}
+                        height={350}
+                    />
+                    <div className={styles.overlay}>
                         {blogPostEventsTwo.posteventstwo
                             .filter((p) => p.locale === locale)
                             .map((blogPostEventsTwo, i) => {
@@ -86,27 +61,15 @@ const Events = () => {
                             })}
                     </div>
                 </div>
-                <div className={styles.banner3}>
-                    <div className={styles.bannercontainerthree}>
-                        <Image
-                            src="/images/events-text-banner.svg"
-                            alt="text banner"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                            priority={true}
-                        />
-                    </div>
-                    <div className={styles.bannercontainermonetthree}>
-                        <Image
-                            src="/images/garden-monet.jpg"
-                            alt="monet painting"
-                            className={styles.image}
-                            width={350}
-                            height={350}
-                        />
-                    </div>
-                    <div>
+                <div className={styles.bannercontainerthree}>
+                    <Image
+                        src="/images/garden-monet.jpg"
+                        alt="monet's garden"
+                        className={styles.image}
+                        width={350}
+                        height={350}
+                    />
+                    <div className={styles.overlay}>
                         {blogPostEventsThree.posteventsthree
                             .filter((p) => p.locale === locale)
                             .map((blogPostEventsThree, i) => {

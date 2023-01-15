@@ -9,7 +9,7 @@ const BlogCardEventsTwo = (props) => {
     return (
         <div>
             <div className="title events __two" dangerouslySetInnerHTML={{ __html: blogPostEventsTwo["title"] }}></div>
-            <div className="description monet two">
+            <div className="description events two">
                 <span>{description}</span>
             </div>
         </div>

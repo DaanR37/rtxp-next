@@ -45,7 +45,7 @@ const NavBar = () => {
       <div className="menu-sticker">
         <Link onClick={() => setActiveIdx(-1)} href={"/"}>
           <Image
-            src="/images/rtxp-menu-sticker.svg"
+            src="/images/rtxp-main-logo-new.svg"
             alt="menu sticker"
             className="image"
             width={250}
