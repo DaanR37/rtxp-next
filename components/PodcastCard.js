@@ -8,17 +8,17 @@ export default function PodcastCard({ podcast }) {
     return (
         <div className="podcast-card">
             <Link href={'/podcasts/' + slug}>
-                <div className="title">
-                    <h4>{title}</h4>
-                </div>
-                <div className="audio">
-                    <audio
-                        controls
-                        src={'https:' + audio[0].fields.file.url}
-                        type="audio/mpeg"
-                    >
-                    </audio>
-                </div>
+                    <div className="title">
+                        <h4>{title}</h4>
+                    </div>
+                    <div className="audio">
+                        <audio
+                            controls
+                            src={'https:' + audio[0].fields.file.url}
+                            type="audio/mpeg"
+                        >
+                        </audio>
+                    </div>
             </Link>
         </div>
     )
