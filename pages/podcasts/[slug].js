@@ -9,19 +9,16 @@ export const getStaticPaths = async () => {
     const res = await client.getEntries({
         content_type: 'podcast'
     })
-
     const paths = res.items.map(item => {
         return {
             params: { slug: item.fields.slug }
         }
     })
-
     return {
         paths,
         fallback: false
     }
 }
-
 export async function getStaticProps({ params }) {
     const { items } = await client.getEntries({
         content_type: 'podcast',
