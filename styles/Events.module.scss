@@ -42,10 +42,10 @@
 ///Mobile Landscape
 @media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .slidercontainer {
+        justify-content: space-between;
         width: 87.5vw;
         height: auto;
         margin: 105px auto;
-        justify-content: space-between;
     }
     .bannercontainerone,
     .bannercontainertwo,
@@ -111,16 +111,15 @@
         transition: all 0.5s ease-in-out;
         &:hover {
             filter: contrast(1.75);
-            // transition: all 0.5s ease-in-out;
         }
         img {
             padding: 15px;
         }
     }
     .overlay {
+        background-color: black;
         opacity: 0.2;
         transition: all 0.5s ease-in-out;
-        background-color: black;
     }
     .bannercontainerone:hover .overlay,
     .bannercontainertwo:hover .overlay,
@@ -145,16 +144,15 @@
         transition: all 0.5s ease-in-out;
         &:hover {
             filter: contrast(1.75);
-            // transition: all 0.5s ease-in-out;
         }
         img {
             padding: 15px;
         }
     }
     .overlay {
+        background-color: black;
         opacity: 0.2;
         transition: all 0.5s ease-in-out;
-        background-color: black;
     }
     .bannercontainerone:hover .overlay,
     .bannercontainertwo:hover .overlay,

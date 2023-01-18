@@ -36,7 +36,6 @@ const MENU_LIST = [
 
 const NavBar = () => {
   const { locale, locales, asPath } = useRouter();
-
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
 

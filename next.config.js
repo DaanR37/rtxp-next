@@ -7,6 +7,10 @@ const nextConfig = {
     defaultLocale: "NL",
   },
 
+  audio: {
+    domains: ["assets.ctfassets.net"],
+  },
+
   webpack(config, options) {
     const { isServer } = options;
     config.module.rules.push({
@@ -29,6 +33,6 @@ const nextConfig = {
 
     return config;
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

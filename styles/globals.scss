@@ -22,6 +22,30 @@ a {
   font-family: "Atrament";
   src: url("../asset/Atrament/Atrament.ttf") format("truetype");
 }
+
+.slug-container {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+.title-slug {
+  position: absolute;
+  color: whitesmoke;
+  font-size: 23px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  font-family: "Atrament";
+}
+.audio-slug {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Algemene CSS voor NavBar */
 .nav-container {
   right: 0;
@@ -34,15 +58,13 @@ a {
   left: 0;
   margin-left: 9%;
   margin-top: 50px;
-  cursor: pointer;
   border: 1.4px solid #000000;
-  border-radius: 5%;
-  // filter: invert(1);
+  border-radius: 5px;
+  cursor: pointer;
   z-index: 10000;
   img:hover {
     transform: scale(1.15);
     transition: 400ms ease-in-out;
-    // filter: invert(1);
   }
 }
 .facebook-container,
