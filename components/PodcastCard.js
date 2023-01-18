@@ -6,8 +6,8 @@ export default function PodcastCard({ podcast }) {
     const { title, slug, audio, fields } = podcast.fields
 
     return (
-        <div className="podcast-card">
-            <Link href={'/podcasts/' + slug}>
+        <div className="podcast-card-container">
+                <Link href={'/podcasts/' + slug}>
                     <div className="title">
                         <h4>{title}</h4>
                     </div>
@@ -19,7 +19,7 @@ export default function PodcastCard({ podcast }) {
                         >
                         </audio>
                     </div>
-            </Link>
+                </Link>
         </div>
     )
 }

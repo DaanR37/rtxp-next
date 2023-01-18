@@ -23,31 +23,31 @@ a {
   src: url("../asset/Atrament/Atrament.ttf") format("truetype");
 }
 
-.podcasts-container{
+/* CSS Podcast Pagina - is een tussenpagina dus behoeft niet veel stijling */
+.podcasts-container {
   height: 100vh;
   background-color: #000000;
 }
-.podcast-card {
+.podcast-card-container {
+  position: relative;
   display: inline-flex;
 }
+.podcast-wrapper {
+  max-width: 200px;
+}
 
-
-
+/* CSS voor de Slug Pagina */
 
 .slug-container {
-  background-color: #000000;
   width: 100vw;
   height: 100vh;
+  background-color: #000000a1;
 }
 .title-slug {
   position: absolute;
-  color: whitesmoke;
-  font-size: 23px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
   left: 50%;
-  top: 40%;
-  transform: translate(-50%, -40%);
+  color: whitesmoke;
+  text-transform: uppercase;
   font-family: "Atrament";
 }
 .audio-slug {
@@ -56,6 +56,88 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .title-slug {
+    top: 40%;
+    transform: translate(-50%, -40%);
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 250px;
+    height: 37.5px;
+  }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+  .title-slug {
+    top: 30%;
+    transform: translate(-50%, -30%);
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 250px;
+    height: 35px;
+  }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .title-slug {
+    top: 42.5%;
+    transform: translate(-50%, -42.5%);
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 300px;
+    height: 45px;
+  }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+  .title-slug {
+    top: 37.5%;
+    transform: translate(-50%, -37.5%);
+    font-size: 28px;
+    letter-spacing: 0.15rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 300px;
+    height: 45px;
+  }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+  .title-slug {
+    top: 38%;
+    transform: translate(-50%, -38%);
+    font-size: 24px;
+    letter-spacing: 0.15rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 300px;
+    height: 42.5px;
+  }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+  .title-slug {
+    top: 40%;
+    transform: translate(-50%, -40%);
+    font-size: 26px;
+    letter-spacing: 0.15rem;
+  }
+  #__next > div > div.audio-slug > audio {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+/// BREAK
 
 /* Algemene CSS voor NavBar */
 .nav-container {
