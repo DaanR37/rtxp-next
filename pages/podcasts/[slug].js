@@ -1,6 +1,4 @@
 import { createClient } from 'contentful';
-// import { title } from 'process';
-
 
 const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
