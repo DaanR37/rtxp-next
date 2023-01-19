@@ -757,11 +757,11 @@ div.nav__menu-list div a {
     padding: 2.5px;
   }
   .accordion {
-    height: 40px;
+    height: 47.5px;
     padding: 1px;
   }
   .accordion__title {
-    font-size: 18px;
+    font-size: 17.5px;
     padding-left: 7.5px;
   }
   .accordion__icon {
@@ -1139,11 +1139,13 @@ div.nav__menu-list div a {
   }
   .description.experience,
   .description.shop {
-    font-size: 17px;
+    font-size: 21px;
+    letter-spacing: 0.05rem;
     margin: 0;
   }
   .description.about p {
     font-size: 21px;
+    letter-spacing: 0.05rem;
     margin: 0 0 17.5px 0;
   }
   .title.events {
@@ -1155,6 +1157,7 @@ div.nav__menu-list div a {
   .description.events {
     text-align: justify;
     font-size: 21px;
+    letter-spacing: 0.05rem;
     padding: 0px 15px;
   }
 }
@@ -1280,7 +1283,8 @@ div.nav__menu-list div a {
   }
   .description.experience,
   .description.shop {
-    font-size: 17px;
+    font-size: 21px;
+    letter-spacing: 0.05rem;
     margin: 0;
   }
   .description.about p {
@@ -1295,8 +1299,9 @@ div.nav__menu-list div a {
   }
   .description.events {
     text-align: justify;
-    font-size: 21.5px;
+    font-size: 21px;
     padding: 0px 15px;
+    letter-spacing: 0.05rem;
   }
 }
 /* Desktop Big JSON files */
@@ -1312,7 +1317,8 @@ div.nav__menu-list div a {
   }
   .description.experience,
   .description.shop {
-    font-size: 21px;
+    font-size: 23px;
+    letter-spacing: 0.05rem;
     margin: 0;
   }
   .description.about p {
@@ -1327,7 +1333,8 @@ div.nav__menu-list div a {
   }
   .description.events {
     text-align: justify;
-    font-size: 18px;
+    font-size: 23px;
     padding: 0px 15px;
+    letter-spacing: 0.05rem;
   }
 }
