@@ -3,7 +3,7 @@ import Accordion from "../components/Accordion";
 import Accordionright from "../components/Accordionright";
 import styles from '../styles/Info.module.scss';
 
-const Info = (props) => {
+const Info = () => {
 
     return (
         <>
