@@ -19,7 +19,7 @@ const Info = () => {
                 <div className={styles.accordionleft}>
                     <Accordion
                         title="Wat zijn de openingstijden?"
-                        content="Maandag t/m Zondag van 10:30 tot 20:00."
+                        content="zondag & maandag: 12:00 - 18:00 | dinsdag & woensdag: 10:30 - 18:00 | donderdag-zaterdag: 10:30 - 19:00."
                     />
                     <Accordion
                         title="Is de Museumkaart geldig bij RTXP?"
@@ -58,7 +58,7 @@ const Info = () => {
                 <div className={styles.accordionright}>
                     <Accordionright
                         title="What are the opening hours?"
-                        content="Monday till Sunday from 10:30 to 20:00."
+                        content="Sunday & Monday: 12:00 AM - 6:00 PM | Tuesday & Wednesday: 10:30 AM - 6:00 PM | Thursday-Saturday: 10:30 AM - 7:00 PM"
                     />
                     <Accordionright
                         title="Is the Museum Card valid at RTXP?"
