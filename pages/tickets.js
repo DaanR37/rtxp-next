@@ -4,12 +4,12 @@ const Tickets = () => {
     return (
         <section>
             <Head>
-                {/* <title>Tickets Page</title> */}
-                <meta name="keywords" content="tickets page rtxp" />
-                <meta property="og:title" content="Tickets Page RTXP" />
+                <title>Reserveer je tickets online | RTXP Amsterdam</title>
+                <meta name='description' content='Plan je bezoek aan RTXP en reserveer hier eenvoudig tickets. Ervaar binnenkort inspirerende studies van de grote meesterwerken in Amsterdam!' />
+                <meta property="og:title" content="Reserveer je tickets online | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.tickets.rtxp.nl/tickets" />
-                <link rel="icon" href="/favicon.ico" />
-                {/* <meta property="og:type" content="video.movie" /> */}
+                {/* <meta name="keywords" content="tickets page rtxp" /> */}
+                {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
         </section>
     );

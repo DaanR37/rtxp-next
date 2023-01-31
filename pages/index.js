@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RTXP - Home</title>
-        <meta name="keywords" content="home page rtxp" />
-        <meta name='description' content='home page rtxp' />
-        <meta property="og:title" content="Home Page RTXP" />
+        <title>Dé Art Experience van Amsterdam | RTXP Amsterdam</title>
+        <meta name='description' content='Reis aan de hand van realistische studies door vele eeuwen schilderkunst. Van de Renaissance tot de Moderne Tijd. Reserveer vandaag nog tickets!' />
+        <meta property="og:title" content="Dé Art Experience van Amsterdam | RTXP Amsterdam" />
         <meta property="og:url" content="https://www.rtxp.nl/" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <meta name="keywords" content="home page rtxp" /> */}
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <div className={styles.rtxplogo}>
         <Image

@@ -9,18 +9,17 @@ import BlogCardAbout from "../components/blogCardAbout/index";
 
 
 const About = () => {
-
     const { locale } = useRouter();
 
     return (
         <>
             <Head>
-                <title>RTXP - About</title>
-                <meta name="keywords" content="contact page rtxp" />
-                <meta name='description' content='RTXP contact details and location map where to find us' />
-                <meta property="og:title" content="Contact Page RTXP" />
+                <title>Over Ons | RTXP Amsterdam</title>
+                <meta name='description' content='Op deze pagina vind je alle informatie met betrekking tot onze openingstijden, bereikbaarheid, parkeren en contactgegevens.' />
+                <meta property="og:title" content="Over Ons | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.rtxp.nl/about" />
-                <link rel="icon" href="/favicon.ico" />
+                {/* <meta name="keywords" content="contact page rtxp" />
+                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.googlemapcontainer}>
                 <div className={styles.contactdetails}>

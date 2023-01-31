@@ -38,8 +38,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>RTXP Amsterdam</title>
-        <meta name='description' content='Art experience, workplace and auction for affordable art, based in Amsterdam' />
+        <title>Dé Art Experience van Amsterdam | RTXP Amsterdam</title>
+        <meta name='description' content='Reis aan de hand van realistische studies door vele eeuwen schilderkunst. Van de Renaissance tot de Moderne Tijd. Reserveer vandaag nog tickets!' />
+        <meta property="og:title" content="Dé Art Experience van Amsterdam | RTXP Amsterdam" />
         <meta charSet="utf-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         {/* <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /> */}

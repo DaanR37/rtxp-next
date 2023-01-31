@@ -8,12 +8,12 @@ const Info = () => {
     return (
         <>
             <Head>
-                <title>RTXP - Info & FAQ</title>
-                <meta name="keywords" content="info page rtxp" />
-                <meta name='description' content='Frequently Asked Questions' />
-                <meta property="og:title" content="Info Page RTXP" />
+                <title>Vragen over Art Experience? Vind hier alle info | RTXP</title>
+                <meta name='description' content='Openingstijden, huisregels, ticketverkoop en nog veel meer! Hier vind je alle informatie die je nodig hebt voor jouw bezoek.' />
+                <meta property="og:title" content="Vragen over Art Experience? Vind hier alle info | RTXP" />
                 <meta property="og:url" content="https://www.rtxp.nl/info" />
-                <link rel="icon" href="/favicon.ico" />
+                {/* <meta name="keywords" content="info page rtxp" />
+                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.faqcontainer}>
                 <div className={styles.accordionleft}>

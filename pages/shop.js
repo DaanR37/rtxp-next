@@ -10,18 +10,17 @@ import BlogCardShop from '../components/blogCardShop/index';
 
 
 const Shop = () => {
-
     const { locale } = useRouter();
 
     return (
         <>
             <Head>
-                <title>RTXP - Contact Form</title>
-                <meta name="keywords" content="shop page rtxp" />
-                <meta name='description' content='Contact form to make a product order' />
-                <meta property="og:title" content="Shop Page RTXP" />
+                <title>Interesse in een werk? | RTXP Amsterdam</title>
+                <meta name='description' content='Elk werk bij RTXP is te koop. Wil je een werk kopen of heb je iets in gedachte dat wij niet hebben hangen maar je wel graag zou willen? Laat het ons weten!' />
+                <meta property="og:title" content="Interesse in een werk? | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.rtxp.nl/shop" />
-                <link rel="icon" href="/favicon.ico" />
+                {/* <meta name="keywords" content="shop page rtxp" />
+                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.shopitemscontainer}>
                 <div className={styles.textcontainer}>

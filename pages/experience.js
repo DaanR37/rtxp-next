@@ -14,12 +14,12 @@ const Experience = () => {
     return (
         <>
             <Head>
-                <title>RTXP - Experience</title>
-                <meta name="keywords" content="experience page rtxp" />
-                <meta name='description' content='What are we doing exactly and what is our product and service?' />
-                <meta property="og:title" content="Experience Page RTXP" />
+                <title>Art Experience | RTXP Amsterdam</title>
+                <meta name='description' content='In een van de mooiste gebouwen van de Pijp word je aan de hand van realistische studies meegenomen door vele eeuwen schilderkunst. Reserveer nu online!' />
+                <meta property="og:title" content="Art Experience | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.rtxp.nl/experience" />
-                <link rel="icon" href="/favicon.ico" />
+                {/* <meta name="keywords" content="experience page rtxp" />
+                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.monetcontainer}>
                 <div className={styles.textcontainer}>
