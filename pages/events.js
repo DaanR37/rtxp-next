@@ -62,7 +62,7 @@ const Events = () => {
                 </div>
                 <div className={styles.bannercontainerthree}>
                     <Image
-                        src="/images/garden-monet.jpg"
+                        src="/images/garden-monet-kopie.jpg"
                         alt="monet's garden"
                         className={styles.image}
                         width={350}
