@@ -46,7 +46,7 @@ const Events = () => {
                 </div>
                 <div className={styles.bannercontainertwo}>
                     <Image
-                        src="/images/nachtwacht.png"
+                        src="/images/nachtwacht.jpg"
                         alt="nachtwacht"
                         className={styles.image}
                         width={350}
