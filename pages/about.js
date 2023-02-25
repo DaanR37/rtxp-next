@@ -18,8 +18,6 @@ const About = () => {
                 <meta name='description' content='Op deze pagina vind je alle informatie met betrekking tot onze openingstijden, bereikbaarheid, parkeren en contactgegevens.' />
                 <meta property="og:title" content="Over Ons | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.rtxp.nl/about" />
-                {/* <meta name="keywords" content="contact page rtxp" />
-                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.googlemapcontainer}>
                 <div className={styles.contactdetails}>

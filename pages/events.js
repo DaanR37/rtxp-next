@@ -24,8 +24,6 @@ const Events = () => {
                 <meta name='description' content='De Nachtwacht LIVE of een 360° ervaring waarbij je je waant in de Tuin van Monet in Giverny met het Japanse bruggetje? Reserveer vandaag nog tickets!' />
                 <meta property="og:title" content="Beleef het moment tijdens onze Art Experience Events | RTXP" />
                 <meta property="og:url" content="https://www.rtxp.nl/events" />
-                {/* <meta name="keywords" content="events page rtxp" />
-                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.slidercontainer}>
                 <div className={styles.bannercontainerone}>

@@ -18,8 +18,6 @@ const Experience = () => {
                 <meta name='description' content='In een van de mooiste gebouwen van de Pijp word je aan de hand van realistische studies meegenomen door vele eeuwen schilderkunst. Reserveer nu online!' />
                 <meta property="og:title" content="Art Experience | RTXP Amsterdam" />
                 <meta property="og:url" content="https://www.rtxp.nl/experience" />
-                {/* <meta name="keywords" content="experience page rtxp" />
-                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.monetcontainer}>
                 <div className={styles.textcontainer}>

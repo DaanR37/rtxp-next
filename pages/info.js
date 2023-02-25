@@ -12,8 +12,6 @@ const Info = () => {
                 <meta name='description' content='Openingstijden, huisregels, ticketverkoop en nog veel meer! Hier vind je alle informatie die je nodig hebt voor jouw bezoek.' />
                 <meta property="og:title" content="Vragen over Art Experience? Vind hier alle info | RTXP" />
                 <meta property="og:url" content="https://www.rtxp.nl/info" />
-                {/* <meta name="keywords" content="info page rtxp" />
-                <link rel="icon" href="/favicon.ico" /> */}
             </Head>
             <div className={styles.faqcontainer}>
                 <div className={styles.accordionleft}>
@@ -23,7 +21,7 @@ const Info = () => {
                     />
                     <Accordion
                         title="Is de Museumkaart geldig bij RTXP?"
-                        content="RTXP is geen museum en daarom niet aangesloten bij deze organisatie. Wel bieden wij €7,50 korting
+                        content="RTXP is geen museum en daarom niet aangesloten bij deze organisatie. Wel bieden wij €4,50 korting
                         aan."
                     />
                     <Accordion
@@ -62,7 +60,7 @@ const Info = () => {
                     />
                     <Accordionright
                         title="Is the Museum Card valid at RTXP?"
-                        content="RTXP is not a museum and therefore not affiliated with this organization. However, we do offer a €7.50
+                        content="RTXP is not a museum and therefore not affiliated with this organization. However, we do offer a €4.50
                         discount."
                     />
                     <Accordionright

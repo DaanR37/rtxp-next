@@ -10,8 +10,6 @@ export default function Home() {
         <meta name='description' content='Reis aan de hand van realistische studies door vele eeuwen schilderkunst. Van de Renaissance tot de Moderne Tijd. Reserveer vandaag nog tickets!' />
         <meta property="og:title" content="Dé Art Experience van Amsterdam | RTXP Amsterdam" />
         <meta property="og:url" content="https://www.rtxp.nl/" />
-        {/* <meta name="keywords" content="home page rtxp" /> */}
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <div className={styles.rtxplogo}>
         <Image
